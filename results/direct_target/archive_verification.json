@@ -1,0 +1,364 @@
+{
+  "created_utc": "2026-09-13T11:50:10.876364+00:00",
+  "passed": true,
+  "candidate_count": 32,
+  "result_rows": 64,
+  "block_values_independently_recomputed": 262144,
+  "families": 8,
+  "family_size": 8,
+  "maximum_absolute_errors": {
+    "exact_target": 8.673617379884035e-17,
+    "range": 2.2737367544323206e-13,
+    "p_min": 7.589415207398531e-17,
+    "block_mean": 9.942133921692076e-17,
+    "block_variance": 2.220446049250313e-16,
+    "block_radius": 2.220446049250313e-16,
+    "block_first_lower": 1.3877787807814457e-16,
+    "log_p": 7.771561172376096e-16,
+    "p": 3.3306690738754696e-16,
+    "lower": 1.7763568394002505e-15,
+    "full_term_subtraction": 1.457167719820518e-16,
+    "full_radius": 0.0,
+    "full_first_lower": 3.552713678800501e-15,
+    "BY": 0.0
+  },
+  "cases": [
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "category_copy",
+      "block_mean": 0.010084510072825053,
+      "block_variance": 0.9961787812796266,
+      "exact_target": 0.0,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "extra_trees",
+      "block_mean": 0.016554224748033856,
+      "block_variance": 1.003128888850427,
+      "exact_target": 0.00984922674713656,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "hist_gradient_boosting",
+      "block_mean": 0.012779924553927433,
+      "block_variance": 1.0030948447854564,
+      "exact_target": 0.009052379273425552,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "independent_noise",
+      "block_mean": -0.007286164878858003,
+      "block_variance": 0.6471730047442668,
+      "exact_target": -0.00033783207390644085,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "persistence",
+      "block_mean": 0.023954051225281825,
+      "block_variance": 0.9911946100416843,
+      "exact_target": 0.018315390993407368,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "ridge_full",
+      "block_mean": 0.013899971650713711,
+      "block_variance": 0.960114228479645,
+      "exact_target": 0.0011572749277595157,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "seasonal_day",
+      "block_mean": 0.013295356189819982,
+      "block_variance": 0.8208747242025699,
+      "exact_target": 0.007002506283021247,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "ridge",
+      "candidate": "seasonal_week",
+      "block_mean": 0.0034515778038422106,
+      "block_variance": 0.7709549960071596,
+      "exact_target": -0.00779300793605948,
+      "p_min": 0.002976190476190476,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "category_copy",
+      "block_mean": 0.012277144243140489,
+      "block_variance": 1.1188171091649108,
+      "exact_target": 0.0,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "extra_trees",
+      "block_mean": 0.04331430837096336,
+      "block_variance": 1.1344299783507166,
+      "exact_target": 0.035610794719324566,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "hist_gradient_boosting",
+      "block_mean": 0.04231677239956479,
+      "block_variance": 1.1198540559623085,
+      "exact_target": 0.03521261963967278,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "independent_noise",
+      "block_mean": 0.013905246226143945,
+      "block_variance": 0.6699528312504891,
+      "exact_target": 0.0019796569018352495,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "persistence",
+      "block_mean": 0.053516646158140016,
+      "block_variance": 1.06741357859875,
+      "exact_target": 0.04201925165977566,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "ridge_full",
+      "block_mean": 0.03944827402226658,
+      "block_variance": 1.0827925438301473,
+      "exact_target": 0.03051515715346501,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "seasonal_day",
+      "block_mean": 0.012659225720749163,
+      "block_variance": 1.0775348645464027,
+      "exact_target": 0.00028583707854406046,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "appliances",
+      "baseline": "seasonal_day",
+      "candidate": "seasonal_week",
+      "block_mean": 0.022767147515960928,
+      "block_variance": 0.9895644290498403,
+      "exact_target": 0.010057801608400285,
+      "p_min": 0.005952380952380952,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "category_copy",
+      "block_mean": 0.00855447383604704,
+      "block_variance": 1.2311499738223468,
+      "exact_target": 0.0,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "extra_trees",
+      "block_mean": 0.015087616693379378,
+      "block_variance": 1.2000364602147784,
+      "exact_target": 0.003991274885207836,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "hist_gradient_boosting",
+      "block_mean": 0.016084588766284314,
+      "block_variance": 1.220052865506071,
+      "exact_target": 0.004254362983747157,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "independent_noise",
+      "block_mean": 0.0009697617037067994,
+      "block_variance": 0.6998635805612139,
+      "exact_target": 0.00022433896698114672,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "persistence",
+      "block_mean": 0.012982400525437941,
+      "block_variance": 1.1075022888508568,
+      "exact_target": 0.0012421364102938284,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "ridge_full",
+      "block_mean": 0.00690490809741524,
+      "block_variance": 1.236503714055368,
+      "exact_target": 0.000298652223635641,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "seasonal_day",
+      "block_mean": 0.015881917880841985,
+      "block_variance": 1.1239603598512258,
+      "exact_target": 0.0008771330315130549,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "ridge",
+      "candidate": "seasonal_week",
+      "block_mean": 0.010815209428520116,
+      "block_variance": 1.1461808765786463,
+      "exact_target": 0.0009272004208301527,
+      "p_min": 0.00022925263640531865,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "category_copy",
+      "block_mean": 0.008035533798745248,
+      "block_variance": 1.4832902314068293,
+      "exact_target": 0.0,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "extra_trees",
+      "block_mean": 0.024188355940009572,
+      "block_variance": 1.4073821756480753,
+      "exact_target": 0.014228441189936006,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "hist_gradient_boosting",
+      "block_mean": 0.02523305636965957,
+      "block_variance": 1.366261044733484,
+      "exact_target": 0.01440735534211913,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "independent_noise",
+      "block_mean": 0.003879266156324906,
+      "block_variance": 0.7157880944075977,
+      "exact_target": -0.0006842245102447063,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "persistence",
+      "block_mean": 0.016769696782192305,
+      "block_variance": 1.3150126101875454,
+      "exact_target": 0.013363659245006645,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "ridge_full",
+      "block_mean": 0.023071269898657813,
+      "block_variance": 1.3615973441951923,
+      "exact_target": 0.010734588048250287,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "seasonal_day",
+      "block_mean": 0.008085241239993365,
+      "block_variance": 1.4788192912892244,
+      "exact_target": 0.0002959403163053782,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    },
+    {
+      "task": "metro",
+      "baseline": "seasonal_day",
+      "candidate": "seasonal_week",
+      "block_mean": 0.022158885750123477,
+      "block_variance": 1.3414675295702656,
+      "exact_target": 0.012386290321703903,
+      "p_min": 0.002751031636863824,
+      "independent_blocks": 8192
+    }
+  ],
+  "results_sha256": "1e41b853d446a72a03807501552afec85713103554cb38f10ac397cafb9570bd",
+  "source_inputs_sha256": {
+    "appliances/forecast_archive.npz": "ba16db40e3eeb5121e323c361acf0d69494658809384053ea9ca2d6b891b46bc",
+    "appliances/sampling_indices.npz": "8ca68fa1fa7d4570e4e1a65f64f9e0b190682c8542892dc1ab439a8cd62974ee",
+    "metro/forecast_archive.npz": "e1029d00ddf3f94000b845760a064aa2c3cab1bdf04a81f9b7a0b6eb37063b1d",
+    "metro/sampling_indices.npz": "9b34209acbf3e17afba99934710f137cb92a796047d2dd8264210ea8e2fbea0b"
+  },
+  "auditor_source_sha256": "21717760271c5af5f6938af7dfd44888848586d50caef24b175c522dcb5ae105",
+  "original_confirmation_unchanged": true,
+  "author_estimator_imported": false,
+  "quadratic_full_u_pass_repeated": false,
+  "full_u_center_check": "saved first minus saved second; the complete algorithm is separately checked against rational sums by verify.py",
+  "scope": "All outcomes were previously viewed. Verification of fixed archive target, draw replay, block computation and family arithmetic, not unseen confirmation or superiority.",
+  "retentions": {
+    "direct_block_empirical_bernstein": 0,
+    "direct_full_u_hoeffding": 0
+  }
+}

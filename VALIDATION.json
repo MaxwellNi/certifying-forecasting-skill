@@ -1,0 +1,158 @@
+{
+  "release": "publication",
+  "date": "2026-09-15",
+  "paper_sha256": "e1846cf885e2c54bad085ab4e1b2b671ca684570a053e444e0107367e4c76a09",
+  "unit_tests": {
+    "status": "PASS",
+    "total_distinct_tests": 304,
+    "suites": {
+      "main": 186,
+      "archive": 8,
+      "forecast": 7,
+      "family": 8,
+      "news": 9,
+      "time": 7,
+      "windows": 14,
+      "trajectories": 43,
+      "trajectory_budget": 5,
+      "shared_baseline": 9,
+      "shared_baseline_calibration": 8
+    },
+    "receipt": "validation/unit_tests.json",
+    "execution_scope": "Retained execution receipt; scientific implementations byte-matched to the tested snapshot."
+  },
+  "aggregate_replay": {
+    "status": "PASS",
+    "complete_check_records": 31,
+    "source_sha256": "5148f7d48497e613bb6f128b640c0539b09ef0578f317024ff1e80ed9ac343ce",
+    "single_uninterrupted_pass": true,
+    "receipt": "validation/artifact_replay.json",
+    "scope": "Retained prior 31-check aggregate execution receipt for unchanged inputs and implementations. This editorial iteration did not rerun the aggregate suite or retrain all original 41 forecasts.",
+    "figure_scope": "Aggregate run excludes figures; deterministic figure generation and fonts are checked separately."
+  },
+  "main_pdf": {
+    "pages": 10,
+    "all_fonts_embedded": true,
+    "Type3_fonts": false,
+    "isolated_source_byte_identical": true,
+    "companion_pages": 79
+  },
+  "news_source_retraining": {
+    "status": "PASS",
+    "all_stage_arrays_exactly_equal": true,
+    "all_54_gate_decisions_and_numeric_fields_equal": true,
+    "all_selectors_equal": true,
+    "scope": "Previously verified fresh-environment source replay is retained. This iteration checks the stored evidence; it is not a new unseen task or an independent third-party reproduction.",
+    "fresh_environment_repeated": true,
+    "current_comparison_receipt_sha256": "aad8fa526479ea46dd5035ae2105b5e40d6b94bccb14f9b65b644bf8656766e0"
+  },
+  "binary_reproduction": {
+    "paired_repetitions": 8000,
+    "methods": 13,
+    "method_cells": 208,
+    "inference_arrays_identical": true,
+    "diagnostic_center_maximum_rounding_difference": 3.47e-18
+  },
+  "previous_source_data_replay": {
+    "task": "Seoul rental demand",
+    "status": "PASS",
+    "scope": "Previously verified source-data fitting; retained evidence. The current package replay checks aggregate arithmetic and hashes without loading the separately pinned Seoul model.",
+    "environments": "Fresh fitting verified in recorded Python 3.9.21 environment; frozen forecast/timing reconstruction additionally verified in Python 3.12.11. Seoul requirements are pinned separately.",
+    "additional_task": {
+      "task": "Fixed public electricity archive",
+      "rows": 70080,
+      "status": "PASS",
+      "scope": "Portable source-data forecast and audit reconstruction reproduced all numerical tables in the recorded environment; finite-archive target, not future population inference.",
+      "all_forecast_arrays_equal": true,
+      "maximum_forecast_absolute_error": 0.0,
+      "all_compared_nonruntime_table_columns_equal": true
+    }
+  },
+  "external_publication_receipts": "Not verified by these local checks.",
+  "reference_time": {
+    "exact_temporal_arrays": 171808,
+    "graph_covariance_entries": 48,
+    "new_replication_rows": 4800,
+    "method_cells": 36,
+    "repeat_rows_and_summaries_identical": true,
+    "scope": "Developed mechanism demonstration, independent whole source panels; not unseen forecasting confirmation."
+  },
+  "fresh_environment": {
+    "fresh_venv": true,
+    "same_host": true,
+    "python": "3.12.11",
+    "installed_from": "requirements-artifacts.txt",
+    "pip_check_passed": true,
+    "tests": 14,
+    "all4800_replication_rows_equal": true,
+    "all36_summary_rows_equal": true,
+    "scope": "New virtual environment on same host, not independent external reproduction"
+  },
+  "source_windows": {
+    "source_design_raw_arrays": 99328,
+    "independent_two_lag_raw_arrays": 183523,
+    "unit_tests": 14,
+    "known_input_shape_and_integer_overflow_regressions_pass": true,
+    "scope": "Exact constructed designs and bounded-mean API checks, not previously unseen forecast utility or general observational-panel calibration."
+  },
+  "test_environment_scope": "Full unit suite rerun in the installed complete Python 3.12 environment. Aggregate replay and new source-design commands run in the separate artifact environment. The initial full-suite attempt in that minimal environment lacked optional forecasting/comparator dependencies; no failed scientific test is represented as a pass.",
+  "trajectory_design": {
+    "exact_rational_checks": 19,
+    "block_and_pooled_unit_tests": 43,
+    "scope": "Conditionally IID whole trajectories, source identifiers, forecast-time metadata, target-preserving row sums and outward-rounded fixed-delta range inversion. Metadata checks do not prove the sampling assumptions.",
+    "receipt": "validation/trajectory_exact_checks.json"
+  },
+  "new_forecast_study": {
+    "source_retraining": "PASS: public-path features and forecasts exactly reproduced",
+    "initial_and_corrected_cohorts_retained": true,
+    "coverage_rows_per_cohort": 9600,
+    "correction_disclosed": "Origin14 / target15 protocol repaired after initial target14 outcomes were viewed.",
+    "incremental_utility": "Point improvement in corrected cohort has an interval crossing zero; not established.",
+    "pooled_comparator": "Every evaluation and validation draw; exact census also available.",
+    "independent_recomputation": "All 9,600 diagnostic rows, eight final candidates, archive targets, radii and two loss-weighting endpoints independently reconstructed; see results/trajectory_forecast/diagnostics/."
+  },
+  "figure_fonts": {
+    "publication_figures": "IEEEtran default ptm text (embedded Nimbus Roman) and Computer Modern mathematics; 9 TeX-point main labels. Current standalone display PDFs checked for embedded Type1 fonts.",
+    "numeric_coordinates": "Original numerical arrays preserved; new trajectory figure checks all 56 positions. No scatter jitter.",
+    "receipts": [
+      "validation/figure_checks.json",
+      "validation/display_fonts.json"
+    ]
+  },
+  "installation_check": {
+    "status": "PASS",
+    "receipt": "validation/installation.json",
+    "scope": "Retained prior clean-install and 304-test execution receipts for unchanged scientific implementations. This editorial package adds an exact arithmetic teaching example and rebuilds the labelled reference diagram; it does not claim another independent installation or rerun of the full test suite."
+  },
+  "exact_mass_input_contract": {
+    "declaration_required": true,
+    "provenance_verified_by_software": false,
+    "tests": 8
+  },
+  "reference_budget_diagnostic": {
+    "scope": "Same 73728 inspected archive draw positions; zero new labels. Hybrid radius falls 23 percent for boosting; shared decisions remain 0 of 8 and incremental gain over persistence remains zero.",
+    "results": "results/trajectory_budget/",
+    "tests": 5
+  },
+  "shared_baseline_ranges": {
+    "exact_weak_order_cases": 2197,
+    "unit_tests": 9,
+    "certificate_rows": 88,
+    "same_draws_centers_variances": true,
+    "complete_U_certified": 4,
+    "shared_certified": 0,
+    "selected_predictors_changed": false,
+    "scope": "Structural ranges and post-exposure archive diagnosis, not independent future-loss confirmation."
+  },
+  "final_rule_calibration": {
+    "finite_laws": 7,
+    "independent_replications": 4200,
+    "procedure_cells": 84,
+    "candidate_records": 100800,
+    "family_records": 25200,
+    "family_errors_per_cell": "0/300",
+    "pointwise_two_sided_95_percent_upper": 0.012220974694293552,
+    "scope": "Two distinct protocols fixed before their respective IID simulations; initial six laws plus one separately frozen positive-reference-bias null. Independent arithmetic implementations, not an independent application or joint observed-panel calibration.",
+    "receipt": "validation/sharp_calibration_integration.json"
+  }
+}

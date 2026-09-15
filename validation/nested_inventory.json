@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "Reconciled stale study-local figure inventories after earlier publication-font regeneration. Figure bytes and original numeric arrays remain unchanged. Earlier failed inventory check is retained; full replay required after repair.",
+  "repairs": [
+    {
+      "file": "results/aggregate_bias/fig_aggregate_validation.pdf",
+      "previous_inventory_sha256": "52a39216031519cf58bb9f6c9688950c63e336b39f6071d8629d59180692f23d",
+      "current_sha256": "2c1f6d670f01c11f1e3ec58326d439cf04b34007934ce7daed8f049964a28c9c",
+      "same_bytes_as_incoming_public_artifact": true
+    },
+    {
+      "file": "results/aggregate_bias/fig_aggregate_validation.png",
+      "previous_inventory_sha256": "1584a68df707bbb2d01633392f78d6ac37e2cc6bb383935a217b03da4a7b22c0",
+      "current_sha256": "f5698e6e6458c0e40a7bd3bdb54d0d90695dd0a0bb4ad5a0f67ec7d2b9970fb2",
+      "same_bytes_as_incoming_public_artifact": true
+    },
+    {
+      "file": "results/aggregate_bias/fig_aggregate_validation.svg",
+      "previous_inventory_sha256": "2d3b1bb2a9f2ba934ffb088a03d2bf5f19ca87d5b45d0aca63516fa9a2ea110e",
+      "current_sha256": "59a3e6a355c256c9b39ca7f5a95e41c2a01952fb840235b4c30aef2d5c1cea94",
+      "same_bytes_as_incoming_public_artifact": true
+    },
+    {
+      "file": "results/certificate_factorial/fig_certificate_factorial.json",
+      "previous_inventory_sha256": "0a5f3784ec54bac41a660302218be4fca370d818112e330ea96921f23ba8c8d5",
+      "current_sha256": "ae8733eea68dc25e47d40ff8ce9ef2d66be2c75c94d6b831dbee41cc72c1f02d",
+      "same_bytes_as_incoming_public_artifact": true
+    },
+    {
+      "file": "results/certificate_factorial/fig_certificate_factorial.pdf",
+      "previous_inventory_sha256": "7aa5c442cb03f2a53c1a1cc106e8290ec4b8fef0eb83ff43babedf64578e97c7",
+      "current_sha256": "62ce99924020e329697ffb908bc9fb7be5f6fb1fdeca61402b63c0042a2bfde7",
+      "same_bytes_as_incoming_public_artifact": true
+    },
+    {
+      "file": "results/certificate_factorial/fig_certificate_factorial.png",
+      "previous_inventory_sha256": "c9995375e32236446a0957c797b1b9847aa46b407e13c441ae76331037c55cf4",
+      "current_sha256": "a06d3f3b5dec6591f3e5a61123945410bc22827440a758a16374ed16c37eef1d",
+      "same_bytes_as_incoming_public_artifact": true
+    }
+  ]
+}

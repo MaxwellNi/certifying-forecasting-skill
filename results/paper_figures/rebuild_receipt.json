@@ -1,0 +1,464 @@
+{
+  "font_setup": "\\usepackage{amsmath,amssymb,amsfonts}\\renewcommand{\\rmdefault}{ptm}",
+  "text_size_points": 9,
+  "vector_only": true,
+  "generator_sha256": "b4ada4b73e9b3225bfa969049d3931ef1b7802f5528a3480bfbfd5431e730e52",
+  "figures": [
+    {
+      "figure": 2,
+      "stem": "fig_reference_training",
+      "size_inches": [
+        7,
+        2.04
+      ],
+      "points": [
+        {
+          "panel": "resampled_peers",
+          "method": "shared",
+          "x": 25,
+          "rate": 0.18666666666666668,
+          "rejections": 56,
+          "replications": 300,
+          "wilson_low": 0.1466374821326313,
+          "wilson_high": 0.23461877983475085
+        },
+        {
+          "panel": "resampled_peers",
+          "method": "shared",
+          "x": 100,
+          "rate": 0.46,
+          "rejections": 138,
+          "replications": 300,
+          "wilson_low": 0.4044631474970939,
+          "wilson_high": 0.5165482902008698
+        },
+        {
+          "panel": "resampled_peers",
+          "method": "shared",
+          "x": 400,
+          "rate": 0.9466666666666667,
+          "rejections": 284,
+          "replications": 300,
+          "wilson_low": 0.9151308582251686,
+          "wilson_high": 0.9669080874809034
+        },
+        {
+          "panel": "resampled_peers",
+          "method": "distinct",
+          "x": 25,
+          "rate": 0.05,
+          "rejections": 15,
+          "replications": 300,
+          "wilson_low": 0.03053164062934728,
+          "wilson_high": 0.08084703347274415
+        },
+        {
+          "panel": "resampled_peers",
+          "method": "distinct",
+          "x": 100,
+          "rate": 0.05333333333333334,
+          "rejections": 16,
+          "replications": 300,
+          "wilson_low": 0.03309191251909646,
+          "wilson_high": 0.08486914177483133
+        },
+        {
+          "panel": "resampled_peers",
+          "method": "distinct",
+          "x": 400,
+          "rate": 0.043333333333333335,
+          "rejections": 13,
+          "replications": 300,
+          "wilson_low": 0.025496448084407246,
+          "wilson_high": 0.07271746563401146
+        },
+        {
+          "panel": "learned",
+          "method": "shared",
+          "x": 32,
+          "rate": 0.677,
+          "rejections": 677,
+          "replications": 1000,
+          "wilson_low": 0.6473872202713616,
+          "wilson_high": 0.705258107224752
+        },
+        {
+          "panel": "learned",
+          "method": "shared",
+          "x": 512,
+          "rate": 0.465,
+          "rejections": 465,
+          "replications": 1000,
+          "wilson_low": 0.4342791187506989,
+          "wilson_high": 0.49598875434329004
+        },
+        {
+          "panel": "learned",
+          "method": "shared",
+          "x": 8192,
+          "rate": 0.402,
+          "rejections": 402,
+          "replications": 1000,
+          "wilson_low": 0.3720422335603109,
+          "wilson_high": 0.4327078111028579
+        },
+        {
+          "panel": "learned",
+          "method": "distinct",
+          "x": 32,
+          "rate": 0.527,
+          "rejections": 527,
+          "replications": 1000,
+          "wilson_low": 0.4960112345098614,
+          "wilson_high": 0.5577821205319188
+        },
+        {
+          "panel": "learned",
+          "method": "distinct",
+          "x": 512,
+          "rate": 0.079,
+          "rejections": 79,
+          "replications": 1000,
+          "wilson_low": 0.06384721576082919,
+          "wilson_high": 0.09737491488400823
+        },
+        {
+          "panel": "learned",
+          "method": "distinct",
+          "x": 8192,
+          "rate": 0.041,
+          "rejections": 41,
+          "replications": 1000,
+          "wilson_low": 0.030364971082098315,
+          "wilson_high": 0.0551479932076413
+        },
+        {
+          "panel": "fixed_peers_aligned_effects",
+          "method": "shared",
+          "x": 25,
+          "rate": 0.04666666666666667,
+          "rejections": 14,
+          "replications": 300,
+          "wilson_low": 0.027998933682334012,
+          "wilson_high": 0.07679736022792105
+        },
+        {
+          "panel": "fixed_peers_aligned_effects",
+          "method": "shared",
+          "x": 100,
+          "rate": 0.05,
+          "rejections": 15,
+          "replications": 300,
+          "wilson_low": 0.03053164062934728,
+          "wilson_high": 0.08084703347274415
+        },
+        {
+          "panel": "fixed_peers_aligned_effects",
+          "method": "shared",
+          "x": 400,
+          "rate": 0.05333333333333334,
+          "rejections": 16,
+          "replications": 300,
+          "wilson_low": 0.03309191251909646,
+          "wilson_high": 0.08486914177483133
+        },
+        {
+          "panel": "fixed_peers_aligned_effects",
+          "method": "distinct",
+          "x": 25,
+          "rate": 0.0,
+          "rejections": 0,
+          "replications": 300,
+          "wilson_low": 8.673617379884035e-19,
+          "wilson_high": 0.012642971224546034
+        },
+        {
+          "panel": "fixed_peers_aligned_effects",
+          "method": "distinct",
+          "x": 100,
+          "rate": 0.0,
+          "rejections": 0,
+          "replications": 300,
+          "wilson_low": 8.673617379884035e-19,
+          "wilson_high": 0.012642971224546034
+        },
+        {
+          "panel": "fixed_peers_aligned_effects",
+          "method": "distinct",
+          "x": 400,
+          "rate": 0.0,
+          "rejections": 0,
+          "replications": 300,
+          "wilson_low": 8.673617379884035e-19,
+          "wilson_high": 0.012642971224546034
+        },
+        {
+          "panel": "fixed_peers_opposed_effects",
+          "method": "shared",
+          "x": 25,
+          "rate": 0.05333333333333334,
+          "rejections": 16,
+          "replications": 300,
+          "wilson_low": 0.03309191251909646,
+          "wilson_high": 0.08486914177483133
+        },
+        {
+          "panel": "fixed_peers_opposed_effects",
+          "method": "shared",
+          "x": 100,
+          "rate": 0.05333333333333334,
+          "rejections": 16,
+          "replications": 300,
+          "wilson_low": 0.03309191251909646,
+          "wilson_high": 0.08486914177483133
+        },
+        {
+          "panel": "fixed_peers_opposed_effects",
+          "method": "shared",
+          "x": 400,
+          "rate": 0.056666666666666664,
+          "rejections": 17,
+          "replications": 300,
+          "wilson_low": 0.03567747646328951,
+          "wilson_high": 0.08886595802247463
+        },
+        {
+          "panel": "fixed_peers_opposed_effects",
+          "method": "distinct",
+          "x": 25,
+          "rate": 0.21666666666666667,
+          "rejections": 65,
+          "replications": 300,
+          "wilson_low": 0.1737878350698321,
+          "wilson_high": 0.2667098486240773
+        },
+        {
+          "panel": "fixed_peers_opposed_effects",
+          "method": "distinct",
+          "x": 100,
+          "rate": 0.52,
+          "rejections": 156,
+          "replications": 300,
+          "wilson_low": 0.4635710820137406,
+          "wilson_high": 0.5759231991372775
+        },
+        {
+          "panel": "fixed_peers_opposed_effects",
+          "method": "distinct",
+          "x": 400,
+          "rate": 0.9466666666666667,
+          "rejections": 284,
+          "replications": 300,
+          "wilson_low": 0.9151308582251686,
+          "wilson_high": 0.9669080874809034
+        }
+      ],
+      "inputs": {
+        "results/design_validation/peer_sampling.csv": "8e589be4d2ae6aa061a4a4c0a36a8a5c1f10d016a15718e534aa83f8705afbdc",
+        "results/learned_references/summary.csv": "7610ae22cc8bc904f17a542c5c33d1f9fbaef6e8e1bc7f9bb9f0273de908ac76"
+      },
+      "semantics": "All four reference designs, recorded rates and Wilson intervals unchanged; no point offsets.",
+      "style": "Paper LaTeX fonts; explicit leading-zero decimal ticks; same logarithmic x axes."
+    },
+    {
+      "figure": 3,
+      "stem": "fig_aggregate_validation",
+      "size_inches": [
+        7,
+        2.07
+      ],
+      "inputs": {
+        "results/certificate_factorial/summary.csv": "dc008dbc236793406e24ca22527531086412cfe505a82341a3b6cea5d4728c20",
+        "results/aggregate_bias/simulation/summary.csv": "360948cb8a7c7c8fc8e3ee1d54ad7679898fbaf0bfc4267b4d5120a0acc24b18"
+      },
+      "counts": {
+        "ablation_points": 16,
+        "validation_settings": 72,
+        "aggregate_tighter": 62,
+        "rectangle_tighter": 10
+      },
+      "semantics": "Every recorded power/Clopper-Pearson interval and absolute slack coordinate is preserved. Panel a retains existing categorical method offsets [-.24,-.08,.08,.24]; panel b has no coordinate offsets.",
+      "style": "Paper fonts; four transparent color/shape category markers expose nearby outlines; legend encodes categories only; no jitter/size-based quantitative claim."
+    },
+    {
+      "figure": 4,
+      "stem": "fig_public_directional_focus",
+      "size_inches": [
+        7,
+        2.52
+      ],
+      "points": [
+        {
+          "domain": "retail",
+          "model": "Croston SBA",
+          "complementary": -19.43033509074267,
+          "directional": 6.105269209131915,
+          "guarded": false,
+          "plot_y": 0
+        },
+        {
+          "domain": "retail",
+          "model": "Eight week mean",
+          "complementary": 2.059840615819194,
+          "directional": 13.145231904135443,
+          "guarded": false,
+          "plot_y": 1
+        },
+        {
+          "domain": "retail",
+          "model": "Exponential smoothing",
+          "complementary": 2.5195460080483865,
+          "directional": 7.83068402421329,
+          "guarded": false,
+          "plot_y": 2
+        },
+        {
+          "domain": "retail",
+          "model": "Four week mean",
+          "complementary": 3.8040015264592144,
+          "directional": 10.414657123012528,
+          "guarded": false,
+          "plot_y": 3
+        },
+        {
+          "domain": "retail",
+          "model": "Last week",
+          "complementary": 1.2318711203012296,
+          "directional": 1.5120536258683315,
+          "guarded": true,
+          "plot_y": 4
+        },
+        {
+          "domain": "retail",
+          "model": "Past price and calendar",
+          "complementary": 6.413037370453844,
+          "directional": -0.8153258231926045,
+          "guarded": false,
+          "plot_y": 5
+        },
+        {
+          "domain": "retail",
+          "model": "Past price calendar and history",
+          "complementary": 2.7988422799077974,
+          "directional": 4.940559138543712,
+          "guarded": false,
+          "plot_y": 6
+        },
+        {
+          "domain": "retail",
+          "model": "Ridge with history",
+          "complementary": 2.2036727511768213,
+          "directional": 3.7156373269568133,
+          "guarded": false,
+          "plot_y": 7
+        },
+        {
+          "domain": "retail",
+          "model": "Theta",
+          "complementary": 4.108090879791979,
+          "directional": 10.63629637625775,
+          "guarded": false,
+          "plot_y": 8
+        },
+        {
+          "domain": "retail",
+          "model": "Training series mean",
+          "complementary": 1.2874696156255254,
+          "directional": -0.2083711067270268,
+          "guarded": true,
+          "plot_y": 9
+        },
+        {
+          "domain": "ratings",
+          "model": "Alternating least squares",
+          "complementary": 12.731541476581995,
+          "directional": 8.729529852895325,
+          "guarded": false,
+          "plot_y": 0
+        },
+        {
+          "domain": "ratings",
+          "model": "Global mean",
+          "complementary": null,
+          "directional": null,
+          "guarded": true,
+          "plot_y": 1
+        },
+        {
+          "domain": "ratings",
+          "model": "Item mean",
+          "complementary": 1.93697441435816,
+          "directional": 1.9266212208660178,
+          "guarded": true,
+          "plot_y": 2
+        },
+        {
+          "domain": "ratings",
+          "model": "Item nearest neighbours",
+          "complementary": 9.800152709432195,
+          "directional": 6.57388722812703,
+          "guarded": false,
+          "plot_y": 3
+        },
+        {
+          "domain": "ratings",
+          "model": "SVD (32 factors)",
+          "complementary": 7.515116130953974,
+          "directional": 5.786307518138655,
+          "guarded": false,
+          "plot_y": 4
+        },
+        {
+          "domain": "ratings",
+          "model": "SVD (40 factors)",
+          "complementary": 8.108096149794601,
+          "directional": 6.090281339828053,
+          "guarded": false,
+          "plot_y": 5
+        },
+        {
+          "domain": "ratings",
+          "model": "SVD interaction",
+          "complementary": 10.14423799157616,
+          "directional": 6.669644583907059,
+          "guarded": false,
+          "plot_y": 6
+        },
+        {
+          "domain": "ratings",
+          "model": "Slope One",
+          "complementary": 5.69175948916863,
+          "directional": 4.728223891636755,
+          "guarded": false,
+          "plot_y": 7
+        },
+        {
+          "domain": "ratings",
+          "model": "User and item bias",
+          "complementary": 1.93697441435816,
+          "directional": 1.9266212208660178,
+          "guarded": true,
+          "plot_y": 8
+        },
+        {
+          "domain": "ratings",
+          "model": "User mean",
+          "complementary": null,
+          "directional": null,
+          "guarded": true,
+          "plot_y": 9
+        }
+      ],
+      "inputs": {
+        "results/focused_directional/public_directional_models.csv": "b4ab0049f62faf89a2ca730261e21008ece9911cfb3cb1df53bd4aa90642d774"
+      },
+      "counts": {
+        "models": 20,
+        "finite_pairs": 18,
+        "undefined_pairs": 2
+      },
+      "semantics": "All plotted paired statistics, fixed model order, guards and undefined rows unchanged. MovieLens is explicitly cluster-order sensitivity, not temporal causality; connectors remain raw comparisons, not confidence intervals.",
+      "style": "Paper LaTeX fonts including CM dagger/T and IEEEtran default Times italic undefined labels."
+    }
+  ]
+}

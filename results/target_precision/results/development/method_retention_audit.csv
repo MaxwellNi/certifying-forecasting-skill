@@ -1,0 +1,7 @@
+method,candidates,positive_targets,negative_targets,zero_targets,retained_total,retained_positive,retained_negative,retained_zero,retained_with_positive_frozen_confirmation_gain,retained_with_negative_frozen_confirmation_gain,retained_with_tied_frozen_confirmation_gain
+full_u_joint,32,25,3,4,0,0,0,0,0,0,0
+stratified_cell_bernstein,32,25,3,4,0,0,0,0,0,0,0
+stratified_hoeffding,32,25,3,4,4,4,0,0,4,0,0
+stratified_hybrid,32,25,3,4,14,14,0,0,13,0,1
+stratified_pooled_bernstein,32,25,3,4,14,14,0,0,13,0,1
+stratified_profiled_betting,32,25,3,4,16,16,0,0,15,0,1

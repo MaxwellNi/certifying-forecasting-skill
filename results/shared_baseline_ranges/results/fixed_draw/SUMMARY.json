@@ -1,0 +1,54 @@
+{
+  "analysis_status": "Post-exposure fixed-draw diagnostic; no independent confirmation.",
+  "baseline_parity": {
+    "rows_checked": 88,
+    "numeric_columns_checked": 14,
+    "maximum_absolute_error": 3.410605131648481e-13
+  },
+  "fixed_allocation": {
+    "generic": {
+      "M": 13086,
+      "n": 15852,
+      "draws_used": 73728,
+      "range_radius": 0.08364628101203186
+    },
+    "shared_baseline": {
+      "M": 13086,
+      "n": 15852,
+      "draws_used": 73728,
+      "range_radius": 0.0522789256325199
+    }
+  },
+  "new_draws": 0,
+  "new_labels": 0,
+  "new_model_fits": 0,
+  "future_forecasts_opened": false,
+  "all_centers_and_variances_identical": true,
+  "candidate_family_size": 8,
+  "family_alpha": 0.05,
+  "certification_changes": [
+    {
+      "candidate": "boosting_7",
+      "method": "complete_pooled_u",
+      "bound": "variance",
+      "old_radius": 0.0006534987675112574,
+      "new_radius": 0.0005622196715260317,
+      "relative_radius_reduction": 0.13967753349076262,
+      "old_lower": -7.99943199261226e-05,
+      "new_lower": 1.1284776059103125e-05,
+      "old_passes": false,
+      "new_passes": true,
+      "width_basis": "shared_baseline_theorem"
+    }
+  ],
+  "selection_changes": [],
+  "shared_rules_positive_lower_bounds": 0,
+  "boosting_31_population": {
+    "candidate": "boosting_31",
+    "exact_population_shared_score": 0.0099090318388564,
+    "exact_target": 0.0008521327899962623,
+    "true_shared_interaction": 0.009056899048860137,
+    "interaction_over_population_shared_score": 0.9140044351603771
+  },
+  "scope": "Tighter valid support bounds and fixed-draw diagnostic only. One stronger-comparator certification can change without changing the selected predictor. No new predictive-utility evidence."
+}

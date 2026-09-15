@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-09-15T13:06:09.629131+00:00",
+  "simulation_results_exist": false,
+  "oracle_before_simulation": "Independent rational midrank and 256 weighted triple checks passed before importing the reused method code; reused exact targets match the oracle.",
+  "inputs": {
+    "study.py": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+    "experiment.py": "c74381d62b9b4654f1687429936a320cf81652083f0098e79670e6179533a8cd",
+    "independent_verify.py": "29379d6f25596cbf4fee3cfea0934d1c3c2b0c9e006dd3ae2581c8a6fb51daad",
+    "EXACT_ORACLE.json": "52c42decdc499d0bba8c2df403c7a8a85ec53dffbeb5df25cbc736aff6196f51",
+    "DERIVATION.md": "ef24299fbcc7fff4ab07d6ecad78a46c0898b171666426b6b985b0fbcebe3ee0",
+    "PROTOCOL.json": "1c3c13a0b36f424684b9effa6147db9a327ec2d27af52076b2f9c3aea4ecd75a"
+  },
+  "scope": "Separate post-original-study addendum, frozen before generating or inspecting any of its simulation outcomes. Local receipt, not externally timestamped registration."
+}

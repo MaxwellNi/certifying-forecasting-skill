@@ -1,0 +1,57 @@
+{
+  "focal": "0",
+  "evaluation": "2",
+  "forecast_fit": {
+    "5": "1"
+  },
+  "outcome_fit": {
+    "0": "1/2",
+    "4": "1/2"
+  },
+  "forecast_rows": {
+    "2": {
+      "sources": [
+        1,
+        0
+      ],
+      "peers": {
+        "1": "1"
+      }
+    },
+    "5": {
+      "sources": [
+        4,
+        3
+      ],
+      "peers": {
+        "1": "1"
+      }
+    }
+  },
+  "outcome_rows": {
+    "0": {
+      "sources": [
+        0
+      ],
+      "peers": {
+        "2": "1"
+      }
+    },
+    "2": {
+      "sources": [
+        2
+      ],
+      "peers": {
+        "2": "1"
+      }
+    },
+    "4": {
+      "sources": [
+        4
+      ],
+      "peers": {
+        "1": "1"
+      }
+    }
+  }
+}

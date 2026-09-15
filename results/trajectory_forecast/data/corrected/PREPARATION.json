@@ -1,0 +1,63 @@
+{
+  "source_sha256": "40cdd29c24918e855133dce280ff59779bb0b5852898e05bafcf422a4cc0a175",
+  "csv_member": "PRSA_data_2010.1.1-2014.12.31.csv",
+  "raw_rows": 43824,
+  "eligible_training_rows": 23006,
+  "selection_trajectories": 342,
+  "confirmation_trajectories": 350,
+  "excluded_hours_missing_target_or_pm_lag": 4071,
+  "features": [
+    "pm_lag_1",
+    "pm_lag_2",
+    "pm_lag_3",
+    "pm_lag_6",
+    "pm_lag_12",
+    "pm_lag_24",
+    "TEMP_lag_1",
+    "PRES_lag_1",
+    "DEWP_lag_1",
+    "Iws_lag_1",
+    "Is_lag_1",
+    "Ir_lag_1",
+    "wind_lag_1",
+    "hour",
+    "weekday",
+    "month"
+  ],
+  "forecast_origin": "hour preceding target; daily target15:00 for later windows",
+  "protocol_correction": {
+    "reason": "Protocol origin14 implies target15; initial run used target14.",
+    "after_initial_results_inspected": true,
+    "virgin_confirmation": false,
+    "target_hour": 15,
+    "origin_hour": 14,
+    "candidate_settings_changed": false,
+    "new_source_download": false
+  },
+  "training_end": "2012-12-31 23:00:00",
+  "selection_start": "2013-01-01 15:00:00",
+  "selection_end": "2013-12-31 15:00:00",
+  "confirmation_start": "2014-01-01 15:00:00",
+  "candidate_order": [
+    "persistence",
+    "ridge_1",
+    "ridge_100",
+    "boosting_7",
+    "boosting_31",
+    "blend_ridge_1",
+    "blend_boosting_7",
+    "blend_boosting_31"
+  ],
+  "training_seconds": {
+    "ridge_1": 0.0029904991388320923,
+    "ridge_100": 0.002461761236190796,
+    "boosting_7": 0.18980182334780693,
+    "boosting_31": 0.3496381528675556
+  },
+  "stage_files": {
+    "selection_forecasts.npz": "59aa49c48825514cec8a8d36c77bae8ef2771699c3af160eacc7b24038bd6816",
+    "confirmation_forecasts.npz": "82b520b96f0d7162b9c94b13c7988cc34e019102a0b07e4c8959fcb9b9104a1e"
+  },
+  "target_scope": "Raw PM2.5; no upper clipping. Forecast maps fixed before archive draws.",
+  "source_attribution": "Chen, S. (2015). Beijing PM2.5. UCI Machine Learning Repository. DOI:10.24432/C5JS49. CC BY 4.0."
+}

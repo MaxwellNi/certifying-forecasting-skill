@@ -1,0 +1,11 @@
+test_allocation_matches_full_integer_search_including_leftovers (test_reproduce.CostStudyChecks) ... ok
+test_explicit_six_role_triple_and_integer_ties (test_reproduce.CostStudyChecks) ... ok
+test_original_all_eight_and_new_allocation_against_producer (test_reproduce.CostStudyChecks) ... ok
+test_original_bootstrap_endpoints_and_cost_accounting (test_reproduce.CostStudyChecks) ... ok
+test_zero_column_pruning_preserves_every_score_and_correction (test_reproduce.CostStudyChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 10.202s
+
+OK
+Maximum independent/new-producer arithmetic error: 9.942133921692076e-17

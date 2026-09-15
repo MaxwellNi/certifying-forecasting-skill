@@ -1,0 +1,15 @@
+{
+  "protocol_sha256": "3dc1777f820ee3a8803a7b9d604e425b88f9387e7162e2d82ba29c742496db60",
+  "experiment_source_sha256": "f49ae4d6ca9a3bec1ec040fa1127d561504e045371d2e01b7d82cc67e095891e",
+  "kernel_source_sha256": "cff86767bb6d0787522ba67b371963784aa9d9fc7be3fcf3448aee9896e48a1f",
+  "selection_input_sha256": "59aa49c48825514cec8a8d36c77bae8ef2771699c3af160eacc7b24038bd6816",
+  "rule": "hybrid",
+  "replications": 300,
+  "evaluation_blocks": 1024,
+  "validation_triples": 512,
+  "alpha": 0.05,
+  "delta": 0.025,
+  "fresh_confirmation_losses_read": false,
+  "bounds_condition_on": "Fixed2013 archive and models fitted on2010-2012; fresh independent index draws only.",
+  "zero_overlap_budget": "Same prespecified1024/512 allocation in design diagnostics; full U can use every triple. No optimality claim for this allocation."
+}

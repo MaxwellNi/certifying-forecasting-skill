@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "3dc1777f820ee3a8803a7b9d604e425b88f9387e7162e2d82ba29c742496db60",
+  "source_url": "https://archive.ics.uci.edu/static/public/381/beijing+pm2+5+data.zip",
+  "source_sha256": "40cdd29c24918e855133dce280ff59779bb0b5852898e05bafcf422a4cc0a175",
+  "correction_start_unix": 1789354653.4850113,
+  "reason": "Protocol origin14 implies target15; initial run used target14.",
+  "after_initial_results_inspected": true,
+  "virgin_confirmation": false,
+  "target_hour": 15,
+  "origin_hour": 14,
+  "candidate_settings_changed": false,
+  "new_source_download": false
+}

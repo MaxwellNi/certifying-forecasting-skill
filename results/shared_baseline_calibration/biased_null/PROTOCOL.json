@@ -1,0 +1,158 @@
+{
+  "status": "Separately prespecified biased-null finite-law addendum; follows inspection of the original six-law study; not independent application validation.",
+  "seed": 2026091501,
+  "bit_generator": "numpy.random.PCG64",
+  "seed_sequence": [
+    "seed",
+    "law_index",
+    "budget",
+    "replication_index"
+  ],
+  "family": [
+    "baseline_identity",
+    "candidate",
+    "reverse_candidate",
+    "constant"
+  ],
+  "alpha_family": 0.05,
+  "alpha_candidate": 0.0125,
+  "delta": 0.00625,
+  "methods": [
+    "shared_correction",
+    "disjoint_triple_u",
+    "complete_u"
+  ],
+  "rules": [
+    "range",
+    "hybrid"
+  ],
+  "budgets": [
+    3072,
+    12288
+  ],
+  "replications": 300,
+  "laws": [
+    {
+      "name": "biased_zero_rank_contrast",
+      "cells": [
+        {
+          "h": 0,
+          "Y": 0,
+          "baseline": 0,
+          "probability": "1/4"
+        },
+        {
+          "h": 0,
+          "Y": 0,
+          "baseline": 1,
+          "probability": "1/4"
+        },
+        {
+          "h": 0,
+          "Y": 1,
+          "baseline": 2,
+          "probability": "1/4"
+        },
+        {
+          "h": 1,
+          "Y": 1,
+          "baseline": 3,
+          "probability": "1/4"
+        }
+      ],
+      "exact_targets": [
+        {
+          "candidate": "baseline_identity",
+          "theta_exact": "0",
+          "theta": 0.0,
+          "shared_expectation_exact": "0",
+          "interaction_exact": "0",
+          "null": true
+        },
+        {
+          "candidate": "candidate",
+          "theta_exact": "0",
+          "theta": 0.0,
+          "shared_expectation_exact": "1/32",
+          "interaction_exact": "1/32",
+          "null": true
+        },
+        {
+          "candidate": "reverse_candidate",
+          "theta_exact": "1/32",
+          "theta": 0.03125,
+          "shared_expectation_exact": "3/32",
+          "interaction_exact": "1/16",
+          "null": false
+        },
+        {
+          "candidate": "constant",
+          "theta_exact": "1/64",
+          "theta": 0.015625,
+          "shared_expectation_exact": "1/16",
+          "interaction_exact": "3/64",
+          "null": false
+        }
+      ]
+    }
+  ],
+  "allocations": {
+    "3072": {
+      "M": 546,
+      "n": 660,
+      "draws_used": 3072,
+      "unused_budget": 0,
+      "range_radius": 0.24023329620311396
+    },
+    "12288": {
+      "M": 2181,
+      "n": 2642,
+      "draws_used": 12288,
+      "unused_budget": 0,
+      "range_radius": 0.12011659966972746
+    }
+  },
+  "widths": {
+    "score": "5/4",
+    "correction": "5/2",
+    "triple_u": "1/2",
+    "declared_identity": "0"
+  },
+  "cost": {
+    "common_iid_draw_stream": true,
+    "all_observed_draws_available_to_complete_u": true,
+    "training_draws": 0,
+    "law_known_for_target_check_only": true,
+    "candidate_family_size": 4,
+    "target_or_law_not_used_in_bounds": true,
+    "additional_support_specific_widths_not_used": true,
+    "comparison_scope": "Verify the predeclared final common-baseline rule, not globally optimal widths for each known law",
+    "shared_allocation": "range-only integer optimum"
+  },
+  "endpoints": {
+    "family_noncoverage": "any candidate lower bound exceeds its exact target by more than numerical tolerance 1e-14",
+    "false_certification": "any null candidate has lower > 0",
+    "power": "each positive candidate has lower > 0",
+    "precision": "pointwise two-sided 95% Clopper-Pearson intervals; not simultaneous over cells"
+  },
+  "decision_policy": "All two budget cells, four candidates, three methods and both rules are reported. Exactly 300 repetitions per budget. No Monte Carlo seed search, stopping, retuning, or success-driven additional runs.",
+  "interpretation": "Monte Carlo estimates probe the frozen implementation; no finite simulation establishes the theorem or a physical-panel guarantee.",
+  "source_sha256": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+  "addendum": {
+    "chronology": "Constructed after inspecting the original six-law calibration; this addendum is frozen separately before its own simulation.",
+    "law_selection": "Exact deterministic finite search: no uniform three-atom weak-order assignment had theta=0 and positive shared bias; four-atom enumeration supplied examples; selected the simple threshold construction B~Unif{0,1,2,3}, h=1{B=3}, Y=1{B>=2}. No Monte Carlo outcome was used to choose the law.",
+    "gap_addressed": "Nonidentity candidate h has exact theta=0 and Gamma=E[S]=1/32>0.",
+    "scope": "One analytically selected synthetic IID law. Two of four candidates are null; reverse and constant maps have positive rank-contrast targets. No new application or conditional-independence test.",
+    "separation": "12 procedure cells and 600 replications; not part of the original 72 cells or original freeze.",
+    "parent_protocol_sha256": "f2415d41fe46d72dcdf1ddd0b8d1f5ea64a743aa4be289396b353d87cb37a727",
+    "method_implementation_sha256": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+    "frozen_input_sha256": {
+      "study.py": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+      "experiment.py": "c74381d62b9b4654f1687429936a320cf81652083f0098e79670e6179533a8cd",
+      "independent_verify.py": "29379d6f25596cbf4fee3cfea0934d1c3c2b0c9e006dd3ae2581c8a6fb51daad",
+      "EXACT_ORACLE.json": "52c42decdc499d0bba8c2df403c7a8a85ec53dffbeb5df25cbc736aff6196f51",
+      "DERIVATION.md": "ef24299fbcc7fff4ab07d6ecad78a46c0898b171666426b6b985b0fbcebe3ee0"
+    },
+    "supplementary_diagnostics": "Independent verifier also reports raw shared-score and interaction sample means for h; these are diagnostics, not extra decision procedures."
+  }
+}

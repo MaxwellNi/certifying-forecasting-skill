@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "replication_rows": 86400,
+  "candidate_summary_rows": 288,
+  "family_rows": 21600,
+  "targets": "exact rational protocol targets",
+  "identity_rows_zero": true,
+  "all_decisions_recounted": true,
+  "all_summary_counts_reconstructed": true,
+  "numeric_tolerance_for_noncoverage": 1e-14,
+  "source_sha256": "a47064144bb0c1b6bd28a31e4e76dc0ea0adc346180f7da103ac5844eff4a218"
+}

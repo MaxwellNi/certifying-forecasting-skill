@@ -1,0 +1,9 @@
+domain,configuration,candidates,evaluation_rows,forecast_pooled_fallback_rows,forecast_pooled_fallback_fraction,outcome_pooled_fallback_rows,outcome_pooled_fallback_fraction,forecast_unseen_entity_rows,forecast_unseen_entity_fraction,outcome_unseen_entity_rows,outcome_unseen_entity_fraction
+electricity,directional_all,11,34992,7008,0.20027434842249658,6960,0.19890260631001372,0,0.0,0,0.0
+electricity,directional_middle,11,21024,0,0.0,0,0.0,0,0.0,0,0.0
+portfolios,directional_all,10,27272,5605,0.2055221472572602,5290,0.19397183924904665,0,0.0,22,0.0008066881783514227
+portfolios,directional_middle,10,16377,0,0.0,0,0.0,0,0.0,11,0.0006716736887097759
+ratings,directional_all,10,12088,2060,0.17041694242223693,2816,0.23295830575777632,2757,0.2280774321641297,2335,0.19316677696889478
+ratings,directional_middle,10,7212,0,0.0,0,0.0,2404,0.3333333333333333,2110,0.2925679423183583
+retail,directional_all,10,112000,24000,0.21428571428571427,20000,0.17857142857142858,0,0.0,0,0.0
+retail,directional_middle,10,68000,0,0.0,0,0.0,0,0.0,0,0.0

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this software."
+title: "When a High Score Is an Illusion: Certifying Genuine versus Repackaged Forecasting Skill"
+authors:
+  - family-names: Ni
+    given-names: Pin
+  - family-names: Medda
+    given-names: Francesca
+  - family-names: Okhrati
+    given-names: Ramin
+date-released: 2026-09-15
+repository-code: "https://github.com/MaxwellNi/certifying-forecasting-skill"
+url: "https://github.com/MaxwellNi/certifying-forecasting-skill"

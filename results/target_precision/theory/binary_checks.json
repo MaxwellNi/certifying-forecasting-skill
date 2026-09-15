@@ -1,0 +1,23 @@
+{
+  "all_checks_pass": true,
+  "row_cases": 50,
+  "all_256_ordered_type_blocks": 256,
+  "maximum_row_center_error": 2.42861286636753e-17,
+  "stratified_pair_identity_pass": true,
+  "bound_reduction_checks_pass": true,
+  "large_count_exact_check_pass": true,
+  "independent_runner_equivalence_cases": 40,
+  "binary_block_support_exact": [
+    "-1/12",
+    "-1/16",
+    "-1/24",
+    "-1/48",
+    "0",
+    "1/48",
+    "1/24",
+    "1/16",
+    "1/12"
+  ],
+  "seed": 3900913,
+  "new_dataset_access": false
+}

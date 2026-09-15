@@ -1,0 +1,38 @@
+{
+  "started_utc": "2026-09-13T11:42:09.752395+00:00",
+  "workers": 4,
+  "hardware": {
+    "platform": "Linux-5.15.0-156-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11",
+    "numpy": "1.26.4",
+    "logical_cpus": 128,
+    "threadpool_info": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "filepath": "libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+        "version": "0.3.23.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Zen"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "filepath": "libopenblasp-r0-23e5df77.3.21.dev.so",
+        "version": "0.3.21.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Zen"
+      }
+    ]
+  },
+  "original_confirmation_hashes": {
+    "frozen_selections.csv": "eb7859cc5510d352a6a383e432457276edd428b9505e3483dcdb9e7469e0da11",
+    "confirmation_results.csv": "d387b66fd88ae060fc4e74634cdda5d16d6d3d20f9abb3220ff060246854d73c",
+    "confirmation_dependent_bounds.csv": "14d60f0ee0a0762d4f6ac0d888a30fb86dec09bb907162dfeb0051e3f142a45a"
+  },
+  "scope": "Retrospective fixed-archive comparison; all32 candidates and both separately calibrated methods preserved"
+}

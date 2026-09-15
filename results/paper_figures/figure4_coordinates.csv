@@ -1,0 +1,21 @@
+domain,model,complementary,directional,guarded,plot_y
+retail,Croston SBA,-19.43033509074267,6.1052692091319152,False,0
+retail,Eight week mean,2.0598406158191942,13.145231904135443,False,1
+retail,Exponential smoothing,2.5195460080483865,7.8306840242132898,False,2
+retail,Four week mean,3.8040015264592144,10.414657123012528,False,3
+retail,Last week,1.2318711203012296,1.5120536258683315,True,4
+retail,Past price and calendar,6.4130373704538437,-0.81532582319260449,False,5
+retail,Past price calendar and history,2.7988422799077974,4.940559138543712,False,6
+retail,Ridge with history,2.2036727511768213,3.7156373269568133,False,7
+retail,Theta,4.1080908797919786,10.63629637625775,False,8
+retail,Training series mean,1.2874696156255254,-0.2083711067270268,True,9
+ratings,Alternating least squares,12.731541476581995,8.7295298528953253,False,0
+ratings,Global mean,,,True,1
+ratings,Item mean,1.93697441435816,1.9266212208660178,True,2
+ratings,Item nearest neighbours,9.8001527094321954,6.5738872281270302,False,3
+ratings,SVD (32 factors),7.5151161309539738,5.7863075181386554,False,4
+ratings,SVD (40 factors),8.1080961497946014,6.0902813398280529,False,5
+ratings,SVD interaction,10.14423799157616,6.6696445839070586,False,6
+ratings,Slope One,5.6917594891686303,4.7282238916367554,False,7
+ratings,User and item bias,1.93697441435816,1.9266212208660178,True,8
+ratings,User mean,,,True,9

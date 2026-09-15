@@ -1,0 +1,44 @@
+{
+  "selectors": {
+    "baseline": -1,
+    "ungated": 1,
+    "calibration_only": 0,
+    "persistence": "persistence_raw",
+    "full_u_joint": -1,
+    "stratified_hybrid": 1,
+    "stratified_hoeffding": -1,
+    "stratified_profiled_betting": 1,
+    "aggregate_reference_u": -1,
+    "aggregate_reference_betting": 1,
+    "pooled_reference_u": -1,
+    "pooled_reference_betting": 1,
+    "direct_loss": 1
+  },
+  "selection_losses": [
+    0.021888770479040743,
+    0.02175129176223748,
+    0.022839401157340605,
+    0.022181276306254077,
+    0.022857802313339722,
+    0.022181276306254077
+  ],
+  "baseline_loss": 0.022181276306254053,
+  "weights": [
+    1.0,
+    0.45,
+    0.7,
+    0.0,
+    0.05,
+    0.0
+  ],
+  "family": [
+    "rich_ridge",
+    "rich_hgb",
+    "rich_extra_trees",
+    "persistence",
+    "category_copy",
+    "hash_noise"
+  ],
+  "calibration_sha256": "d9eede9dae274d62b79d13da5289e83ba43f269675078c46dacd0c5d7253917d",
+  "confirmation_forecasts_sha256": "de949de3eeb3579002968767709818045e9e09b68667bca2d9119f108a78a1af"
+}

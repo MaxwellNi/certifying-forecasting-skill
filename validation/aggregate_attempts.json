@@ -1,0 +1,45 @@
+{
+  "status": "PASS_AFTER_METADATA_REPAIR",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "FAIL",
+      "started_utc": "2026-09-14T19:58:29.765508+00:00",
+      "finished_utc": "2026-09-14T20:01:37.201494+00:00",
+      "elapsed_seconds": 187.43601099774241,
+      "returncode": 1,
+      "single_uninterrupted_pass": false,
+      "failure": "results/aggregate_bias local input manifest mismatched fig_aggregate_validation.pdf; later replay stages were not reached.",
+      "transcript": "aggregate_failed_inventory.txt",
+      "transcript_sha256": "b719089b4a0f8003721c4911f8b86b5b16dbda1653cbcdb7d919b466ddb6077c"
+    },
+    {
+      "attempt": 2,
+      "status": "FAIL",
+      "started_utc": "2026-09-14T20:04:19.160905+00:00",
+      "finished_utc": "2026-09-14T20:06:44.514592+00:00",
+      "elapsed_seconds": 145.3537141494453,
+      "returncode": 1,
+      "single_uninterrupted_pass": false,
+      "failure": "SOURCE_OVERRIDES files included a newly added source with historical_sha256=null; existing verifier requires historical/current replacement hashes. Source additions were subsequently separated from replacements by the packaging owner.",
+      "transcript": "aggregate_failed_source_metadata.txt",
+      "transcript_sha256": "e1939769b1fb4ecd031ab76766996b76a5590ba2e15e673b9c5393367364859c"
+    },
+    {
+      "attempt": 3,
+      "status": "PASS",
+      "started_utc": "2026-09-14T20:08:26.734987+00:00",
+      "finished_utc": "2026-09-14T20:12:10.539050+00:00",
+      "elapsed_seconds": 223.804085906595,
+      "returncode": 0,
+      "single_uninterrupted_pass": true,
+      "failure": null,
+      "transcript": "aggregate_replay.txt",
+      "transcript_sha256": "5b717a25b9adb89e2341fd67ca53e6df965a2a39b40006120134c9649fb4d7fa"
+    }
+  ],
+  "repair_receipt": "nested_inventory.json",
+  "source_metadata_repair": "Genuinely new sources moved to SOURCE_OVERRIDES.additions; replacements retain actual historical SHA-256 values. No historical hash was invented.",
+  "scope": "The first two invocations failed metadata checks. Only the third completed all 29 check records. No numerical thresholds or saved scientific outcomes were changed to obtain this pass.",
+  "transcript_display": "Machine-specific working directory and interpreter prefixes are replaced with declared placeholders; numerical output and exception text are retained."
+}

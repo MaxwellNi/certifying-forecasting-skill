@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-13T14:04:43.442722+00:00",
+  "synthetic": false,
+  "config_sha256": "61b4765b8d99c356147d0774d1db64a1ea4a33a01061a4067c19bf1d6f6dcf40",
+  "experiment_sha256": "0532dbb1e2f008a432cfb81732c8a785d154824a684bad1173c6c5ab0beed803",
+  "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:45:31) [GCC 13.3.0]",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.11.4",
+    "sklearn": "1.7.2"
+  }
+}

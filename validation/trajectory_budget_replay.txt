@@ -1,0 +1,95 @@
+{
+  "allocation": {
+    "budget": 73728,
+    "M": 13086,
+    "n": 15852,
+    "evaluation_cost": 2,
+    "draws_used": 73728,
+    "unused_budget": 0,
+    "range_radius": 0.08364628101203186,
+    "alpha": 0.00625,
+    "delta": 0.003125,
+    "score_width": 2.0,
+    "correction_width": 4.0,
+    "continuous_M_over_n": 0.8254818122236567
+  },
+  "decisions": [
+    {
+      "rule": "shared_original_hybrid",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "shared_original_hoeffding",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "shared_pruned_same_counts_hybrid",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "shared_pruned_same_counts_hoeffding",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "shared_pruned_allocated_hybrid",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "shared_pruned_allocated_hoeffding",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "direct_triple_u_hybrid",
+      "candidate": "boosting_31",
+      "number_passing": 3,
+      "passing_candidates": "ridge_1;ridge_100;boosting_31",
+      "selection_mse": 527.5912583594636
+    },
+    {
+      "rule": "direct_triple_u_hoeffding",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "complete_pooled_u_variance",
+      "candidate": "boosting_31",
+      "number_passing": 3,
+      "passing_candidates": "ridge_1;ridge_100;boosting_31",
+      "selection_mse": 527.5912583594636
+    },
+    {
+      "rule": "complete_pooled_u_hoeffding",
+      "candidate": "persistence",
+      "number_passing": 0,
+      "passing_candidates": "",
+      "selection_mse": 595.3333333333334
+    },
+    {
+      "rule": "census_exact",
+      "candidate": "boosting_31",
+      "number_passing": 7,
+      "passing_candidates": "ridge_1;ridge_100;boosting_7;boosting_31;blend_ridge_1;blend_boosting_7;blend_boosting_31",
+      "selection_mse": 527.5912583594636
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+rule,candidate,comparator,confirmation_records,confirmation_weeks,raw_mse,raw_mse_gain,relative_mse_gain,equal_week_mean_gain,bootstrap_low,bootstrap_high,identical_predictions,interval_scope
+persistence,persistence,persistence,350,53,288.32,0.0,0.0,0.0,0.0,0.0,True,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+persistence,persistence,ungated,350,53,288.32,7.619001417681432,0.025745175124545883,6.534213276580873,-35.021837809983445,48.62971495761736,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+ungated,boosting_31,persistence,350,53,295.9390014176814,-7.619001417681432,-0.02642550436210267,-6.534213276580873,-48.62971495761737,35.02183780998343,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+ungated,boosting_31,ungated,350,53,295.9390014176814,0.0,0.0,0.0,0.0,0.0,True,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+pooled_u,boosting_31,persistence,350,53,295.9390014176814,-7.619001417681432,-0.02642550436210267,-6.534213276580873,-48.62971495761737,35.02183780998343,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+pooled_u,boosting_31,ungated,350,53,295.9390014176814,0.0,0.0,0.0,0.0,0.0,True,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+census,boosting_31,persistence,350,53,295.9390014176814,-7.619001417681432,-0.02642550436210267,-6.534213276580873,-48.62971495761737,35.02183780998343,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+census,boosting_31,ungated,350,53,295.9390014176814,0.0,0.0,0.0,0.0,0.0,True,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.

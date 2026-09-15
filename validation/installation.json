@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "date": "2026-09-14",
+  "environment": "New Python3.12 virtual environment on the same Linux host; no physical-machine independence is claimed.",
+  "installation_order": [
+    "requirements-artifacts-lock.txt",
+    "requirements-lock-py312-linux-cpu.txt"
+  ],
+  "lock_sha256": {
+    "requirements-artifacts-lock.txt": "2c76354b83f95a7ad96097708b8260d92f0e1200093a71953f5f511985f454b7",
+    "requirements-lock-py312-linux-cpu.txt": "46642a19e893ad0ce60cc83ec7af31dbce2b8e1a7927960d4e67c4cddaed753f"
+  },
+  "minimal_environment": {
+    "trajectory_tests": 43,
+    "exact_checks": 19,
+    "documented_panel_cli_example": {
+      "status": "PASS",
+      "ABSTAIN": 4,
+      "RETAIN": 1,
+      "NOT_RETAINED": 1,
+      "finite_certificate_issued": false
+    }
+  },
+  "full_environment": {
+    "root_tests": 186,
+    "failed": 0,
+    "skipped": 0
+  },
+  "notes": [
+    "The smaller dependency set supports aggregate analysis and trajectory checks. Full root discovery imports forecasting models and requires the full lock.",
+    "Optional TBB threading was disabled by the installed system library; the root test suite still passed.",
+    "This is an additional installation check, not a repeated full 281-test or full original-predictor retraining claim."
+  ]
+}

@@ -1,0 +1,12 @@
+test_all_ties_and_input_validation (test_reference_time_audit.CompositionTests.test_all_ties_and_input_validation) ... ok
+test_large_integer_order_and_validation_are_preserved (test_reference_time_audit.CompositionTests.test_large_integer_order_and_validation_are_preserved) ... ok
+test_negative_overlap_uses_lower_variance (test_reference_time_audit.CompositionTests.test_negative_overlap_uses_lower_variance) ... ok
+test_positive_overlap_uses_upper_variance (test_reference_time_audit.CompositionTests.test_positive_overlap_uses_upper_variance) ... ok
+test_positive_zero_negative_overlap_exact_ternary (test_reference_time_audit.CompositionTests.test_positive_zero_negative_overlap_exact_ternary) ... ok
+test_zero_design_is_zero (test_reference_time_audit.CompositionTests.test_zero_design_is_zero) ... ok
+test_zero_population_expectation_exact (test_reference_time_audit.CompositionTests.test_zero_population_expectation_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.021s
+
+OK

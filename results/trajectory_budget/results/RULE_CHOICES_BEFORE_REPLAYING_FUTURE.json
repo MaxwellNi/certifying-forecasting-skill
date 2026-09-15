@@ -1,0 +1,20 @@
+{
+  "analysis_status": "Post-exposure diagnostic on the corrected, previously inspected cohorts; not independent confirmation.",
+  "choices": {
+    "persistence": "persistence",
+    "direct_loss_selection": "boosting_31",
+    "shared_original_hybrid": "persistence",
+    "shared_original_hoeffding": "persistence",
+    "shared_pruned_same_counts_hybrid": "persistence",
+    "shared_pruned_same_counts_hoeffding": "persistence",
+    "shared_pruned_allocated_hybrid": "persistence",
+    "shared_pruned_allocated_hoeffding": "persistence",
+    "direct_triple_u_hybrid": "boosting_31",
+    "direct_triple_u_hoeffding": "persistence",
+    "complete_pooled_u_variance": "boosting_31",
+    "complete_pooled_u_hoeffding": "persistence",
+    "census_exact": "boosting_31"
+  },
+  "mechanical_order": "Choices written before this script opens stored 2014 arrays. This does not undo prior exposure.",
+  "selection_information": "Only 2013 scores/losses; exact same fixed models, targets, and candidate family."
+}

@@ -1,0 +1,13 @@
+{
+  "decision_labels": "RETAIN, NOT_RETAINED and ABSTAIN are operational diagnostic labels. Historical raw tables retain their documented legacy NULL token.",
+  "hash_scope": "Hashes identify distributed bytes. Historical source hashes in recorded study metadata remain historical provenance; they are not claims that every result was originally run with the present source.",
+  "paper_sha256": "e1846cf885e2c54bad085ab4e1b2b671ca684570a053e444e0107367e4c76a09",
+  "private_source_reproducible": false,
+  "ratings_group_labels": "Ordinal labels ordered by provider group; provider user IDs are not distributed.",
+  "release": "publication",
+  "scope": "Research code, recorded aggregates, manuscript and technical companion.",
+  "source_observations_included": true,
+  "source_observations_scope": "Attributed CC BY 4.0 Appliances, Metro and Seoul source ZIPs; their documented derived forecast arrays; the derived 70,080-row electricity archive and sampled indices. Original four model-comparison panels remain aggregate-only. No restricted-source observations, identifiers, predictions, residuals, loaders or weights. Attributed CC BY 4.0 UCI news ZIP, documented derived stage arrays and frozen forecasts. Attributed CC BY 4.0 UCI Beijing PM2.5 source ZIP, derived trajectory arrays and initial/corrected recorded study results.",
+  "tabular_evidence_files": 315,
+  "technical_companion_sha256": "58eb09b02b59494ec20ba1d5020588c4e12b2576a6eeb514380056b46726667b"
+}

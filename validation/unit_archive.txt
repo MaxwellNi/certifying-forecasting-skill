@@ -1,0 +1,13 @@
+test_changed_grouped_mean (test_verify.ArchiveVerificationTests.test_changed_grouped_mean) ... ok
+test_changed_kernel_endpoint (test_verify.ArchiveVerificationTests.test_changed_kernel_endpoint) ... ok
+test_changed_raw_probability (test_verify.ArchiveVerificationTests.test_changed_raw_probability) ... ok
+test_changed_signed_allowance (test_verify.ArchiveVerificationTests.test_changed_signed_allowance) ... ok
+test_changed_validation_mass_cap (test_verify.ArchiveVerificationTests.test_changed_validation_mass_cap) ... ok
+test_changed_validation_mean_interval (test_verify.ArchiveVerificationTests.test_changed_validation_mean_interval) ... ok
+test_full_u_matches_exhaustive_ordered_triples (test_verify.ArchiveVerificationTests.test_full_u_matches_exhaustive_ordered_triples) ... ok
+test_independent_bernstein_requires_its_triple_mean (test_verify.ArchiveVerificationTests.test_independent_bernstein_requires_its_triple_mean) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.861s
+
+OK

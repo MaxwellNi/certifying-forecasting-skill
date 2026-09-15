@@ -1,0 +1,25 @@
+{
+  "analysis_status": "Post-exposure diagnostic on the corrected, previously inspected cohorts; not independent confirmation.",
+  "python": "3.9.21",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "inputs": {
+    "confirmation_forecasts.npz": "82b520b96f0d7162b9c94b13c7988cc34e019102a0b07e4c8959fcb9b9104a1e",
+    "original_selection_gates.csv": "6908d6900eaa18d1a0531a8c1561b096f0764043ef8a9d3ce73d6d1614563e77",
+    "original_strong_gates.csv": "afb187e9f1f60475a1ab976d186f3ff40bbc95b7ada85c22774f456d43de02e6",
+    "original_utility_diagnostic.json": "f8e3c5d97c4d08d95c8e70274fd494aa19ade942ec9a1f1c953789970f92f1e3",
+    "selection_forecasts.npz": "59aa49c48825514cec8a8d36c77bae8ef2771699c3af160eacc7b24038bd6816",
+    "selection_indices.npz": "637a99a08beefdc324c9de0e62cb0082d3ae1f038eecf9e4f01a746a62c67a34"
+  },
+  "code": {
+    "reproduce.py": "4c9ea8f9e963873198eb48dc390979d19db27e360c07cb972ded969582f5c18f",
+    "test_reproduce.py": "5cc6e1c2a116055d870aede19d737143714869f7156af400f0173d0c12a1ebe7",
+    "reference_kernels/pooled_trajectory_kernel.py": "b9a97d6ae67b30a0ebe0e80a4f1536affbb5ca36069ac09aaade91d8b77f4fb0",
+    "reference_kernels/trajectory_kernel.py": "cff86767bb6d0787522ba67b371963784aa9d9fc7be3fcf3448aee9896e48a1f"
+  },
+  "scientific_outputs": "All CSV and JSON numeric results deterministic; NPZ archive byte timestamps are not scientific data.",
+  "no_new_labels": true,
+  "number_candidates": 8,
+  "family_alpha": 0.05,
+  "preserved_width_scope": "Generic declared widths 2,4,2/3 are held fixed across candidates including persistence. No empirical-range substitution or post-outcome map-specific tightening."
+}

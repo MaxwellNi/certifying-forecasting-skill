@@ -1,0 +1,8 @@
+budget_method,U_retained,betting_retained,bias_covers
+known_mass_aggregate,9,13,32
+known_mass_rectangle,1,3,32
+oracle_diagnostic,14,16,32
+original_rectangle,0,0,32
+pooled_fixed,9,13,32
+pooled_grid,9,12,32
+pooled_mixture,9,13,32

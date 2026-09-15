@@ -1,0 +1,229 @@
+{
+  "source": {
+    "uci_id": 432,
+    "doi": "10.24432/C5H029",
+    "page": "https://archive.ics.uci.edu/dataset/432/news+popularity+in+multiple+social+media+platforms",
+    "license": "CC-BY-4.0",
+    "platform": "Facebook",
+    "topic": "economy",
+    "members": [
+      "Data/News_Final.csv",
+      "Data/Facebook_Economy.csv"
+    ],
+    "archive_url": "https://archive.ics.uci.edu/static/public/432/news+popularity+in+multiple+social+media+platforms.zip",
+    "archive_sha256": "5b8a7a10c8942a611da33d0fd4df7cb100f9f1b47d49a73fd13b142624f66f81"
+  },
+  "chronology": {
+    "timestamp": "PublishDate",
+    "timezone": "unconverted nominal source timestamps",
+    "intervals": "left-closed right-open",
+    "forecast_horizon_end_hours": 48,
+    "issuance_hours": 1,
+    "embargo_hours": 48,
+    "training": [
+      "2015-11-10 00:00:00",
+      "2016-01-30 00:00:00"
+    ],
+    "calibration": [
+      "2016-02-01 00:00:00",
+      "2016-02-28 00:00:00"
+    ],
+    "selection": [
+      "2016-03-01 00:00:00",
+      "2016-04-29 00:00:00"
+    ],
+    "confirmation": [
+      "2016-05-01 00:00:00",
+      "2016-06-29 00:00:00"
+    ]
+  },
+  "eligibility": {
+    "at_issuance": "finite nonnegative TS3 and valid join/date/topic",
+    "missing_predictors": "negative/nonfinite TS1 or TS2: training-median imputation plus missing indicators",
+    "observed_label": "finite nonnegative TS144",
+    "target_unavailable": "retain availability record; no outcome imputation",
+    "conflicting_duplicate_ids": "News conflict based only on IDLink,PublishDate,Topic,Title,Headline,Source; social conflict only IDLink and normalized TS1/TS2/TS3. Conflicting early information excludes ID. Identical early information collapses; conflicting TS144 retains issuance-eligible ID with unavailable label. Never average labels. Ignore TS4..143 and final metadata popularity for eligibility.",
+    "monotonicity_filter": false,
+    "positive_share_filter": false,
+    "minimum_observed_labels": {
+      "training": 1000,
+      "calibration": 200,
+      "selection": 500,
+      "confirmation": 500
+    },
+    "failure_policy": "retain failure without replacement, resplit, new seed or model changes"
+  },
+  "target": {
+    "observed": "TS144 Facebook shares",
+    "delivered": "clip(log1p(TS144)/max(1,training log1p target 0.99 linear quantile),0,1)",
+    "primary_loss": "squared_error_on_delivered_target",
+    "rank_target": "global centered-midrank covariance after exact category conditional-mean adjustment on uniform observed-label selection archive",
+    "continuous_baseline_adjustment_claimed": false
+  },
+  "seed": 2026091301,
+  "family": [
+    "rich_ridge",
+    "rich_hgb",
+    "rich_extra_trees",
+    "persistence",
+    "category_copy",
+    "hash_noise"
+  ],
+  "baseline": "ridge alpha10 SVD with first-hour popularity history and calendar",
+  "controls": {
+    "categories": 4,
+    "breakpoints": "three training-baseline quartiles, linear quantile, repeated cuts retained",
+    "assignment": "searchsorted side=left",
+    "probabilities": "exact observed-label selection-archive census; all metadata costs charged",
+    "postoutcome_merging": false
+  },
+  "augmentation": {
+    "formula": "baseline+t*(candidate-baseline)",
+    "weight_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "fit_stage": "calibration",
+    "weight_ties": "smallest t"
+  },
+  "selection": {
+    "complete_family_size": 6,
+    "within_method_q": 0.05,
+    "rule": "lowest selection-loss retained augmentation only if strictly better than baseline",
+    "ties": "baseline first, then fixed family order",
+    "comparators": [
+      "ungated_same_family",
+      "baseline",
+      "persistence",
+      "calibration_only_choice",
+      "all_frozen_strong_valid_gate_methods"
+    ],
+    "selection_exact_rank_census_after_gate_decisions": true,
+    "confirmation_labels_after_all_selectors_frozen": true,
+    "adjustment": "Benjamini-Yekutieli complete family of six separately for each method",
+    "across_method_error_claim": false
+  },
+  "sampling": {
+    "distribution": "conditional uniform fixed selection archive",
+    "draws": "IID row-index draws with replacement",
+    "original_temporal_rows_claimed_iid": false,
+    "resamples_count_as_new_tasks": false,
+    "actual_label_acquisition_savings_claimed": false,
+    "raw_draw_budget": 32768,
+    "training_draws": 4096,
+    "validation_pairs": 8192,
+    "evaluation_draws": 12288,
+    "streams": "numpy.SeedSequence(seed).spawn(3); train, validation pairs, evaluation; one shared call sequence for all candidates/methods",
+    "profiled_betting_fractions": {
+      "function": "numpy.geomspace",
+      "start": 0.0001,
+      "stop": 0.99,
+      "number": 64
+    }
+  },
+  "methods": [
+    "full_u_joint",
+    "stratified_hybrid",
+    "stratified_hoeffding",
+    "stratified_profiled_betting",
+    "aggregate_reference_u",
+    "aggregate_reference_betting",
+    "pooled_reference_u",
+    "pooled_reference_betting",
+    "direct_loss"
+  ],
+  "limits": {
+    "threads": 1,
+    "phase_wall_seconds": 2400,
+    "resident_memory_gib": 8
+  },
+  "confirmation_inference": {
+    "primary": "stratified_hybrid",
+    "primary_comparators": [
+      "stratified_profiled_betting",
+      "pooled_reference_betting",
+      "ungated"
+    ],
+    "alpha_each": 0.016666666666666666,
+    "simultaneous_alpha": 0.05,
+    "fixed_hours": 1416,
+    "hourly_gain": "average (loss_comparator-loss_primary) over every issuance-eligible article published in the hour; unavailable-label gain zero, empty hour zero",
+    "predictable_width": "2*mean(abs(primary-comparator)) over every issuance-eligible article; empty hour zero",
+    "lambda_grid": {
+      "function": "numpy.geomspace",
+      "start": 0.01,
+      "stop": 100000.0,
+      "number": 32
+    },
+    "bound": "mean(hourly_gain)-min_lambda[(log(32/alpha)/lambda+lambda*sum(width**2)/8)/1416]",
+    "target": "mean E[G_t | information at settlement of the preceding publication hour]; current hour settles at its end+48 hours",
+    "availability_assumption": "Frozen forecasts, issuance eligibility and denominator are measurable at previous-hour settlement; final targets/availability settle by current-hour end+48h. Archive timestamps do not independently establish this historical availability. This is same-period settled-hour conditional-average gain, not issuance-conditioned or unknown-future-period forecasting risk.",
+    "all_other_comparisons": "descriptive",
+    "coarse_hoeffding_bound_combined": false
+  },
+  "implementation": {
+    "file": "experiment.py",
+    "models": {
+      "baseline": {
+        "estimator": "Ridge",
+        "alpha": 10,
+        "solver": "svd"
+      },
+      "rich_ridge": {
+        "estimator": "Ridge",
+        "alpha": 10,
+        "solver": "svd"
+      },
+      "rich_hgb": {
+        "estimator": "HistGradientBoostingRegressor",
+        "loss": "squared_error",
+        "max_iter": 200,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1,
+        "early_stopping": false
+      },
+      "rich_extra_trees": {
+        "estimator": "ExtraTreesRegressor",
+        "n_estimators": 128,
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "max_features": 1.0,
+        "bootstrap": false,
+        "n_jobs": 1
+      }
+    },
+    "missing_numeric_features": "training median, zero if entirely missing; indicators for every numeric column; train-only standardization",
+    "rich_text_features": [
+      "Title character count",
+      "Headline character count",
+      "Title whitespace token count",
+      "Headline whitespace token count"
+    ],
+    "source_levels": "32 most frequent nonempty training source strings; count ties lexical; missing/unseen maps to other",
+    "calendar_hour": "fractional nominal publication hour from hour+minute/60+second/3600",
+    "duplicate_conflicts": "News conflict based only on IDLink,PublishDate,Topic,Title,Headline,Source; social conflict only IDLink and normalized TS1/TS2/TS3. Conflicting early information excludes ID. Identical early information collapses; conflicting TS144 retains issuance-eligible ID with unavailable label. Never average labels. Ignore TS4..143 and final metadata popularity for eligibility.",
+    "ingestion_visibility": "All raw labels are ingested before stage files are separated. This reproduction does not claim blind custody."
+  },
+  "reproduction_of_completed_task": true
+}

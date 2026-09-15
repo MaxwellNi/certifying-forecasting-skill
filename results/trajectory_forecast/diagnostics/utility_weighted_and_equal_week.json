@@ -1,0 +1,137 @@
+{
+  "comparisons": [
+    {
+      "comparison": "gate_vs_ungated",
+      "candidate": "persistence",
+      "comparator": "boosting_31",
+      "records": 350,
+      "weeks": 53,
+      "candidate_mse": 288.32,
+      "comparator_mse": 295.9390014176814,
+      "target_weighted_absolute_gain": 7.619001417681359,
+      "target_weighted_absolute_ci": [
+        -36.480380647872344,
+        51.3807419831656
+      ],
+      "target_weighted_relative_gain": 0.025745175124545883,
+      "target_weighted_relative_ci": [
+        -0.18888745149786598,
+        0.11998060441915909
+      ],
+      "equal_week_absolute_gain": 6.534213276580873,
+      "equal_week_absolute_ci": [
+        -35.021837809983445,
+        48.62971495761736
+      ],
+      "interval_scope": "Descriptive paired four-week noncircular moving-block percentile bootstrap, 2000 draws, seed 2026091455. No physical-series finite guarantee.",
+      "analysis_status": "Corrected already-viewed evaluation. Target-weighted interval is a subsequent reporting check; equal-week interval is the original specified endpoint."
+    },
+    {
+      "comparison": "gate_vs_baseline",
+      "candidate": "persistence",
+      "comparator": "persistence",
+      "records": 350,
+      "weeks": 53,
+      "candidate_mse": 288.32,
+      "comparator_mse": 288.32,
+      "target_weighted_absolute_gain": 0.0,
+      "target_weighted_absolute_ci": [
+        0.0,
+        0.0
+      ],
+      "target_weighted_relative_gain": 0.0,
+      "target_weighted_relative_ci": [
+        0.0,
+        0.0
+      ],
+      "equal_week_absolute_gain": 0.0,
+      "equal_week_absolute_ci": [
+        0.0,
+        0.0
+      ],
+      "interval_scope": "Descriptive paired four-week noncircular moving-block percentile bootstrap, 2000 draws, seed 2026091455. No physical-series finite guarantee.",
+      "analysis_status": "Corrected already-viewed evaluation. Target-weighted interval is a subsequent reporting check; equal-week interval is the original specified endpoint."
+    },
+    {
+      "comparison": "augmentation_vs_baseline",
+      "candidate": "boosting_31",
+      "comparator": "persistence",
+      "records": 350,
+      "weeks": 53,
+      "candidate_mse": 295.9390014176814,
+      "comparator_mse": 288.32,
+      "target_weighted_absolute_gain": -7.619001417681359,
+      "target_weighted_absolute_ci": [
+        -51.38074198316562,
+        36.480380647872344
+      ],
+      "target_weighted_relative_gain": -0.02642550436210267,
+      "target_weighted_relative_ci": [
+        -0.13633868949867528,
+        0.1588774826093557
+      ],
+      "equal_week_absolute_gain": -6.534213276580873,
+      "equal_week_absolute_ci": [
+        -48.62971495761737,
+        35.02183780998343
+      ],
+      "interval_scope": "Descriptive paired four-week noncircular moving-block percentile bootstrap, 2000 draws, seed 2026091455. No physical-series finite guarantee.",
+      "analysis_status": "Corrected already-viewed evaluation. Target-weighted interval is a subsequent reporting check; equal-week interval is the original specified endpoint."
+    }
+  ],
+  "week_counts": {
+    "2013-12-30/2014-01-05": 5,
+    "2014-01-06/2014-01-12": 6,
+    "2014-01-13/2014-01-19": 7,
+    "2014-01-20/2014-01-26": 7,
+    "2014-01-27/2014-02-02": 7,
+    "2014-02-03/2014-02-09": 7,
+    "2014-02-10/2014-02-16": 7,
+    "2014-02-17/2014-02-23": 7,
+    "2014-02-24/2014-03-02": 7,
+    "2014-03-03/2014-03-09": 7,
+    "2014-03-10/2014-03-16": 7,
+    "2014-03-17/2014-03-23": 7,
+    "2014-03-24/2014-03-30": 7,
+    "2014-03-31/2014-04-06": 7,
+    "2014-04-07/2014-04-13": 5,
+    "2014-04-14/2014-04-20": 7,
+    "2014-04-21/2014-04-27": 7,
+    "2014-04-28/2014-05-04": 7,
+    "2014-05-05/2014-05-11": 7,
+    "2014-05-12/2014-05-18": 7,
+    "2014-05-19/2014-05-25": 6,
+    "2014-05-26/2014-06-01": 7,
+    "2014-06-02/2014-06-08": 7,
+    "2014-06-09/2014-06-15": 6,
+    "2014-06-16/2014-06-22": 6,
+    "2014-06-23/2014-06-29": 7,
+    "2014-06-30/2014-07-06": 7,
+    "2014-07-07/2014-07-13": 5,
+    "2014-07-14/2014-07-20": 7,
+    "2014-07-21/2014-07-27": 6,
+    "2014-07-28/2014-08-03": 7,
+    "2014-08-04/2014-08-10": 7,
+    "2014-08-11/2014-08-17": 7,
+    "2014-08-18/2014-08-24": 7,
+    "2014-08-25/2014-08-31": 7,
+    "2014-09-01/2014-09-07": 7,
+    "2014-09-08/2014-09-14": 7,
+    "2014-09-15/2014-09-21": 7,
+    "2014-09-22/2014-09-28": 7,
+    "2014-09-29/2014-10-05": 7,
+    "2014-10-06/2014-10-12": 7,
+    "2014-10-13/2014-10-19": 7,
+    "2014-10-20/2014-10-26": 7,
+    "2014-10-27/2014-11-02": 7,
+    "2014-11-03/2014-11-09": 7,
+    "2014-11-10/2014-11-16": 7,
+    "2014-11-17/2014-11-23": 6,
+    "2014-11-24/2014-11-30": 7,
+    "2014-12-01/2014-12-07": 5,
+    "2014-12-08/2014-12-14": 6,
+    "2014-12-15/2014-12-21": 5,
+    "2014-12-22/2014-12-28": 7,
+    "2014-12-29/2015-01-04": 3
+  }
+}

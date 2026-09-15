@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "output_files_checked": [
+    "ALLOCATION_RULE.json",
+    "BOOTSTRAP_PROTOCOL.json",
+    "RULE_CHOICES_BEFORE_REPLAYING_FUTURE.json",
+    "active_allocation_indices.npz",
+    "all_eight_future_losses.csv",
+    "bootstrap_indices.npz",
+    "certificate_all_eight.csv",
+    "cost_accounting.csv",
+    "declared_width_budget_curve.csv",
+    "figure_boosting_certificate_coordinates.csv",
+    "future_rule_comparisons.csv",
+    "future_weekly_mean_losses.csv",
+    "gate_decisions.csv"
+  ],
+  "text_outputs": "Byte-identical on independent rerun",
+  "npz_outputs": "Arrays identical; byte timestamps excluded",
+  "tests_passed": 5,
+  "max_formula_parity_error": 9.942133921692076e-17
+}

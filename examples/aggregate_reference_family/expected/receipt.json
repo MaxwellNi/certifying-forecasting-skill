@@ -1,0 +1,67 @@
+{
+  "scope": "Declared common-law marginal-midrank residual covariance; executable composition, not new forecasting evidence",
+  "models": [
+    "coupled",
+    "independent",
+    "constant"
+  ],
+  "family_size": 3,
+  "family_level": 0.05,
+  "family_harmonic": 1.8333333333333333,
+  "first_by_threshold": 0.009090909090909092,
+  "validation_fraction": 0.1,
+  "per_candidate_validation_delta": 0.0009090909090909093,
+  "sampling_bound": "range",
+  "category_order": [
+    "0",
+    "1"
+  ],
+  "exact_category_masses": [
+    0.5,
+    0.5
+  ],
+  "mass_source": "Exact two-category Bernoulli sampling design",
+  "exact_masses_declared": true,
+  "category_counts_a": [
+    1011,
+    1037
+  ],
+  "category_counts_b": [
+    1017,
+    1031
+  ],
+  "validation_pairs": 4096,
+  "validation_raw_calls": 8192,
+  "evaluation_groups": 2,
+  "peers_per_group": 3072,
+  "effective_triples": 2048,
+  "evaluation_raw_calls": 6144,
+  "training_raw_calls": 512,
+  "total_raw_calls": 14848,
+  "control_metadata_rows": 0,
+  "metadata_accounting": "Reported separately; complete control metadata need not be new outcome calls",
+  "full_family_adjustment_applied": true,
+  "mean_uses_all_evaluation_rows": true,
+  "variance_partition": null,
+  "validation_partition": "Supplied A/B stream labels fixed before values; A channel in A, B channel in B",
+  "sampling_assumptions_verified": false,
+  "exact_mass_provenance_verified": false,
+  "required_design": "Fixed independent training; independent validation pairs; fresh iid rows in independent equal-size evaluation groups, all from one common law; reference categories remain unconditioned; declare family, splits, q, rho and sampling bound before evaluation",
+  "identifier_accounting": "Counts raw draws/calls, not unique population IDs; repeated IDs are not deduplicated and do not establish or refute sampling independence",
+  "score_representation": "Exact decimal/integer input order encoded jointly across validation and evaluation; all observed comparisons and ties are preserved before binary64 rank helpers",
+  "interpretation": "BY uses all supplied models. Retention concerns the stated rank target; it does not establish raw-unit forecast gain. The first-threshold lower bound is not the final step-up decision.",
+  "input_sha256": {
+    "masses": "216032cb3e705e2399a3ed2acaa81f92bf75331256342c8c529f57dc56921a2a",
+    "fits": "e7bcc34637d74b337a1a9d68816440413fc0d4b981d82376473f208ca6f5bc4c",
+    "validation": "2d12d137aa94e54ce6b880021005cf973a162b0ef28aef5c7ee9bbecf5bf5dbe",
+    "evaluation": "dcc9040a02f269cf460640d1dd5425ed01780168bfc33ec6d072530aaa89842f"
+  },
+  "source_sha256": "0044fdca1c715f742f632637514183e58b52c4734ca1f9743b30d88465de541b",
+  "helper_sha256": {
+    "results/aggregate_bias/aggregate_bias_bound.py": "3698d7fe9bcb0b1c358eb309e0e73095bd8bbe3a603840ce001a08a398dacdab",
+    "scripts/analysis/peer_rank_products.py": "e614c9d29bb4bbe5e35df073c664c3224c18eaa36eda012e342658246c9a893d",
+    "scripts/analysis/reference_certificate_efficiency.py": "bbdaca92bae8c1541997ad1df9799944c478ff08e4eec5163d24029350947908",
+    "scripts/analysis/category_reference_certificate.py": "cba724a995d2d18405a19a6d82dd91c4eb365d34462fb5cd4a3707a4dc7fa84b"
+  },
+  "results_sha256": "7e6251b9d89143a4890a10f92af981fdd45983f1b2bb86dfa47038838cb011e8"
+}

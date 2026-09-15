@@ -1,0 +1,131 @@
+{
+  "command": "python theory/check_full_u_variance.py",
+  "seed": 1283,
+  "all_checks_pass": true,
+  "literal_fraction_tuple_cases": 4,
+  "randomized_cases": 200,
+  "deletions_checked": 2341,
+  "max_delete_error": 7.216449660063518e-16,
+  "max_center_error": 5.551115123125783e-17,
+  "exact_finite_support_results": [
+    {
+      "name": "constant",
+      "n": 5,
+      "sample_outcomes_enumerated": 1,
+      "theta_exact": "0",
+      "canonical_projection_variances_exact": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "full_u_variance_exact": "0",
+      "expected_jackknife_variance_exact": "0",
+      "efron_stein_variance_exact": "0",
+      "all_exact_identities_pass": true
+    },
+    {
+      "name": "first_projection_degenerate_tied",
+      "n": 5,
+      "sample_outcomes_enumerated": 32,
+      "theta_exact": "1/16",
+      "canonical_projection_variances_exact": {
+        "1": "0",
+        "2": "1/9216",
+        "3": "0",
+        "4": "0"
+      },
+      "full_u_variance_exact": "1/2560",
+      "expected_jackknife_variance_exact": "1/960",
+      "efron_stein_variance_exact": "1/1280",
+      "all_exact_identities_pass": true
+    },
+    {
+      "name": "weak_projection_tied",
+      "n": 5,
+      "sample_outcomes_enumerated": 32,
+      "theta_exact": "2499/40000",
+      "canonical_projection_variances_exact": {
+        "1": "2499/6400000000",
+        "2": "693889/6400000000",
+        "3": "0",
+        "4": "0"
+      },
+      "full_u_variance_exact": "6264993/16000000000",
+      "expected_jackknife_variance_exact": "1042083/1000000000",
+      "efron_stein_variance_exact": "6254997/8000000000",
+      "all_exact_identities_pass": true
+    },
+    {
+      "name": "multicategory_tied",
+      "n": 5,
+      "sample_outcomes_enumerated": 243,
+      "theta_exact": "-1/32",
+      "canonical_projection_variances_exact": {
+        "1": "9/16384",
+        "2": "241/147456",
+        "3": "13/12288",
+        "4": "5/12288"
+      },
+      "full_u_variance_exact": "1157/122880",
+      "expected_jackknife_variance_exact": "37/1280",
+      "efron_stein_variance_exact": "1163/61440",
+      "all_exact_identities_pass": true
+    },
+    {
+      "name": "zero_empirical_variance_obstruction",
+      "n": 5,
+      "sample_outcomes_enumerated": 32,
+      "theta_exact": "-999/4000000",
+      "canonical_projection_variances_exact": {
+        "1": "248751999/64000000000000",
+        "2": "110889/64000000000000",
+        "3": "0",
+        "4": "0"
+      },
+      "full_u_variance_exact": "1991013993/160000000000000",
+      "expected_jackknife_variance_exact": "124542333/10000000000000",
+      "efron_stein_variance_exact": "996005997/80000000000000",
+      "all_exact_identities_pass": true
+    }
+  ],
+  "large_integer_order_check_pass": true,
+  "bound_formula_check_pass": true,
+  "invalid_inputs_rejected": 3,
+  "remainder_examples": [
+    {
+      "n": 32000,
+      "categories": 1,
+      "p_min": 1.0,
+      "alpha": 0.05,
+      "eb_deterministic_remainder": 0.0011984278998731078,
+      "full_u_hoeffding_radius": 0.0022805534604633223
+    },
+    {
+      "n": 32000,
+      "categories": 10,
+      "p_min": 0.1,
+      "alpha": 0.05,
+      "eb_deterministic_remainder": 0.03664683566784343,
+      "full_u_hoeffding_radius": 0.03648885536741316
+    },
+    {
+      "n": 100000,
+      "categories": 1,
+      "p_min": 1.0,
+      "alpha": 0.05,
+      "eb_deterministic_remainder": 0.00038348597676150136,
+      "full_u_hoeffding_radius": 0.0012900758534016496
+    },
+    {
+      "n": 100000,
+      "categories": 10,
+      "p_min": 0.1,
+      "alpha": 0.05,
+      "eb_deterministic_remainder": 0.011726647527151654,
+      "full_u_hoeffding_radius": 0.020641213654426397
+    }
+  ],
+  "timings": [],
+  "limits": "Arithmetic and exact finite-support validation; not a proof by Monte Carlo, not validation of real-panel IID sampling, and not an untouched-task power result."
+}

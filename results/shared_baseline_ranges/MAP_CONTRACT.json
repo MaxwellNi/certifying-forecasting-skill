@@ -1,0 +1,10 @@
+{
+  "maps_left": ["candidate_forecast", "persistence_baseline"],
+  "maps_right": ["observed_outcome", "persistence_baseline"],
+  "C": [[1, 0], [-1, 0]],
+  "D": [[1, 0], [-1, 0]],
+  "common_baseline_is_same_map": true,
+  "forecast_equals_baseline": ["persistence"],
+  "identity_basis": "The released trajectory_forecast/prepare.py saves baseline=raw[k][:,0] and names prediction column 0 persistence. These are the same map by construction, including the common nonnegative clipping operation.",
+  "scope": "Structural identities from the released map definitions; no identity is inferred from equal fitted values or from an observed range. The zero-width rule applies only to an explicitly declared identical map."
+}

@@ -1,0 +1,13 @@
+test_alternate_allocation_variance_and_cli (test_example.AggregateFamilyExampleTests.test_alternate_allocation_variance_and_cli) ... ok
+test_complete_family_by_and_repeat_ids (test_example.AggregateFamilyExampleTests.test_complete_family_by_and_repeat_ids) ... ok
+test_exactness_declaration_required_and_not_provenance_verification (test_example.AggregateFamilyExampleTests.test_exactness_declaration_required_and_not_provenance_verification) ... ok
+test_full_u_matches_brute_ordered_triples_and_cost_counts_leftovers (test_example.AggregateFamilyExampleTests.test_full_u_matches_brute_ordered_triples_and_cost_counts_leftovers) ... ok
+test_large_integer_rank_shift_and_extreme_decimal_parse (test_example.AggregateFamilyExampleTests.test_large_integer_rank_shift_and_extreme_decimal_parse) ... ok
+test_missing_cell_and_malformed_pair (test_example.AggregateFamilyExampleTests.test_missing_cell_and_malformed_pair) ... ok
+test_reference_labels_do_not_define_validation_strata (test_example.AggregateFamilyExampleTests.test_reference_labels_do_not_define_validation_strata) ... ok
+test_zero_mass_categories_must_be_unobserved (test_example.AggregateFamilyExampleTests.test_zero_mass_categories_must_be_unobserved) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.770s
+
+OK

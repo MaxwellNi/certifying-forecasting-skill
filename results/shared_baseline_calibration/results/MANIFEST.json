@@ -1,0 +1,19 @@
+{
+  "status": "Prespecified finite-law implementation/calibration study; not independent application validation.",
+  "protocol_sha256": "f2415d41fe46d72dcdf1ddd0b8d1f5ea64a743aa4be289396b353d87cb37a727",
+  "source_sha256": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+  "python": "3.12.11",
+  "numpy": "1.26.4",
+  "seconds": 9.450381755828857,
+  "law_budget_cells": 12,
+  "independent_replications": 3600,
+  "raw_draw_positions": 27648000,
+  "candidate_method_rule_rows": 86400,
+  "family_rows": 21600,
+  "files": {
+    "summary.csv": "08154722a283ba90881524c781b19979656e7d9ee62b458babb1d6e44a87c8bd",
+    "family_replications.csv": "b7a12a9cc241fb85f5c7965d7e9da31200d41ffae6f1941f590f8cffeda95301",
+    "replications.csv": "588d889539381bf9590cb8fc9afdd69bcaf7d3981adb7e1fc6f616b7b257cdd1"
+  },
+  "zero_of_300_two_sided_95pct_upper": 0.012220974694293552
+}

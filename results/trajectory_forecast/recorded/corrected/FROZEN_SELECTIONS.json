@@ -1,0 +1,25 @@
+{
+  "candidates": {
+    "persistence": "persistence",
+    "ungated": "boosting_31",
+    "corrected": "persistence",
+    "full_u": "boosting_31"
+  },
+  "candidate_indices": {
+    "persistence": 0,
+    "ungated": 4,
+    "corrected": 0,
+    "full_u": 4
+  },
+  "selection_gates_sha256": "6908d6900eaa18d1a0531a8c1561b096f0764043ef8a9d3ce73d6d1614563e77",
+  "frozen_before_confirmation_losses": true,
+  "freeze_unix": 1789354810.8216376,
+  "family_size": 8,
+  "family_fwer": 0.05,
+  "trajectory_draws_per_method_per_candidate": 73728,
+  "distinct_selection_archive_records": 342,
+  "input_coordinate_reads_per_draw": 17,
+  "distinct_extra_outcome_acquisitions": 0,
+  "primary_loss": "Unclipped raw-unit MSE; all forecasts clipped below zero before selection.",
+  "rule_scope": "Positive fitted-rank increment in conditional archive, not a future-MSE guarantee."
+}

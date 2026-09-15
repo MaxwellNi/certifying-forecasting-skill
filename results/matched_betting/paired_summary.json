@@ -1,0 +1,52 @@
+{
+  "analysis_scope": "Additional summary of previously inspected archived outcomes; no new experiment and no claim that this paired interval was prespecified for the matched comparison.",
+  "setting": {
+    "design": "eight_rare",
+    "training_rows": 8192,
+    "validation_pairs": 8192,
+    "groups": 100,
+    "peers": 64,
+    "total_observations": 30976
+  },
+  "signal": 0.25,
+  "nominal_level": 0.05,
+  "replications": 300,
+  "first_method": "signed_variance",
+  "second_method": "independent_betting",
+  "first_rejections": 130,
+  "second_rejections": 296,
+  "first_only": 0,
+  "second_only": 166,
+  "both": 130,
+  "neither": 4,
+  "difference": 0.5533333333333333,
+  "paired_95_interval": [
+    0.4724984043621736,
+    0.6183211578769255
+  ],
+  "interval_method": "Two two-sided 97.5% Clopper-Pearson intervals for discordant probabilities; subtract endpoints. The union bound gives at least95% pointwise coverage.",
+  "null_same_setting_signal_zero": {
+    "signed_variance": {
+      "rejections": 0,
+      "replications": 300,
+      "pointwise_95_interval": [
+        0.0,
+        0.012220974694293552
+      ]
+    },
+    "independent_betting": {
+      "rejections": 0,
+      "replications": 300,
+      "pointwise_95_interval": [
+        0.0,
+        0.012220974694293552
+      ]
+    }
+  },
+  "interpretation": "Pointwise fixed-setting comparison, without simultaneous-grid coverage or a claim of general superiority. Equal nominal levels and observed zero null rejections do not establish equal actual error rates.",
+  "source_sha256": {
+    "paired_summary.py": "593062a65ddf3485d447f569dd8aeca5f3b9a27d8b34508e9c5c2235822fd9c1",
+    "recorded/replications.csv.gz": "30b71e3e4c98cc0cf728a6f03bba9f7025c43246a7a9ea673af0d347d646cf22",
+    "recorded/protocol.json": "038e07f871e10ed5287a38cb40d60714f4e8f423015142d02a3d1e1ac810729b"
+  }
+}

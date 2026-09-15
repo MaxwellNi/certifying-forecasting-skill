@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "design": "calendar_peer_split",
+      "raw_arrays": 512,
+      "exact_mean": "-1/8",
+      "population_coefficient": "-1",
+      "overlap_coefficient": "-1"
+    },
+    {
+      "design": "source_aligned_peer_split",
+      "raw_arrays": 512,
+      "exact_mean": "-1/16",
+      "population_coefficient": "-1",
+      "overlap_coefficient": "0"
+    },
+    {
+      "design": "sum_positive_interaction",
+      "raw_arrays": 32768,
+      "exact_mean": "3/128",
+      "population_coefficient": "0",
+      "overlap_coefficient": "1/2"
+    },
+    {
+      "design": "sum_negative_interaction",
+      "raw_arrays": 32768,
+      "exact_mean": "-3/128",
+      "population_coefficient": "0",
+      "overlap_coefficient": "-1/2"
+    },
+    {
+      "design": "sum_zero_interaction",
+      "raw_arrays": 32768,
+      "exact_mean": "0",
+      "population_coefficient": "0",
+      "overlap_coefficient": "0"
+    }
+  ],
+  "raw_arrays": 99328,
+  "integer_order_check": "All rows repeated after the exact affine map 2**54 + 7*y",
+  "sampling": "Exhaustive Bernoulli(1/2) raw source panels, including ties; no Monte Carlo estimation."
+}

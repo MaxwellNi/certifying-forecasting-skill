@@ -1,0 +1,149 @@
+{
+  "computed_at_utc": "2026-09-15T13:06:03.729414+00:00",
+  "source_sha256": "29379d6f25596cbf4fee3cfea0934d1c3c2b0c9e006dd3ae2581c8a6fb51daad",
+  "oracle": {
+    "status": "PASS",
+    "law": "biased_zero_rank_contrast",
+    "definition": "B uniform on {0,1,2,3}; h=1{B=3}; Y=1{B>=2}",
+    "weighted_triple_cases": 256,
+    "nonidentity_zero_target_has_positive_interaction": true,
+    "targets": [
+      {
+        "candidate": "baseline_identity",
+        "theta_exact": "0",
+        "shared_exact": "0",
+        "interaction_exact": "0",
+        "null": true,
+        "left_rank_contrast": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "right_rank_contrast": [
+          "1/8",
+          "-1/8",
+          "1/8",
+          "-1/8"
+        ],
+        "kernel_minima": [
+          "0",
+          "0",
+          "0"
+        ],
+        "kernel_maxima": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "candidate": "candidate",
+        "theta_exact": "0",
+        "shared_exact": "1/32",
+        "interaction_exact": "1/32",
+        "null": true,
+        "left_rank_contrast": [
+          "1/4",
+          "0",
+          "-1/4",
+          "0"
+        ],
+        "right_rank_contrast": [
+          "1/8",
+          "-1/8",
+          "1/8",
+          "-1/8"
+        ],
+        "kernel_minima": [
+          "0",
+          "0",
+          "-1/24"
+        ],
+        "kernel_maxima": [
+          "1/4",
+          "1/4",
+          "1/12"
+        ]
+      },
+      {
+        "candidate": "reverse_candidate",
+        "theta_exact": "1/32",
+        "shared_exact": "3/32",
+        "interaction_exact": "1/16",
+        "null": false,
+        "left_rank_contrast": [
+          "1/2",
+          "1/4",
+          "0",
+          "-3/4"
+        ],
+        "right_rank_contrast": [
+          "1/8",
+          "-1/8",
+          "1/8",
+          "-1/8"
+        ],
+        "kernel_minima": [
+          "0",
+          "-1/8",
+          "0"
+        ],
+        "kernel_maxima": [
+          "1/2",
+          "3/8",
+          "1/6"
+        ]
+      },
+      {
+        "candidate": "constant",
+        "theta_exact": "1/64",
+        "shared_exact": "1/16",
+        "interaction_exact": "3/64",
+        "null": false,
+        "left_rank_contrast": [
+          "3/8",
+          "1/8",
+          "-1/8",
+          "-3/8"
+        ],
+        "right_rank_contrast": [
+          "1/8",
+          "-1/8",
+          "1/8",
+          "-1/8"
+        ],
+        "kernel_minima": [
+          "0",
+          "0",
+          "0"
+        ],
+        "kernel_maxima": [
+          "1/4",
+          "1/4",
+          "1/12"
+        ]
+      }
+    ],
+    "candidate_shared_by_ordered_pair": [
+      "0",
+      "1/4",
+      "0",
+      "0",
+      "1/4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "analysis_scope": "Rank-contrast null, not a conditional-independence test; all maps here are functions of B."
+  },
+  "simulation_results_exist": false
+}

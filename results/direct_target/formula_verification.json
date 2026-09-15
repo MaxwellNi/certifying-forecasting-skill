@@ -1,0 +1,117 @@
+{
+  "scope": "synthetic finite-sum and inference-formula verification; no new task outcomes or power comparison",
+  "seed": 2026091308,
+  "brute_force_cases": 85,
+  "max_absolute_error": 1.1102230246251565e-16,
+  "zero_cases": 12,
+  "subset_symmetrization_checks": 22,
+  "permutation_checks": 22,
+  "population_expectation_checks": [
+    {
+      "target": "167/3500",
+      "exact_u_expectation": "167/3500",
+      "floating_expectation_error": 6.938893903907228e-18,
+      "samples_enumerated": 256
+    },
+    {
+      "target": "-157/3500",
+      "exact_u_expectation": "-157/3500",
+      "floating_expectation_error": 2.0816681711721685e-17,
+      "samples_enumerated": 256
+    },
+    {
+      "target": "0",
+      "exact_u_expectation": "0",
+      "floating_expectation_error": 4.824699667560495e-18,
+      "samples_enumerated": 256
+    }
+  ],
+  "triple_range_checks": 729,
+  "disjoint_pair_product_identity_checks": 200,
+  "symmetrized_kernel_range_checks": 200,
+  "bound_formula_checks": [
+    {
+      "alpha": 0.05,
+      "full_u_radius": 1.0320606827213201,
+      "block_empirical_bernstein_radius": 2.7218485522589377
+    },
+    {
+      "alpha": 0.01,
+      "full_u_radius": 1.279606909916822,
+      "block_empirical_bernstein_radius": 3.868583819850129
+    },
+    {
+      "alpha": 0.0002299605781865966,
+      "full_u_radius": 1.725891992286404,
+      "block_empirical_bernstein_radius": 6.54008425704664
+    },
+    {
+      "alpha": 1e-320,
+      "full_u_radius": 16.185889502386253,
+      "block_empirical_bernstein_radius": 512.315766567193
+    }
+  ],
+  "invalid_input_checks": 10,
+  "timings": [
+    {
+      "n": 128,
+      "seconds": [
+        0.0042450688779354095,
+        0.0042546652257442474,
+        0.00420968234539032
+      ],
+      "median_seconds": 0.0042450688779354095
+    },
+    {
+      "n": 256,
+      "seconds": [
+        0.009406212717294693,
+        0.009377114474773407,
+        0.009341910481452942
+      ],
+      "median_seconds": 0.009377114474773407
+    },
+    {
+      "n": 512,
+      "seconds": [
+        0.021717548370361328,
+        0.021775607019662857,
+        0.021752655506134033
+      ],
+      "median_seconds": 0.021752655506134033
+    },
+    {
+      "n": 1024,
+      "seconds": [
+        0.05352006107568741,
+        0.0543275848031044,
+        0.053623348474502563
+      ],
+      "median_seconds": 0.053623348474502563
+    },
+    {
+      "n": 2048,
+      "seconds": [
+        0.1495392620563507,
+        0.1493619829416275,
+        0.14955926686525345
+      ],
+      "median_seconds": 0.1495392620563507
+    },
+    {
+      "n": 4096,
+      "seconds": [
+        0.4809451885521412,
+        0.47870295494794846,
+        0.48004670441150665
+      ],
+      "median_seconds": 0.48004670441150665
+    }
+  ],
+  "environment": {
+    "python": "3.12.11",
+    "numpy": "1.26.4",
+    "platform": "Linux-5.15.0-156-generic-x86_64-with-glibc2.35"
+  },
+  "passed": true
+}

@@ -1,0 +1,7 @@
+candidate,failed_fit,weight,raw_candidate_loss,augmentation_loss,gain_vs_baseline,exactly_equal_to_baseline_array,retained_by
+rich_ridge,False,1.0,0.020573855642551923,0.020573855642551923,-0.00042101820478006357,False,"[""stratified_hybrid"", ""stratified_profiled_betting"", ""aggregate_reference_betting"", ""pooled_reference_betting""]"
+rich_hgb,False,0.45,0.02272849460553753,0.020120978334897587,3.185910287427291e-05,False,"[""stratified_hybrid"", ""stratified_profiled_betting"", ""aggregate_reference_betting"", ""pooled_reference_betting"", ""direct_loss""]"
+rich_extra_trees,False,0.7,0.02262869856765751,0.021366445453312614,-0.0012136080155407548,False,"[""stratified_hybrid"", ""stratified_profiled_betting"", ""aggregate_reference_betting"", ""pooled_reference_betting""]"
+persistence,False,0.0,0.03571999308941689,0.02015283743777186,0.0,True,"[""stratified_hybrid"", ""stratified_profiled_betting"", ""aggregate_reference_betting"", ""pooled_reference_betting""]"
+category_copy,False,0.05,0.13778384417566084,0.021292728713076806,-0.0011398912753049462,False,[]
+hash_noise,False,0.0,0.1814273530709002,0.02015283743777186,0.0,True,[]

@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "outward_reference_cases": 42,
+  "reference_precision": 110,
+  "max_log_e_gap_upper": 8.193000000000001e-09,
+  "null_e_expectation": 0.9999999999999999,
+  "null_rejection_probabilities": {
+    "0.01": 0.0,
+    "0.05": 0.0009765625,
+    "0.2": 0.0009765625,
+    "0.5": 0.0107421875
+  },
+  "single_category_profiled_p": 1.2666257353226629e-08,
+  "single_category_finite_support_p": 1.2666257353226629e-08,
+  "five_hundred_scalar_calls_seconds": 0.4229460246860981,
+  "fractions": 64,
+  "additional_data_rows": 0
+}

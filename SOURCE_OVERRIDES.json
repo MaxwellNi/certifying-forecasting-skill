@@ -1,0 +1,158 @@
+{
+  "format": "explicit-source-replacements-1",
+  "scope": "Current numerical implementations are distinct from the historical source versions recorded by completed studies. Original protocols, output hashes and execution receipts are preserved. This local provenance link does not authenticate historical execution externally.",
+  "baseline_release_archive_sha256": "76256bd0663dbc216d2d6a2eaef412b600332636df0eda15e2b12f88fdce3426",
+  "files": {
+    "results/aggregate_bias/aggregate_bias_bound.py": {
+      "historical_sha256": "84a246b716f5bea9a0e6a06e1e7f541d300ac49f47da304ee6ed6d3828d053da",
+      "current_sha256": "3698d7fe9bcb0b1c358eb309e0e73095bd8bbe3a603840ce001a08a398dacdab",
+      "current_bytes": 3891,
+      "reason": "Stable logarithms at representable tiny probability levels; exact raw integer comparison order where applicable."
+    },
+    "results/forecast_confirmation/helpers/reference_certificate_efficiency.py": {
+      "historical_sha256": "62a494b4bd5b4da35e64935f4f5563d59d9957559e0e3d98d47b554850461359",
+      "current_sha256": "bbdaca92bae8c1541997ad1df9799944c478ff08e4eec5163d24029350947908",
+      "current_bytes": 8453,
+      "reason": "Stable logarithms at representable tiny probability levels; exact raw integer comparison order where applicable."
+    },
+    "results/public_archive_certificate/helpers/reference_certificate_efficiency.py": {
+      "historical_sha256": "90247801d60445a7c8a9ffdca7c571fbd972c8895ab2ebf2e90dfae85bb68c2b",
+      "current_sha256": "828529088327303d691d835959fcf1458b69ebe07b7d522dc19194103466ea9e",
+      "current_bytes": 7507,
+      "reason": "Stable logarithms at representable tiny probability levels; exact raw integer comparison order where applicable."
+    },
+    "results/target_precision/helpers/aggregate_bias_bound.py": {
+      "historical_sha256": "84a246b716f5bea9a0e6a06e1e7f541d300ac49f47da304ee6ed6d3828d053da",
+      "current_sha256": "3698d7fe9bcb0b1c358eb309e0e73095bd8bbe3a603840ce001a08a398dacdab",
+      "current_bytes": 3891,
+      "reason": "Stable logarithms at representable tiny probability levels; exact raw integer comparison order where applicable."
+    },
+    "results/target_precision/helpers/reference_certificate_efficiency.py": {
+      "historical_sha256": "62a494b4bd5b4da35e64935f4f5563d59d9957559e0e3d98d47b554850461359",
+      "current_sha256": "bbdaca92bae8c1541997ad1df9799944c478ff08e4eec5163d24029350947908",
+      "current_bytes": 8453,
+      "reason": "Stable logarithms at representable tiny probability levels; exact raw integer comparison order where applicable."
+    },
+    "scripts/analysis/reference_certificate_efficiency.py": {
+      "historical_sha256": "62a494b4bd5b4da35e64935f4f5563d59d9957559e0e3d98d47b554850461359",
+      "current_sha256": "bbdaca92bae8c1541997ad1df9799944c478ff08e4eec5163d24029350947908",
+      "current_bytes": 8453,
+      "reason": "Stable logarithms at representable tiny probability levels; exact raw integer comparison order where applicable."
+    },
+    "scripts/analysis/verify_reference_certificate_efficiency.py": {
+      "historical_sha256": "f3a5e514e8b2857cb2fbb3c2a065590cb2985c62c514336fedda1b19bde71774",
+      "current_sha256": "3eb9da712961538b7c928719c9fb45b8cefe58e5dc7700b8bd6d5773cc4bd74b",
+      "current_bytes": 16372,
+      "reason": "Masked division preserves the infinite empty-category radius without evaluating a zero denominator. All reconstructed numerical results remain unchanged.",
+      "verification_receipt": "validation/reference_verifier_replay.json",
+      "verification_sha256": "8f7d2422263359053ee47012fc679ff40d34712b66032b606ce1cf28ef647e11"
+    },
+    "examples/aggregate_reference_family.py": {
+      "historical_sha256": "6b907bee32de3247f5d0f21335a142dda5f94e39284e3c5d8dd1afd6150beda0",
+      "current_sha256": "0044fdca1c715f742f632637514183e58b52c4734ca1f9743b30d88465de541b",
+      "current_bytes": 17609,
+      "reason": "Require explicit exact category mass declaration, correct receipt counts, or render verified reference-design figures as applicable. Existing numerical evidence is preserved."
+    },
+    "examples/aggregate_reference_family/generate_demo.py": {
+      "historical_sha256": "6021d61411dcbe4e46467732c1d20780d9ad2f646c0b5beff58292735e55c8f5",
+      "current_sha256": "b17e073f368f76456218d32435d1829421859ce8d203c196340c74263b3dcb05",
+      "current_bytes": 3952,
+      "reason": "Require explicit exact category mass declaration, correct receipt counts, or render verified reference-design figures as applicable. Existing numerical evidence is preserved."
+    },
+    "examples/aggregate_reference_family/test_example.py": {
+      "historical_sha256": "5431f068bb105b3e879c0bfbe27739065e47efb403fb9bda20f76b3a3bbbfd26",
+      "current_sha256": "b77d7a134bad74d56d560c59e21a71b784e8540e4a4ea057914cb828c1e9ae77",
+      "current_bytes": 10253,
+      "reason": "Require explicit exact category mass declaration, correct receipt counts, or render verified reference-design figures as applicable. Existing numerical evidence is preserved."
+    },
+    "reproduce_artifacts.py": {
+      "historical_sha256": "9d453e819b936ec729a08aafc4cfb2e498ca18c02d80e2b9bb69567d6e7bbf5a",
+      "current_sha256": "5148f7d48497e613bb6f128b640c0539b09ef0578f317024ff1e80ed9ac343ce",
+      "current_bytes": 35175,
+      "reason": "Add deterministic replay and independent result recount for the original finite-law common-baseline calibration and its separately frozen biased-null addendum. Preserve earlier numeric results and all frozen protocols."
+    },
+    "scripts/figures/make_reference_design.py": {
+      "historical_sha256": "b8c444931eff557718265ecb122b8ef9e001f5769d4b62e3ffe67e080ba0b408",
+      "current_sha256": "0c124a50c5ca3be9f5527fb9cbbf311fedd32759f4f9dbaf1b2916fe56a61367",
+      "current_bytes": 4826,
+      "reason": "Expand the forecast and outcome contrast labels using the manuscript fonts; mathematical content and diagram connections are preserved."
+    },
+    "scripts/figures/make_ieee_figures.py": {
+      "historical_sha256": "dfc9042c8e3d4337d981442af72118695b3add42d3302b12efad61bbb8191812",
+      "current_sha256": "b4ada4b73e9b3225bfa969049d3931ef1b7802f5528a3480bfbfd5431e730e52",
+      "current_bytes": 17368,
+      "reason": "Round the displayed score annotation to approximately 0.0137 while preserving all numerical coordinates and results."
+    },
+    "results/pooled_bias/independent_math_check.json": {
+      "historical_sha256": "761b88f3702dd22d9ed7967b447efe6320a22ed1b33e6ef8e4c0b5e7bdebdb4b",
+      "current_sha256": "a0ecb865a3d8758dc5b37de5dc14722c99d82ba0f39d0c39cba965bf61ccb174",
+      "current_bytes": 28358,
+      "reason": "Clarify the scope sentence for a supplied-derivation check. All other JSON fields, numerical findings and original source identities are unchanged. Earlier replay receipts retain their original input hashes."
+    }
+  },
+  "regression_check": {
+    "test_file": "tests/test_reference_boundary_precision.py",
+    "test_sha256": "3c65b6e7cc5738dbf5fbccf62c1acf43c1a2900ebc2a4145f012fff14ba52337",
+    "test_methods": 4,
+    "passed": true,
+    "command": "PYTHONDONTWRITEBYTECODE=1 python tests/test_reference_boundary_precision.py",
+    "coverage": "Tiny and adjacent probability levels, aggregate zero/missing categories, strict range-bound decision comparisons, mixed Python and NumPy integer precision; not a global directed-rounding proof."
+  },
+  "additions": {
+    "scripts/figures/make_trajectory_comparison.py": {
+      "current_sha256": "392d18a3c00ea4301dc81731549d1bb4f15cb30d3e88946a10a833a285213a0b",
+      "current_bytes": 11734,
+      "reason": "Require explicit exact category mass declaration, correct receipt counts, or render verified reference-design figures as applicable. Existing numerical evidence is preserved."
+    },
+    "results/shared_baseline_ranges/exact_checks.py": {
+      "current_sha256": "0d49bd1b6d7782166c95167dd52ccd270453f9fa3e23d6047e99322a04254875",
+      "current_bytes": 4215,
+      "reason": "Shared-baseline support bounds, exact checks, matched replay or figure reproduction."
+    },
+    "results/shared_baseline_ranges/test_study.py": {
+      "current_sha256": "06e02faab1d20f9699c0d03c0677d11956331598062e07f95497a2e63d394d73",
+      "current_bytes": 5123,
+      "reason": "Shared-baseline support bounds, exact checks, matched replay or figure reproduction."
+    },
+    "results/shared_baseline_ranges/reproduce.py": {
+      "current_sha256": "d12b0b7d3ce46d4befa3bbd91b5f4e8cb19bb655f9b457ec937381f3d715a459",
+      "current_bytes": 16193,
+      "reason": "Shared-baseline support bounds, exact checks, matched replay or figure reproduction."
+    },
+    "scripts/figures/make_general_width_comparison.py": {
+      "current_sha256": "44915bce2dba0cbcf9328621665a6949046f022ed0aac910ca4e89652a2fd28c",
+      "current_bytes": 11790,
+      "reason": "Shared-baseline support bounds, exact checks, matched replay or figure reproduction."
+    },
+    "results/shared_baseline_calibration/study.py": {
+      "current_sha256": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+      "current_bytes": 14284,
+      "reason": "Prespecified finite-law verification of final common-baseline bounds; frozen simulation source, exact targets and independent decision recount."
+    },
+    "results/shared_baseline_calibration/test_study.py": {
+      "current_sha256": "ec87a5cc0c57bf1e1a21c19922b5aee26fbd745c0dfe069e6a102458db971cea",
+      "current_bytes": 7611,
+      "reason": "Prespecified finite-law verification of final common-baseline bounds; frozen simulation source, exact targets and independent decision recount."
+    },
+    "results/shared_baseline_calibration/verify_results.py": {
+      "current_sha256": "a47064144bb0c1b6bd28a31e4e76dc0ea0adc346180f7da103ac5844eff4a218",
+      "current_bytes": 3903,
+      "reason": "Prespecified finite-law verification of final common-baseline bounds; frozen simulation source, exact targets and independent decision recount."
+    },
+    "results/shared_baseline_calibration/biased_null/study.py": {
+      "current_sha256": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+      "current_bytes": 14284,
+      "reason": "Separately frozen biased-null law, reusing byte-identical final methods with an independent exact oracle and all-row verification."
+    },
+    "results/shared_baseline_calibration/biased_null/experiment.py": {
+      "current_sha256": "c74381d62b9b4654f1687429936a320cf81652083f0098e79670e6179533a8cd",
+      "current_bytes": 5687,
+      "reason": "Separately frozen biased-null law, reusing byte-identical final methods with an independent exact oracle and all-row verification."
+    },
+    "results/shared_baseline_calibration/biased_null/independent_verify.py": {
+      "current_sha256": "29379d6f25596cbf4fee3cfea0934d1c3c2b0c9e006dd3ae2581c8a6fb51daad",
+      "current_bytes": 11410,
+      "reason": "Separately frozen biased-null law, reusing byte-identical final methods with an independent exact oracle and all-row verification."
+    }
+  }
+}
