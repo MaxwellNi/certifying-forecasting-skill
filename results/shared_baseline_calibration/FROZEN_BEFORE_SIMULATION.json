@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-09-15T12:46:29.924508+00:00",
+  "simulation_results_exist": false,
+  "tests_before_simulation": "8/8 passed; exact finite-law targets, literal triple and released kernel parity checked before any Monte Carlo outcomes",
+  "inputs": {
+    "PROTOCOL.json": "f2415d41fe46d72dcdf1ddd0b8d1f5ea64a743aa4be289396b353d87cb37a727",
+    "study.py": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+    "test_study.py": "ec87a5cc0c57bf1e1a21c19922b5aee26fbd745c0dfe069e6a102458db971cea"
+  },
+  "scope": "No study outcome, power result or coverage count has been generated or inspected at this freeze."
+}

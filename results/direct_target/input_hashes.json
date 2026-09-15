@@ -1,0 +1,31 @@
+{
+  "scope": "Portable code, saved direct-target results and shared source archives; no new experimental freeze or confirmation",
+  "sha256": {
+    "README.md": "822e15bfb3ad9515e8914b7bb399764a0a1b9690cd5e209f1fe2e1807e25d2a6",
+    "THEORY.md": "4b5cb1aef0c42a7ff007f31c9567a35f608c907b95bb4404e641ca4a1f3dc05e",
+    "archive/all_candidates.csv": "1e41b853d446a72a03807501552afec85713103554cb38f10ac397cafb9570bd",
+    "archive/execution.json": "5b73eed6f17d5535e9dc711801857f5da753329e495993116fc3041880ec0cd6",
+    "archive/receipt.json": "f45884bc3497097afd1be4b4356cd967f7cd809a52de89cc5f8ec41d884d9ae0",
+    "archive/summary.csv": "c77ad18b2f0ccdc6dc1a7d34fabce0bfd01cbf7d616a425f37674096c40a45cf",
+    "archive_verification.json": "ba1ebd2687adc5f90ca23da79ef535151ccf924afd7aaf0e64c2c16b425f4cdc",
+    "compare_archive.py": "1c9df2921b9479628ff85047c18cd654d849aa0c8128325694291817d3bcf3e0",
+    "direct_target.py": "c2b29598fa0a9a28df0a675c625b8f973ea7c63e25bb6c7a769c7b72da2025fc",
+    "formula_verification.json": "4f9ee4e9c788f8fe673322e5087696a09bd78760305b01493c5cb75c865d12f4",
+    "protocol.json": "fbbc6e37259877d2b197031b061ae6a9823811568fa7dcb014bb9e72b71787fa",
+    "reproduce.py": "fb6ad606620ca8c8cd17c90143364711cb605a80cc42ba9ec0e563559f038e7a",
+    "verify.py": "6fac88b28c802f7985fad770e0943314a17809a9b9d300a0b7ee7a94c8a55281",
+    "verify_archive.py": "21717760271c5af5f6938af7dfd44888848586d50caef24b175c522dcb5ae105",
+    "../forecast_confirmation/appliances/forecast_archive.npz": "ba16db40e3eeb5121e323c361acf0d69494658809384053ea9ca2d6b891b46bc",
+    "../forecast_confirmation/appliances/sampling_indices.npz": "8ca68fa1fa7d4570e4e1a65f64f9e0b190682c8542892dc1ab439a8cd62974ee",
+    "../forecast_confirmation/confirmation_dependent_bounds.csv": "14d60f0ee0a0762d4f6ac0d888a30fb86dec09bb907162dfeb0051e3f142a45a",
+    "../forecast_confirmation/confirmation_results.csv": "d387b66fd88ae060fc4e74634cdda5d16d6d3d20f9abb3220ff060246854d73c",
+    "../forecast_confirmation/experiment.py": "bf6dd178d8b644176d2943458644bd44f959e7c364c5ca6aeb0d5df4c971a682",
+    "../forecast_confirmation/frozen_selections.csv": "eb7859cc5510d352a6a383e432457276edd428b9505e3483dcdb9e7469e0da11",
+    "../forecast_confirmation/gates.py": "bb6c00aa83d8964d6b0272ee831d1401a020d79d79e51f96cbca9ee6ef5a8f9e",
+    "../forecast_confirmation/metro/forecast_archive.npz": "e1029d00ddf3f94000b845760a064aa2c3cab1bdf04a81f9b7a0b6eb37063b1d",
+    "../forecast_confirmation/metro/sampling_indices.npz": "9b34209acbf3e17afba99934710f137cb92a796047d2dd8264210ea8e2fbea0b",
+    "../forecast_confirmation/protocol.json": "168008f4d18de3c6fead433f5c0d1ffb80bd469cabc7921268ad75a082354745",
+    "../forecast_confirmation/selection_certificates.csv": "2afc8df65b89a6054d8f886e71ef683af5b79692162848f94b7022c7c0c0f348"
+  },
+  "portable_execution_metadata": "Library paths use basenames; versions, architecture, thread counts and all scientific records are preserved."
+}

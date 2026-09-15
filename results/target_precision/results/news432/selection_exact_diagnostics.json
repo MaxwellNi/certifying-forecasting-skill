@@ -1,0 +1,19 @@
+{
+  "theta": {
+    "rich_ridge": 0.006006251237608876,
+    "rich_hgb": 0.007297973764879257,
+    "rich_extra_trees": 0.005775937866586663,
+    "persistence": 0.005281154143310767,
+    "category_copy": 3.723852460446619e-35,
+    "hash_noise": 0.0022697699733003735
+  },
+  "category_counts": [
+    284,
+    351,
+    337,
+    352
+  ],
+  "labels_in_exact_rank_census": 1324,
+  "selectors_sha256": "a411204147ccb6cbfdabbd6276c264af6f242595293a9eeb65602c11e7a61350",
+  "normalization": "midrank=(average_rank-.5)/n-.5; covariance residualized by exact category means"
+}

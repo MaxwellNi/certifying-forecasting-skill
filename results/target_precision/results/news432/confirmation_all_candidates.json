@@ -1,0 +1,71 @@
+[
+  {
+    "candidate": "rich_ridge",
+    "failed_fit": false,
+    "raw_candidate_loss": 0.020573855642551923,
+    "augmentation_loss": 0.02057385564255193,
+    "gain_vs_baseline": -0.00042101820478007007,
+    "retained_by": [
+      "stratified_hybrid",
+      "stratified_profiled_betting",
+      "aggregate_reference_betting",
+      "pooled_reference_betting"
+    ]
+  },
+  {
+    "candidate": "rich_hgb",
+    "failed_fit": false,
+    "raw_candidate_loss": 0.02272849460553753,
+    "augmentation_loss": 0.020120978334897635,
+    "gain_vs_baseline": 3.1859102874225165e-05,
+    "retained_by": [
+      "stratified_hybrid",
+      "stratified_profiled_betting",
+      "aggregate_reference_betting",
+      "pooled_reference_betting",
+      "direct_loss"
+    ]
+  },
+  {
+    "candidate": "rich_extra_trees",
+    "failed_fit": false,
+    "raw_candidate_loss": 0.02262869856765751,
+    "augmentation_loss": 0.021366445453312562,
+    "gain_vs_baseline": -0.001213608015540702,
+    "retained_by": [
+      "stratified_hybrid",
+      "stratified_profiled_betting",
+      "aggregate_reference_betting",
+      "pooled_reference_betting"
+    ]
+  },
+  {
+    "candidate": "persistence",
+    "failed_fit": false,
+    "raw_candidate_loss": 0.03571999308941689,
+    "augmentation_loss": 0.020152837437771867,
+    "gain_vs_baseline": -6.938893903907228e-18,
+    "retained_by": [
+      "stratified_hybrid",
+      "stratified_profiled_betting",
+      "aggregate_reference_betting",
+      "pooled_reference_betting"
+    ]
+  },
+  {
+    "candidate": "category_copy",
+    "failed_fit": false,
+    "raw_candidate_loss": 0.13778384417566084,
+    "augmentation_loss": 0.0212927287130768,
+    "gain_vs_baseline": -0.001139891275304939,
+    "retained_by": []
+  },
+  {
+    "candidate": "hash_noise",
+    "failed_fit": false,
+    "raw_candidate_loss": 0.1814273530709002,
+    "augmentation_loss": 0.020152837437771867,
+    "gain_vs_baseline": -6.938893903907228e-18,
+    "retained_by": []
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "method": "full_u_joint",
+    "candidate": "rich_ridge",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "full_u_joint",
+    "candidate": "rich_hgb",
+    "retained": false,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": true,
+    "retained_harmful": false
+  },
+  {
+    "method": "full_u_joint",
+    "candidate": "rich_extra_trees",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "full_u_joint",
+    "candidate": "persistence",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "full_u_joint",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "full_u_joint",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hybrid",
+    "candidate": "rich_ridge",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "stratified_hybrid",
+    "candidate": "rich_hgb",
+    "retained": true,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hybrid",
+    "candidate": "rich_extra_trees",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "stratified_hybrid",
+    "candidate": "persistence",
+    "retained": true,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "stratified_hybrid",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hybrid",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hoeffding",
+    "candidate": "rich_ridge",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hoeffding",
+    "candidate": "rich_hgb",
+    "retained": false,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": true,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hoeffding",
+    "candidate": "rich_extra_trees",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hoeffding",
+    "candidate": "persistence",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hoeffding",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_hoeffding",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_profiled_betting",
+    "candidate": "rich_ridge",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "stratified_profiled_betting",
+    "candidate": "rich_hgb",
+    "retained": true,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_profiled_betting",
+    "candidate": "rich_extra_trees",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "stratified_profiled_betting",
+    "candidate": "persistence",
+    "retained": true,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "stratified_profiled_betting",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "stratified_profiled_betting",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_u",
+    "candidate": "rich_ridge",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_u",
+    "candidate": "rich_hgb",
+    "retained": false,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": true,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_u",
+    "candidate": "rich_extra_trees",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_u",
+    "candidate": "persistence",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_u",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_u",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_betting",
+    "candidate": "rich_ridge",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "aggregate_reference_betting",
+    "candidate": "rich_hgb",
+    "retained": true,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_betting",
+    "candidate": "rich_extra_trees",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "aggregate_reference_betting",
+    "candidate": "persistence",
+    "retained": true,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "aggregate_reference_betting",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "aggregate_reference_betting",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_u",
+    "candidate": "rich_ridge",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_u",
+    "candidate": "rich_hgb",
+    "retained": false,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": true,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_u",
+    "candidate": "rich_extra_trees",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_u",
+    "candidate": "persistence",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_u",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_u",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_betting",
+    "candidate": "rich_ridge",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "pooled_reference_betting",
+    "candidate": "rich_hgb",
+    "retained": true,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_betting",
+    "candidate": "rich_extra_trees",
+    "retained": true,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "pooled_reference_betting",
+    "candidate": "persistence",
+    "retained": true,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": true
+  },
+  {
+    "method": "pooled_reference_betting",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "pooled_reference_betting",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "direct_loss",
+    "candidate": "rich_ridge",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.00042101820478007007,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "direct_loss",
+    "candidate": "rich_hgb",
+    "retained": true,
+    "confirmation_augmentation_gain": 3.1859102874225165e-05,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "direct_loss",
+    "candidate": "rich_extra_trees",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001213608015540702,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "direct_loss",
+    "candidate": "persistence",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "direct_loss",
+    "candidate": "category_copy",
+    "retained": false,
+    "confirmation_augmentation_gain": -0.001139891275304939,
+    "excluded_useful": false,
+    "retained_harmful": false
+  },
+  {
+    "method": "direct_loss",
+    "candidate": "hash_noise",
+    "retained": false,
+    "confirmation_augmentation_gain": -6.938893903907228e-18,
+    "excluded_useful": false,
+    "retained_harmful": false
+  }
+]

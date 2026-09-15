@@ -1,0 +1,7 @@
+method,charged_trajectory_draws,used_trajectory_draws,discarded_trajectory_draws,unique_archive_records_accessed,unique_archive_records_used,unique_records_only_discarded,distinct_original_hour_rows_used,new_labels_acquired,evaluation_blocks,validation_triples,independent_triples,cost_scope
+shared_original,73728,57344,16384,342,342,0,2069,0,16384,8192,0,Trajectory draw roles; repeated archive access. Stored maps already fitted.
+shared_pruned_same_counts,57344,57344,0,342,342,0,2069,0,16384,8192,0,Trajectory draw roles; repeated archive access. Stored maps already fitted.
+shared_pruned_allocated,73728,73728,0,342,342,0,2069,0,13086,15852,0,Trajectory draw roles; repeated archive access. Stored maps already fitted.
+direct_triple_u,73728,73728,0,342,342,0,2069,0,0,0,24576,Trajectory draw roles; repeated archive access. Stored maps already fitted.
+complete_pooled_u,73728,73728,0,342,342,0,2069,0,0,0,24576,Trajectory draw roles; repeated archive access. Stored maps already fitted.
+census,342,342,0,342,342,0,2069,0,0,0,0,"342 accessible archive records read once; exact conditional population target, no Monte Carlo inference."

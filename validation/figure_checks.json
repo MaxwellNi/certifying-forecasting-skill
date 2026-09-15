@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "reference_diagram": {
+    "known_category_masses_visible": true,
+    "standalone_pages": 1,
+    "contrast_labels_expanded": true,
+    "source_sha256": "0c124a50c5ca3be9f5527fb9cbbf311fedd32759f4f9dbaf1b2916fe56a61367",
+    "pdf_sha256": "badbc050733c1045b7ffed1dd715e7f439ef5e7bd3abeae37e381993563f2348"
+  },
+  "trajectory_comparison": {
+    "points": 56,
+    "receipt": "results/shared_baseline_figures/TRAJECTORY_FIGURE_RECEIPT.json"
+  },
+  "scope": "Current main figure rendered and inspected; source values for other plots preserved, all current display PDFs font-checked."
+}

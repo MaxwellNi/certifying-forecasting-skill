@@ -1,0 +1,13 @@
+test_budget_allocation_and_complete_comparator_access (test_study.StudyTests.test_budget_allocation_and_complete_comparator_access) ... ok
+test_complete_center_against_literal_distinct_indices_and_public_rank_sweep (test_study.StudyTests.test_complete_center_against_literal_distinct_indices_and_public_rank_sweep) ... ok
+test_declared_identity_zero_but_observed_ties_do_not_set_width_zero (test_study.StudyTests.test_declared_identity_zero_but_observed_ties_do_not_set_width_zero) ... ok
+test_exact_expectations_and_range_from_literal_role_enumeration (test_study.StudyTests.test_exact_expectations_and_range_from_literal_role_enumeration) ... ok
+test_exact_targets_against_closed_forms (test_study.StudyTests.test_exact_targets_against_closed_forms) ... ok
+test_final_radius_formulas_against_released_sharp_rule (test_study.StudyTests.test_final_radius_formulas_against_released_sharp_rule) ... ok
+test_independent_public_block_kernel_parity_with_ties (test_study.StudyTests.test_independent_public_block_kernel_parity_with_ties) ... ok
+test_monte_carlo_precision_and_null_definition (test_study.StudyTests.test_monte_carlo_precision_and_null_definition) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.333s
+
+OK

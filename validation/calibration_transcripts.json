@@ -1,0 +1,35 @@
+{
+  "scope": "Execution transcripts supplied as plain text; bytes unchanged. Original local records retained. Frozen source and numerical result manifests are unchanged.",
+  "files": [
+    {
+      "source_name": "REPLAY.log",
+      "published_path": "results/shared_baseline_calibration/REPLAY.txt",
+      "sha256": "60622d47ab0ab3d730761a4b0f2441e5f9c8094573f3e8bf8327bd7aee553e89",
+      "bytes_unchanged": true
+    },
+    {
+      "source_name": "RUN.log",
+      "published_path": "results/shared_baseline_calibration/RUN.txt",
+      "sha256": "60622d47ab0ab3d730761a4b0f2441e5f9c8094573f3e8bf8327bd7aee553e89",
+      "bytes_unchanged": true
+    },
+    {
+      "source_name": "REPLAY.log",
+      "published_path": "results/shared_baseline_calibration/biased_null/REPLAY.txt",
+      "sha256": "a156882f1df954c9542feb58165a3e1ba3aef9fad71a29df84a86ec30e74a733",
+      "bytes_unchanged": true
+    },
+    {
+      "source_name": "INDEPENDENT.log",
+      "published_path": "results/shared_baseline_calibration/biased_null/INDEPENDENT.txt",
+      "sha256": "af1c7cdb2c300a07b404c9cf28f2e65cfcecb6d59de48de5407c1ffb0e6fa410",
+      "bytes_unchanged": true
+    },
+    {
+      "source_name": "RUN.log",
+      "published_path": "results/shared_baseline_calibration/biased_null/RUN.txt",
+      "sha256": "a156882f1df954c9542feb58165a3e1ba3aef9fad71a29df84a86ec30e74a733",
+      "bytes_unchanged": true
+    }
+  ]
+}

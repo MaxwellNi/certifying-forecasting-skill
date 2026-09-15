@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-09-13T11:44:08.518145+00:00",
+  "rows": 64,
+  "candidates": 32,
+  "methods": 2,
+  "by_families_per_method": 4,
+  "by_family_size": 8,
+  "all_original_confirmation_files_unchanged": true,
+  "original_primary_cross_task_confirmation_success": "0/2, unchanged",
+  "new_confirmation_or_reselection": false,
+  "results_sha256": "1e41b853d446a72a03807501552afec85713103554cb38f10ac397cafb9570bd",
+  "summary": [
+    {
+      "method": "direct_block_empirical_bernstein",
+      "candidates": 32,
+      "retained": 0,
+      "lower_cover_count": 32,
+      "minimum_p": 0.18484194438939025,
+      "minimum_p_BY": 1.0,
+      "median_arithmetic_seconds": 0.8323486540466547
+    },
+    {
+      "method": "direct_full_u_hoeffding",
+      "candidates": 32,
+      "retained": 0,
+      "lower_cover_count": 32,
+      "minimum_p": 0.9844324494316782,
+      "minimum_p_BY": 1.0,
+      "median_arithmetic_seconds": 13.484440753236413
+    }
+  ],
+  "interpretation": "Retrospective valid but deliberately conservative raw-target inference; not a strongest-calibration or power-superiority comparison"
+}

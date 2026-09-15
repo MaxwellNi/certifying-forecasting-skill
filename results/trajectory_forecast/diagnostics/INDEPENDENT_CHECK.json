@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "selection_gate_max_absolute_error": 9.961107459710572e-17,
+  "all_9600_grid_max_absolute_error": 1.1102230246251565e-16,
+  "source_timing": {
+    "selection": {
+      "rows": 342,
+      "first_target": "2013-01-01 15:00:00",
+      "last_target": "2013-12-31 15:00:00",
+      "feature_match": true,
+      "targets_match": true,
+      "baseline_match": true
+    },
+    "confirmation": {
+      "rows": 350,
+      "first_target": "2014-01-01 15:00:00",
+      "last_target": "2014-12-31 15:00:00",
+      "feature_match": true,
+      "targets_match": true,
+      "baseline_match": true
+    }
+  },
+  "logical_features": 16,
+  "persisted_numeric_features": 15,
+  "wind_direction_in_raw_source": true,
+  "referenced_raw_hour_offsets_from_target": [
+    0,
+    -1,
+    -2,
+    -3,
+    -6,
+    -12,
+    -24
+  ],
+  "distinct_raw_hour_rows_across_selection": 2069,
+  "maximum_history_window_hours": 24,
+  "timing_assumption": "Previous-hour measurements are assumed available at issue; the source does not establish actual publication latency.",
+  "original_learning_rows": 23006,
+  "actual_new_labels_from_archive_resampling": 0,
+  "files": {
+    "results/trajectory_forecast/data/corrected/selection_forecasts.npz": "59aa49c48825514cec8a8d36c77bae8ef2771699c3af160eacc7b24038bd6816",
+    "results/trajectory_forecast/data/corrected/confirmation_forecasts.npz": "82b520b96f0d7162b9c94b13c7988cc34e019102a0b07e4c8959fcb9b9104a1e",
+    "results/trajectory_forecast/recorded/corrected/selection_indices.npz": "637a99a08beefdc324c9de0e62cb0082d3ae1f038eecf9e4f01a746a62c67a34",
+    "results/trajectory_forecast/recorded/corrected/coverage_replications.csv": "6ce49ffdfc8f77c96eaae5df1490b4f0de266f5c9ec439fb285c2d4d890600cd"
+  }
+}

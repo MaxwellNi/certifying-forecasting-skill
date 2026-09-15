@@ -1,0 +1,18 @@
+{
+  "observed_primary_success_under_stated_conditional_assumptions": false,
+  "operational_future_gain_established": false,
+  "label_acquisition_saving_established": false,
+  "independent_dataset_tasks": 1,
+  "synthetic": false,
+  "confirmation_hours": 1416,
+  "primary_method": "stratified_hybrid",
+  "primary_comparators": [
+    "stratified_profiled_betting",
+    "pooled_reference_betting",
+    "ungated"
+  ],
+  "target_clip_fraction_available": 0.0036036036036036037,
+  "formal_target": "mean E[G_t | information at settlement of the preceding publication hour]; current hour settles at its end+48 hours",
+  "caveat": "Frozen forecasts, issuance eligibility and denominator are measurable at previous-hour settlement; final targets/availability settle by current-hour end+48h. Archive timestamps do not independently establish this historical availability. This is same-period settled-hour conditional-average gain, not issuance-conditioned or unknown-future-period forecasting risk.",
+  "selectors_sha256": "a411204147ccb6cbfdabbd6276c264af6f242595293a9eeb65602c11e7a61350"
+}

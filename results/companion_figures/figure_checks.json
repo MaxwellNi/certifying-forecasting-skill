@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "generator_sha256": "6206be3e0a2db51439ab297589790412d919b9e8c37cdc9e042dbbf6abea2f77",
+  "experiments_run": 0,
+  "numeric_checks": [
+    {
+      "check": "Canonical and 41-model named comparison coordinates match original exported records exactly",
+      "canonical_visible_cells": 30,
+      "canonical_source_cells": 54,
+      "public_models": 41
+    },
+    {
+      "check": "Gaussian-reference rates, Wilson endpoints and categorical positions match original records exactly",
+      "points": 20
+    },
+    {
+      "check": "Oracle-rank rates and conditional-bank Wilson endpoints match original coordinates exactly",
+      "points": 48
+    },
+    {
+      "check": "Factorial rates, component values, counts, budgets and inputs match original records exactly",
+      "rejection_rate_points": 16,
+      "component_points": 8
+    },
+    {
+      "check": "Five smooth-bias curves independently rederived, with both axes logarithmic",
+      "points": 45,
+      "max_absolute_tolerance": 2e-14
+    },
+    {
+      "check": "Historical adaptive rates and uncertainty plus both complete heat maps reconstructed from source recount",
+      "rates": 8,
+      "heatmap_cells": 72
+    },
+    {
+      "check": "Directional paired statistics, all model labels, guard states and undefined values independently checked against 82 source rows",
+      "models": 41,
+      "undefined_pairs": 2
+    }
+  ],
+  "figures": [
+    {
+      "figure": "fig_smooth_bin_bias",
+      "pdf_sha256": "060b3b5e79a323aa7559b02ce7c1d18f8f667ce749a9d53f3ad60069e1d2ce1d",
+      "fonts": [
+        "CMMI9",
+        "CMR6",
+        "CMR9",
+        "CMSY6",
+        "NimbusRomNo9L-Regu"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        2.4
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    },
+    {
+      "figure": "fig_canonical_comparison",
+      "pdf_sha256": "52d7d40fe8e9873fa267a05888868e5b814c8141d058644e4412adc5df933a22",
+      "fonts": [
+        "CMMI9",
+        "CMR6",
+        "CMR9",
+        "NimbusRomNo9L-Regu"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        3.25
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    },
+    {
+      "figure": "fig_public_named_comparison",
+      "pdf_sha256": "283bedf43fac4f6bad4e58a2e182f70a242c22a969f202c0a56340c1f2fe4728",
+      "fonts": [
+        "CMMI9",
+        "CMR9",
+        "CMSY6",
+        "CMSY9",
+        "NimbusRomNo9L-Regu",
+        "NimbusRomNo9L-ReguItal"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        5.0
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    },
+    {
+      "figure": "fig_public_directional",
+      "pdf_sha256": "a4c34c688abddc1609ce224db84b557883885f9d457d020b572a05488b38be7f",
+      "fonts": [
+        "CMMI9",
+        "CMSY6",
+        "NimbusRomNo9L-Regu",
+        "NimbusRomNo9L-ReguItal"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        4.6
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    },
+    {
+      "figure": "fig_oracle_rank",
+      "pdf_sha256": "3eaa801353617dbf1955090af8a15e0b4ae37130ff48a9deb49825f20fb0b367",
+      "fonts": [
+        "NimbusRomNo9L-Regu"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        3.9
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    },
+    {
+      "figure": "fig_historical_sensitivity",
+      "pdf_sha256": "66c213ee26f798d7f54bbe452986b35946dfbbfb02d4c8c6e802a1725dd90621",
+      "fonts": [
+        "CMMI9",
+        "CMR9",
+        "NimbusRomNo9L-Regu"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        5.9
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    },
+    {
+      "figure": "fig_gaussian_reference",
+      "pdf_sha256": "790cbaab18d8fbec2de300e192f234698fca03f0dc8eca715f440f7d8a44bc05",
+      "fonts": [
+        "CMMI9",
+        "CMR9",
+        "NimbusRomNo9L-Regu"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        2.9
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    },
+    {
+      "figure": "fig_certificate_factorial",
+      "pdf_sha256": "62ce99924020e329697ffb908bc9fb7be5f6fb1fdeca61402b63c0042a2bfde7",
+      "fonts": [
+        "CMEX9",
+        "CMMI9",
+        "CMR6",
+        "CMR9",
+        "CMSY6",
+        "CMSY9",
+        "NimbusRomNo9L-Regu"
+      ],
+      "ordinary_pdf_point_sizes": [
+        8.9664
+      ],
+      "ordinary_tex_point_size": 9,
+      "placement_inches": [
+        6.9,
+        2.55
+      ],
+      "embedded_type1_only": true,
+      "raster_images": 0,
+      "outside_text": [],
+      "svg_glyphs_outlined": true,
+      "coordinates_and_axis_scales_exactly_unchanged": true
+    }
+  ],
+  "visual_inspection": {
+    "all_8_actual_pngs_inspected_at_dpi": 144,
+    "notes": {
+      "fig_smooth_bin_bias": "Two logarithmic panels; separated axis labels and legend. All five exact curves retained.",
+      "fig_canonical_comparison": "Five conditions over six methods, original intervals and null reference. Dense points intentionally overlap at their exact coordinates.",
+      "fig_public_named_comparison": "All 41 model rows retained in four panels, undefined results and guard symbols visible; no text overlap.",
+      "fig_public_directional": "All 41 paired rows retained, dotted normal reference, guard markers and two undefined pairs; no text overlap.",
+      "fig_oracle_rank": "Eight panels and all 48 Wilson intervals. Increased inter-panel spacing and right margin separate final 1.00 ticks.",
+      "fig_historical_sensitivity": "Eight rates with uncertainty and all 72 heat-map cells legible at 9 TeX pt; 0-to-1 shared color range retained.",
+      "fig_gaussian_reference": "Five original series over four designs, all error bars and original method offsets; legends below axes do not collide.",
+      "fig_certificate_factorial": "All 16 rejection rates and 8 component values retained. Component legend moved above its title so no legend/title or curve collision; coincident lines retain exact coordinates."
+    }
+  },
+  "display_scope": "All eight figures have natural width 6.9 inches, matching the companion text width, so ordinary labels remain 9 TeX pt at placement.",
+  "limitations": "Font and numerical checks do not certify scientific hypotheses or official publication compliance.",
+  "description": "Figure typography and source-coordinate checks. This does not rerun experiments."
+}

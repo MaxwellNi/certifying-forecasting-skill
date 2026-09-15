@@ -1,0 +1,19 @@
+{
+  "status": "Separately prespecified biased-null finite-law addendum; follows inspection of the original six-law study; not independent application validation.",
+  "protocol_sha256": "1c3c13a0b36f424684b9effa6147db9a327ec2d27af52076b2f9c3aea4ecd75a",
+  "source_sha256": "754132bc8a1b067e2f151c390af97191822df01eda23bc5f94d47348a5ca950d",
+  "python": "3.9.21",
+  "numpy": "1.26.4",
+  "seconds": 1.092569351196289,
+  "law_budget_cells": 2,
+  "independent_replications": 600,
+  "raw_draw_positions": 4608000,
+  "candidate_method_rule_rows": 14400,
+  "family_rows": 3600,
+  "files": {
+    "summary.csv": "e027c015d1d26589c3ca55e09e21cc5b7c8b7c8c7f43badf710f4c016a18f507",
+    "family_replications.csv": "f30746824e3863432217ad5b0aaf85422d5a2cfe58454ae371e7e16a81ec87c2",
+    "replications.csv": "12494cbd190ecff1c03f36c4ff54c3fd3ea66dd7a7d6bd41ad80931e9ae909c2"
+  },
+  "zero_of_300_two_sided_95pct_upper": 0.012220974694293552
+}

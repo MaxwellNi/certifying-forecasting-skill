@@ -1,0 +1,14 @@
+{
+  "generic": {
+    "M": 13086,
+    "n": 15852,
+    "draws_used": 73728,
+    "range_radius": 0.08364628101203186
+  },
+  "shared_baseline": {
+    "M": 13086,
+    "n": 15852,
+    "draws_used": 73728,
+    "range_radius": 0.0522789256325199
+  }
+}

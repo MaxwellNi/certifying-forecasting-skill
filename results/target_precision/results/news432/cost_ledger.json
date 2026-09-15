@@ -1,0 +1,41 @@
+{
+  "source": {
+    "news": 93239,
+    "social": 29928
+  },
+  "stages": {
+    "training": {
+      "eligible": 2706,
+      "available_labels": 2706,
+      "missing_TS1": 2008,
+      "missing_TS2": 930
+    },
+    "calibration": {
+      "eligible": 931,
+      "available_labels": 931,
+      "missing_TS1": 672,
+      "missing_TS2": 287
+    },
+    "selection": {
+      "eligible": 1324,
+      "available_labels": 1324,
+      "missing_TS1": 380,
+      "missing_TS2": 139
+    },
+    "confirmation": {
+      "eligible": 1110,
+      "available_labels": 1110,
+      "missing_TS1": 125,
+      "missing_TS2": 53
+    }
+  },
+  "all_archive_labels_machine_ingested": true,
+  "label_availability_census_reads": 29928,
+  "selection_loss_census_labels": 1324,
+  "post_decision_exact_rank_census_labels": 1324,
+  "shared_gate_draw_calls": 32768,
+  "fit_receipt": "fit_receipt.json",
+  "distinct_gate_labels": "see gate_sampling_receipt.json or per-method gate_decisions metadata",
+  "draw_calls_are_not_new_future_observations": true,
+  "actual_label_acquisition_saving": false
+}

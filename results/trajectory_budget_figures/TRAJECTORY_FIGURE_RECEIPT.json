@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "figure": "fig_trajectory_comparison",
+  "source": "results/trajectory_budget/results/certificate_all_eight.csv",
+  "source_sha256": "108831ca9327ba0aa9029024772dc29d779e6a72b4e0b14a57a82608035e5355",
+  "generator_sha256": "44915bce2dba0cbcf9328621665a6949046f022ed0aac910ca4e89652a2fd28c",
+  "pdf_sha256": "a2be6ecd24d46cca00ed59d9e9ba1a3e1e9e68d3e53e945d0898609973d41ce0",
+  "size_inches": [
+    7.1,
+    2.6
+  ],
+  "tex_support": {
+    "results/trajectory_budget_figures/tex/underscore.sty": "79b397698aa2d3e96a51b57137bc640029249220b3501b9c04cd49035f6db56d"
+  },
+  "ordinary_text_tex_points": 9,
+  "fonts": [
+    {
+      "name": "SYDISL+CMR9",
+      "type": "Type1",
+      "embedded": true
+    },
+    {
+      "name": "RXSEDX+NimbusRomNo9L-Regu",
+      "type": "Type1",
+      "embedded": true
+    },
+    {
+      "name": "HBIEHQ+CMSY6",
+      "type": "Type1",
+      "embedded": true
+    },
+    {
+      "name": "NBSLCY+CMR6",
+      "type": "Type1",
+      "embedded": true
+    },
+    {
+      "name": "FSFYYG+CMSY9",
+      "type": "Type1",
+      "embedded": true
+    },
+    {
+      "name": "PQILTH+CMMI9",
+      "type": "Type1",
+      "embedded": true
+    }
+  ],
+  "raster_images": 0,
+  "outside_page_text": [],
+  "coordinate_count": 72,
+  "coordinate_validation": "Every plotted x equals 1000 times its source value exactly; every y is the declared candidate row, without jitter. Shared centers and all lower-bound decompositions also checked numerically.",
+  "axis_limits": {
+    "interaction": [
+      -1.05,
+      15.7
+    ],
+    "lower_full": [
+      -16.2,
+      1.1
+    ],
+    "lower_zoom": [
+      -0.46,
+      1.05
+    ]
+  },
+  "near_zero_scope": "Separate labeled linear scale displays pooled lower bounds and exact census targets only. Shared/pruned bounds are outside its range and remain visible on the full scale.",
+  "passing_counts": {
+    "shared_hybrid": 0,
+    "pruned_hybrid": 0,
+    "pooled_variance": 3
+  },
+  "analysis_status": "Post-exposure diagnostic on corrected previously inspected cohorts; not independent confirmation."
+}

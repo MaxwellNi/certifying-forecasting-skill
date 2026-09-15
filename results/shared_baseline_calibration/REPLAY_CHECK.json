@@ -1,0 +1,13 @@
+{
+  "matches": true,
+  "expected": {
+    "summary.csv": "08154722a283ba90881524c781b19979656e7d9ee62b458babb1d6e44a87c8bd",
+    "family_replications.csv": "b7a12a9cc241fb85f5c7965d7e9da31200d41ffae6f1941f590f8cffeda95301",
+    "replications.csv": "588d889539381bf9590cb8fc9afdd69bcaf7d3981adb7e1fc6f616b7b257cdd1"
+  },
+  "actual": {
+    "summary.csv": "08154722a283ba90881524c781b19979656e7d9ee62b458babb1d6e44a87c8bd",
+    "family_replications.csv": "b7a12a9cc241fb85f5c7965d7e9da31200d41ffae6f1941f590f8cffeda95301",
+    "replications.csv": "588d889539381bf9590cb8fc9afdd69bcaf7d3981adb7e1fc6f616b7b257cdd1"
+  }
+}

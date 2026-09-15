@@ -1,0 +1,25 @@
+{
+  "seed": 73190527,
+  "repetitions": 400,
+  "groups": 8192,
+  "validation_triples": 2048,
+  "alpha": 0.05,
+  "delta": 0.01,
+  "laws": [
+    "Bernoulli(0.1)",
+    "Bernoulli(0.5)",
+    "uniform ternary",
+    "continuous uniform"
+  ],
+  "designs": [
+    "positive overlap",
+    "negative overlap",
+    "zero overlap"
+  ],
+  "purpose": "Check a developed exact interaction mechanism, not independent forecasting utility.",
+  "comparators": "Uncorrected classical bound targets the wrong mean; exact-law correction is an oracle diagnostic; validated correction estimates the interaction from fresh triples.",
+  "target": "Zero population-reference temporal product in each declared law and design.",
+  "frozen_before_execution": true,
+  "producer_sha256": "e4037c782cdb397ed58758716e96ac5303d453de9791a276c0192d35ab00ed81",
+  "audit_source_sha256": "505ff48e29021c7a2bb8df4d950b3c46229f40f90911fc3118feb75a4e25ed33"
+}

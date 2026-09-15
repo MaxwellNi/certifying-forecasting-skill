@@ -1,0 +1,14 @@
+test_all_88_generic_results_reconstructed_from_recorded_arrays (test_study.FixedDrawReplayTests.test_all_88_generic_results_reconstructed_from_recorded_arrays) ... ok
+test_centers_and_variances_unchanged_and_every_radius_no_larger (test_study.FixedDrawReplayTests.test_centers_and_variances_unchanged_and_every_radius_no_larger) ... ok
+test_exact_population_denominator_for_interaction_fraction (test_study.FixedDrawReplayTests.test_exact_population_denominator_for_interaction_fraction) ... ok
+test_only_stronger_comparator_certification_changes_and_no_selection_changes (test_study.FixedDrawReplayTests.test_only_stronger_comparator_certification_changes_and_no_selection_changes) ... ok
+test_width_scaling_preserves_integer_allocation (test_study.FixedDrawReplayTests.test_width_scaling_preserves_integer_allocation) ... ok
+test_against_released_generic_kernel_for_every_weak_ordering (test_study.StructuralSupportTests.test_against_released_generic_kernel_for_every_weak_ordering) ... ok
+test_all_weak_orderings_and_sharp_endpoints (test_study.StructuralSupportTests.test_all_weak_orderings_and_sharp_endpoints) ... ok
+test_exact_identity_is_zero_for_all_comparisons (test_study.StructuralSupportTests.test_exact_identity_is_zero_for_all_comparisons) ... ok
+test_sample_equality_does_not_create_identity (test_study.StructuralSupportTests.test_sample_equality_does_not_create_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.539s
+
+OK

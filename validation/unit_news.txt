@@ -1,0 +1,14 @@
+test_real_gain_smaller_than_mean_loss_rounding_is_preserved (test_numeric_summaries.NumericalSummaryChecks.test_real_gain_smaller_than_mean_loss_rounding_is_preserved) ... ok
+test_zero_weight_forecast_is_exactly_neutral (test_numeric_summaries.NumericalSummaryChecks.test_zero_weight_forecast_is_exactly_neutral) ... ok
+test_by_and_exact_category_copy (test_protocol.ProtocolChecks.test_by_and_exact_category_copy) ... ok
+test_complete_synthetic_staging (test_protocol.ProtocolChecks.test_complete_synthetic_staging) ... ok
+test_future_duplicate_values_never_change_issuance_support (test_protocol.ProtocolChecks.test_future_duplicate_values_never_change_issuance_support) ... ok
+test_future_features_do_not_change_training_preprocessing (test_protocol.ProtocolChecks.test_future_features_do_not_change_training_preprocessing) ... ok
+test_hourly_gain_denominator_and_predictability (test_protocol.ProtocolChecks.test_hourly_gain_denominator_and_predictability) ... ok
+test_loader_boundaries_negatives_and_conflicting_ids (test_protocol.ProtocolChecks.test_loader_boundaries_negatives_and_conflicting_ids) ... ok
+test_source_hash_checked_before_copy (test_protocol.ProtocolChecks.test_source_hash_checked_before_copy) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.834s
+
+OK

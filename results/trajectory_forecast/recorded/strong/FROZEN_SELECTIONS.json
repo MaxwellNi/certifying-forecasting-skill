@@ -1,0 +1,18 @@
+{
+  "candidate_indices": {
+    "persistence": 0,
+    "ungated": 4,
+    "pooled_u": 4,
+    "census": 4
+  },
+  "candidates": {
+    "persistence": "persistence",
+    "ungated": "boosting_31",
+    "pooled_u": "boosting_31",
+    "census": "boosting_31"
+  },
+  "analysis_status": "Subsequent strengthening after the first study outcomes; this is not an independent confirmation.",
+  "selection_information": "Same corrected selection archive and all previously sampled raw trajectory indices.",
+  "confirmation_used_for_choices": false,
+  "freeze_unix": 1789354862.8593183
+}

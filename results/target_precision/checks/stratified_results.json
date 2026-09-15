@@ -1,0 +1,250 @@
+{
+  "scope": "Exact conditional covariance identities plus prespecified fresh null simulation draws; no claim of optimality, exhaustive validity, independent field application or unique power.",
+  "exact_identity_checks": [
+    {
+      "dependence": -1,
+      "category": 0,
+      "kernel_expectation": "-1/16",
+      "covariance": "-1/16"
+    },
+    {
+      "dependence": -1,
+      "category": 1,
+      "kernel_expectation": "-1/16",
+      "covariance": "-1/16"
+    },
+    {
+      "dependence": 0,
+      "category": 0,
+      "kernel_expectation": "0",
+      "covariance": "0"
+    },
+    {
+      "dependence": 0,
+      "category": 1,
+      "kernel_expectation": "0",
+      "covariance": "0"
+    },
+    {
+      "dependence": 1,
+      "category": 0,
+      "kernel_expectation": "1/16",
+      "covariance": "1/16"
+    },
+    {
+      "dependence": 1,
+      "category": 1,
+      "kernel_expectation": "1/16",
+      "covariance": "1/16"
+    }
+  ],
+  "structural_cases": [
+    "ties",
+    "large safe integer translation",
+    "unsafe mixed integer rejection",
+    "missing category",
+    "cost",
+    "monotone inversion"
+  ],
+  "simulation": [
+    {
+      "law": "balanced",
+      "target_sign": 0,
+      "method": "hoeffding",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.09101729053065283
+    },
+    {
+      "law": "balanced",
+      "target_sign": 0,
+      "method": "pooled_bernstein",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.07296048374571726
+    },
+    {
+      "law": "balanced",
+      "target_sign": 0,
+      "method": "hybrid",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.08750485013693488
+    },
+    {
+      "law": "balanced",
+      "target_sign": -1,
+      "method": "hoeffding",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.14936542452898274
+    },
+    {
+      "law": "balanced",
+      "target_sign": -1,
+      "method": "pooled_bernstein",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.129728690379832
+    },
+    {
+      "law": "balanced",
+      "target_sign": -1,
+      "method": "hybrid",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.1450524905020055
+    },
+    {
+      "law": "rare_missing",
+      "target_sign": 0,
+      "method": "hoeffding",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.09200488367333032
+    },
+    {
+      "law": "rare_missing",
+      "target_sign": 0,
+      "method": "pooled_bernstein",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.06727737897482035
+    },
+    {
+      "law": "rare_missing",
+      "target_sign": 0,
+      "method": "hybrid",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.08151253595016317
+    },
+    {
+      "law": "rare_missing",
+      "target_sign": -1,
+      "method": "hoeffding",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.15334105602293455
+    },
+    {
+      "law": "rare_missing",
+      "target_sign": -1,
+      "method": "pooled_bernstein",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.1303738076236412
+    },
+    {
+      "law": "rare_missing",
+      "target_sign": -1,
+      "method": "hybrid",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.14466179887388939
+    },
+    {
+      "law": "many_categories",
+      "target_sign": 0,
+      "method": "hoeffding",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.10197242373917882
+    },
+    {
+      "law": "many_categories",
+      "target_sign": 0,
+      "method": "pooled_bernstein",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.1358578130297826
+    },
+    {
+      "law": "many_categories",
+      "target_sign": 0,
+      "method": "hybrid",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.11474137520869458
+    },
+    {
+      "law": "many_categories",
+      "target_sign": -1,
+      "method": "hoeffding",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.16476854262897161
+    },
+    {
+      "law": "many_categories",
+      "target_sign": -1,
+      "method": "pooled_bernstein",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.20039716294801035
+    },
+    {
+      "law": "many_categories",
+      "target_sign": -1,
+      "method": "hybrid",
+      "replications": 1200,
+      "n": 512,
+      "nominal_alpha": 0.05,
+      "null_rejections": 0,
+      "pointwise_cp95_upper": 0.003069346108100284,
+      "max_lower": -0.1777199169326522
+    }
+  ],
+  "source_sha256": "3f7df01a479780802bfb4f148de2f75676f2fda66b10a22359ce2f550a0f3d6b"
+}

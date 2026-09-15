@@ -1,0 +1,9 @@
+rule,candidate,comparator,confirmation_records,confirmation_weeks,raw_mse,raw_mse_gain,relative_mse_gain,equal_week_mean_gain,bootstrap_low,bootstrap_high,identical_predictions,interval_scope
+persistence,persistence,persistence,349,53,455.58739255014325,0.0,0.0,0.0,0.0,0.0,True,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+persistence,persistence,ungated,349,53,455.58739255014325,-137.8629951622836,-0.4339074880484812,-131.1894526043011,-295.37394553697635,-8.856757129815986,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+ungated,boosting_31,persistence,349,53,317.72439738785965,137.8629951622836,0.3026049390668992,131.1894526043011,8.85675712981598,295.3739455369763,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+ungated,boosting_31,ungated,349,53,317.72439738785965,0.0,0.0,0.0,0.0,0.0,True,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+corrected,persistence,persistence,349,53,455.58739255014325,0.0,0.0,0.0,0.0,0.0,True,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+corrected,persistence,ungated,349,53,455.58739255014325,-137.8629951622836,-0.4339074880484812,-131.1894526043011,-295.37394553697635,-8.856757129815986,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+full_u,ridge_1,persistence,349,53,380.28242819453067,75.30496435561258,0.16529202867992954,70.15828611846563,-8.041692383103943,168.0867448936911,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.
+full_u,ridge_1,ungated,349,53,380.28242819453067,-62.55803080667101,-0.19689401040960597,-61.03116648583546,-124.10578012632581,3.4840891607782347,False,Descriptive four-week moving-block bootstrap; no finite physical-time-series guarantee.

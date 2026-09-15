@@ -1,0 +1,600 @@
+{
+  "status": "PASS",
+  "scope": "All current standalone display PDFs; core paper and companion checked separately. Text bounds, embedded fonts and raster presence are structural checks, not exhaustive visual or scientific certification.",
+  "pdf_count": 34,
+  "issues": [],
+  "pdfs": [
+    {
+      "file": "figures/fig_certificate_efficiency.pdf",
+      "sha256": "753ed463d5f0551764f5a0ebb5f448aee128782609489fa05747d8ee631bb3a9",
+      "pages": 1,
+      "fonts": [
+        "MKNHOO+CMMI9",
+        "OTNCQM+NimbusRomNo9L-Regu",
+        "WMVBDZ+CMR9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "figures/fig_trajectory_comparison.pdf",
+      "sha256": "a2be6ecd24d46cca00ed59d9e9ba1a3e1e9e68d3e53e945d0898609973d41ce0",
+      "pages": 1,
+      "fonts": [
+        "FSFYYG+CMSY9",
+        "HBIEHQ+CMSY6",
+        "NBSLCY+CMR6",
+        "PQILTH+CMMI9",
+        "RXSEDX+NimbusRomNo9L-Regu",
+        "SYDISL+CMR9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/aggregate_bias/fig_aggregate_validation.pdf",
+      "sha256": "2c1f6d670f01c11f1e3ec58326d439cf04b34007934ce7daed8f049964a28c9c",
+      "pages": 1,
+      "fonts": [
+        "MKNHOO+CMMI9",
+        "TFODGU+NimbusRomNo9L-Regu",
+        "YIRSVR+CMR9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/certificate_factorial/fig_certificate_factorial.pdf",
+      "sha256": "62ce99924020e329697ffb908bc9fb7be5f6fb1fdeca61402b63c0042a2bfde7",
+      "pages": 1,
+      "fonts": [
+        "HBIEHQ+CMSY6",
+        "IXHHGS+CMEX9",
+        "OPEKTB+CMSY9",
+        "OPOMXB+CMR9",
+        "VBHKDV+NimbusRomNo9L-Regu",
+        "XJVVXX+CMMI9",
+        "XZZKPS+CMR6"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_canonical_comparison.pdf",
+      "sha256": "52d7d40fe8e9873fa267a05888868e5b814c8141d058644e4412adc5df933a22",
+      "pages": 1,
+      "fonts": [
+        "FZKHUU+CMR9",
+        "HRLWHF+NimbusRomNo9L-Regu",
+        "IMKNUY+CMR6",
+        "LUVLAG+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_certificate_factorial.pdf",
+      "sha256": "62ce99924020e329697ffb908bc9fb7be5f6fb1fdeca61402b63c0042a2bfde7",
+      "pages": 1,
+      "fonts": [
+        "HBIEHQ+CMSY6",
+        "IXHHGS+CMEX9",
+        "OPEKTB+CMSY9",
+        "OPOMXB+CMR9",
+        "VBHKDV+NimbusRomNo9L-Regu",
+        "XJVVXX+CMMI9",
+        "XZZKPS+CMR6"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_gaussian_reference.pdf",
+      "sha256": "790cbaab18d8fbec2de300e192f234698fca03f0dc8eca715f440f7d8a44bc05",
+      "pages": 1,
+      "fonts": [
+        "DGOCSD+CMR9",
+        "GEOPSR+NimbusRomNo9L-Regu",
+        "UAKORM+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_historical_sensitivity.pdf",
+      "sha256": "66c213ee26f798d7f54bbe452986b35946dfbbfb02d4c8c6e802a1725dd90621",
+      "pages": 1,
+      "fonts": [
+        "PKFIZI+NimbusRomNo9L-Regu",
+        "QDEYMZ+CMR9",
+        "QSPRTT+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_oracle_rank.pdf",
+      "sha256": "3eaa801353617dbf1955090af8a15e0b4ae37130ff48a9deb49825f20fb0b367",
+      "pages": 1,
+      "fonts": [
+        "BMISIT+NimbusRomNo9L-Regu"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_public_directional.pdf",
+      "sha256": "a4c34c688abddc1609ce224db84b557883885f9d457d020b572a05488b38be7f",
+      "pages": 1,
+      "fonts": [
+        "EYBOBF+NimbusRomNo9L-ReguItal",
+        "JWPCTL+NimbusRomNo9L-Regu",
+        "QPLLIX+CMSY6",
+        "WYBNAA+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_public_named_comparison.pdf",
+      "sha256": "283bedf43fac4f6bad4e58a2e182f70a242c22a969f202c0a56340c1f2fe4728",
+      "pages": 1,
+      "fonts": [
+        "DGOCSD+CMR9",
+        "JOZREC+NimbusRomNo9L-ReguItal",
+        "LGJMQV+CMSY9",
+        "QINHLV+CMMI9",
+        "QPLLIX+CMSY6",
+        "RDIOLT+NimbusRomNo9L-Regu"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/companion_figures/fig_smooth_bin_bias.pdf",
+      "sha256": "060b3b5e79a323aa7559b02ce7c1d18f8f667ce749a9d53f3ad60069e1d2ce1d",
+      "pages": 1,
+      "fonts": [
+        "EBKXKT+CMMI9",
+        "EKAAME+CMR9",
+        "HBIEHQ+CMSY6",
+        "JOAKGW+CMR6",
+        "QZRTWQ+NimbusRomNo9L-Regu"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/design_validation/peer_sampling.pdf",
+      "sha256": "6af1bd031d1eeb5d96a38394c2df62f34992af38dafcaa82bec82f842d377a44",
+      "pages": 1,
+      "fonts": [
+        "CJNDJS+NimbusRomNo9L-Regu",
+        "UGVOGI+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/focused_directional/fig_public_directional_focus.pdf",
+      "sha256": "7b9b1119986b253cd2ae9e0356faa2c9d75f45153c9c62e6ede1319752e2afd1",
+      "pages": 1,
+      "fonts": [
+        "EYBOBF+NimbusRomNo9L-ReguItal",
+        "FSFYYG+CMSY9",
+        "KAUNCY+NimbusRomNo9L-Regu",
+        "QPLLIX+CMSY6",
+        "WYBNAA+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/gaussian_figure/gaussian_reference.pdf",
+      "sha256": "790cbaab18d8fbec2de300e192f234698fca03f0dc8eca715f440f7d8a44bc05",
+      "pages": 1,
+      "fonts": [
+        "DGOCSD+CMR9",
+        "GEOPSR+NimbusRomNo9L-Regu",
+        "UAKORM+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/oracle_rank_calibration/fig_oracle_rank.pdf",
+      "sha256": "3eaa801353617dbf1955090af8a15e0b4ae37130ff48a9deb49825f20fb0b367",
+      "pages": 1,
+      "fonts": [
+        "BMISIT+NimbusRomNo9L-Regu"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/paper_figures/fig_aggregate_validation.pdf",
+      "sha256": "873699acf06e8f0f7999d7c65c5192b25786c5be19fc22d038bcfa832e6a228b",
+      "pages": 1,
+      "fonts": [
+        "MKNHOO+CMMI9",
+        "NATFHY+CMR9",
+        "SXRRIR+CMSY9",
+        "TFODGU+NimbusRomNo9L-Regu"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/paper_figures/fig_public_directional_focus.pdf",
+      "sha256": "7b9b1119986b253cd2ae9e0356faa2c9d75f45153c9c62e6ede1319752e2afd1",
+      "pages": 1,
+      "fonts": [
+        "EYBOBF+NimbusRomNo9L-ReguItal",
+        "FSFYYG+CMSY9",
+        "KAUNCY+NimbusRomNo9L-Regu",
+        "QPLLIX+CMSY6",
+        "WYBNAA+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/paper_figures/fig_reference_certificate.pdf",
+      "sha256": "badbc050733c1045b7ffed1dd715e7f439ef5e7bd3abeae37e381993563f2348",
+      "pages": 1,
+      "fonts": [
+        "AVTJIG+CMSY6",
+        "CUOUKV+CMSY9",
+        "HEESPN+CMMI6",
+        "HPKKNP+CMR9",
+        "IXHHGS+CMEX9",
+        "MLMNJI+CMBX9",
+        "MTCRON+CMR6",
+        "NUZGFL+CMSS9",
+        "PAFVRK+NimbusRomNo9L-Regu",
+        "XFVOYJ+NimbusRomNo9L-Medi",
+        "YGQYPG+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/paper_figures/fig_reference_training.pdf",
+      "sha256": "f22a490c5a743b2dfc9e6ee7fa93ee9bf07f66b155b383518b78090a415fac70",
+      "pages": 1,
+      "fonts": [
+        "JQJHFA+NimbusRomNo9L-Regu",
+        "YZUZGQ+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/publication_figure_assets/fig_canonical_comparison.pdf",
+      "sha256": "52d7d40fe8e9873fa267a05888868e5b814c8141d058644e4412adc5df933a22",
+      "pages": 1,
+      "fonts": [
+        "FZKHUU+CMR9",
+        "HRLWHF+NimbusRomNo9L-Regu",
+        "IMKNUY+CMR6",
+        "LUVLAG+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/publication_figure_assets/fig_public_directional.pdf",
+      "sha256": "a4c34c688abddc1609ce224db84b557883885f9d457d020b572a05488b38be7f",
+      "pages": 1,
+      "fonts": [
+        "EYBOBF+NimbusRomNo9L-ReguItal",
+        "JWPCTL+NimbusRomNo9L-Regu",
+        "QPLLIX+CMSY6",
+        "WYBNAA+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/publication_figure_assets/fig_public_named_comparison.pdf",
+      "sha256": "283bedf43fac4f6bad4e58a2e182f70a242c22a969f202c0a56340c1f2fe4728",
+      "pages": 1,
+      "fonts": [
+        "DGOCSD+CMR9",
+        "JOZREC+NimbusRomNo9L-ReguItal",
+        "LGJMQV+CMSY9",
+        "QINHLV+CMMI9",
+        "QPLLIX+CMSY6",
+        "RDIOLT+NimbusRomNo9L-Regu"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/publication_figure_assets/public_41_complete.pdf",
+      "sha256": "ba032e879d7652462252e7527f2b1800ecca2cbbd162e029ee3a4bc74a9d1403",
+      "pages": 2,
+      "fonts": [
+        "DGOCSD+CMR9",
+        "FDETOA+NimbusRomNo9L-Medi",
+        "UTFDVQ+NimbusRomNo9L-Regu",
+        "ZTPOOP+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/publication_figure_assets/reference_training.pdf",
+      "sha256": "f22a490c5a743b2dfc9e6ee7fa93ee9bf07f66b155b383518b78090a415fac70",
+      "pages": 1,
+      "fonts": [
+        "JQJHFA+NimbusRomNo9L-Regu",
+        "YZUZGQ+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/publication_figures/public_41_complete.pdf",
+      "sha256": "ba032e879d7652462252e7527f2b1800ecca2cbbd162e029ee3a4bc74a9d1403",
+      "pages": 2,
+      "fonts": [
+        "DGOCSD+CMR9",
+        "FDETOA+NimbusRomNo9L-Medi",
+        "UTFDVQ+NimbusRomNo9L-Regu",
+        "ZTPOOP+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/reader_figures/fig_public_directional_focus.pdf",
+      "sha256": "7b9b1119986b253cd2ae9e0356faa2c9d75f45153c9c62e6ede1319752e2afd1",
+      "pages": 1,
+      "fonts": [
+        "EYBOBF+NimbusRomNo9L-ReguItal",
+        "FSFYYG+CMSY9",
+        "KAUNCY+NimbusRomNo9L-Regu",
+        "QPLLIX+CMSY6",
+        "WYBNAA+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/reader_figures/fig_reference_certificate.pdf",
+      "sha256": "badbc050733c1045b7ffed1dd715e7f439ef5e7bd3abeae37e381993563f2348",
+      "pages": 1,
+      "fonts": [
+        "AVTJIG+CMSY6",
+        "CUOUKV+CMSY9",
+        "HEESPN+CMMI6",
+        "HPKKNP+CMR9",
+        "IXHHGS+CMEX9",
+        "MLMNJI+CMBX9",
+        "MTCRON+CMR6",
+        "NUZGFL+CMSS9",
+        "PAFVRK+NimbusRomNo9L-Regu",
+        "XFVOYJ+NimbusRomNo9L-Medi",
+        "YGQYPG+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/reader_figures/fig_validation_reader.pdf",
+      "sha256": "2c1f6d670f01c11f1e3ec58326d439cf04b34007934ce7daed8f049964a28c9c",
+      "pages": 1,
+      "fonts": [
+        "MKNHOO+CMMI9",
+        "TFODGU+NimbusRomNo9L-Regu",
+        "YIRSVR+CMR9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/reader_figures/reference_training.pdf",
+      "sha256": "f22a490c5a743b2dfc9e6ee7fa93ee9bf07f66b155b383518b78090a415fac70",
+      "pages": 1,
+      "fonts": [
+        "JQJHFA+NimbusRomNo9L-Regu",
+        "YZUZGQ+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/reference_certificate_efficiency/fig_certificate_efficiency.pdf",
+      "sha256": "753ed463d5f0551764f5a0ebb5f448aee128782609489fa05747d8ee631bb3a9",
+      "pages": 1,
+      "fonts": [
+        "MKNHOO+CMMI9",
+        "OTNCQM+NimbusRomNo9L-Regu",
+        "WMVBDZ+CMR9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/reference_time_composition/source_time_overlap.pdf",
+      "sha256": "d388fcd59f6aa2ab9c1702f2d5ea78f1cdcd9ec0c1a317fb9a1486b657a57e1a",
+      "pages": 1,
+      "fonts": [
+        "BHFGWC+CMSY9",
+        "IAPBQO+NimbusRomNo9L-Medi",
+        "KPOHMQ+NimbusRomNo9L-Regu",
+        "MAROOT+CMR9",
+        "MDVMEO+CMMI9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/shared_baseline_figures/fig_trajectory_comparison.pdf",
+      "sha256": "e11a22b2e68a97ebac493d97f24457748e6863206921de39d119a31b53c7941c",
+      "pages": 1,
+      "fonts": [
+        "FSFYYG+CMSY9",
+        "HBIEHQ+CMSY6",
+        "NBSLCY+CMR6",
+        "PQILTH+CMMI9",
+        "SYDISL+CMR9",
+        "TIOPNG+NimbusRomNo9L-Regu"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    },
+    {
+      "file": "results/trajectory_budget_figures/fig_trajectory_comparison.pdf",
+      "sha256": "a2be6ecd24d46cca00ed59d9e9ba1a3e1e9e68d3e53e945d0898609973d41ce0",
+      "pages": 1,
+      "fonts": [
+        "FSFYYG+CMSY9",
+        "HBIEHQ+CMSY6",
+        "NBSLCY+CMR6",
+        "PQILTH+CMMI9",
+        "RXSEDX+NimbusRomNo9L-Regu",
+        "SYDISL+CMR9"
+      ],
+      "font_types": [
+        "Type1"
+      ],
+      "embedded": true,
+      "raster_images": 0,
+      "outside": []
+    }
+  ]
+}

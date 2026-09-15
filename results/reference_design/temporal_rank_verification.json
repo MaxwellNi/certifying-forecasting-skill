@@ -1,0 +1,16 @@
+{
+  "status": "ALL_ASSERTIONS_PASSED",
+  "arrays": 512,
+  "score_averaging": "Equal average over 3 entities, then expectation over all 512 arrays",
+  "moments_exact": {
+    "ranked_score": "-3/32",
+    "population_score": "-1/16",
+    "fit_product": "0",
+    "contemporaneous_rank_covariance": "0",
+    "rank_variance": "3/32",
+    "earlier_path": "-3/64",
+    "later_path": "-3/64",
+    "rank_cross_time_moment": "0"
+  },
+  "contemporaneous_reuse_exact": "0"
+}

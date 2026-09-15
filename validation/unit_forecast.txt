@@ -1,0 +1,12 @@
+test_bound_rejects_wrong_independent_center (test_protocol.ProtocolChecks.test_bound_rejects_wrong_independent_center) ... ok
+test_by_fixed_family_keeps_nulls (test_protocol.ProtocolChecks.test_by_fixed_family_keeps_nulls) ... ok
+test_complete_hour_aggregation_and_lag (test_protocol.ProtocolChecks.test_complete_hour_aggregation_and_lag) ... ok
+test_current_future_outcome_invariance (test_protocol.ProtocolChecks.test_current_future_outcome_invariance) ... ok
+test_exact_category_copy_residual (test_protocol.ProtocolChecks.test_exact_category_copy_residual) ... ok
+test_exact_centering_against_rational (test_protocol.ProtocolChecks.test_exact_centering_against_rational) ... ok
+test_order_two_formula_with_ties (test_protocol.ProtocolChecks.test_order_two_formula_with_ties) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.036s
+
+OK

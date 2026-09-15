@@ -1,0 +1,293 @@
+{
+  "status": "ALL_ASSERTIONS_PASSED",
+  "temporal_cases": [
+    {
+      "name": "positive",
+      "raw_arrays": 32768,
+      "empirical": "3/128",
+      "population": "0",
+      "interaction": "3/128",
+      "T_by_lag": [
+        "1/2",
+        "-1/2"
+      ],
+      "Omega_by_lag": [
+        "1/2",
+        "0"
+      ],
+      "weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "negative",
+      "raw_arrays": 32768,
+      "empirical": "-3/128",
+      "population": "0",
+      "interaction": "-3/128",
+      "T_by_lag": [
+        "1/2",
+        "-1/2"
+      ],
+      "Omega_by_lag": [
+        "0",
+        "-1/2"
+      ],
+      "weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "signed_cancellation",
+      "raw_arrays": 32768,
+      "empirical": "0",
+      "population": "0",
+      "interaction": "0",
+      "T_by_lag": [
+        "1/2",
+        "-1/2"
+      ],
+      "Omega_by_lag": [
+        "1/2",
+        "-1/2"
+      ],
+      "weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "directional",
+      "raw_arrays": 32768,
+      "empirical": "0",
+      "population": "0",
+      "interaction": "0",
+      "T_by_lag": [
+        "0",
+        "0"
+      ],
+      "Omega_by_lag": [
+        "0",
+        "0"
+      ],
+      "weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "peers_separated",
+      "raw_arrays": 19683,
+      "empirical": "-13/162",
+      "population": "-13/162",
+      "interaction": "0",
+      "T_by_lag": [
+        "-3/2",
+        "0"
+      ],
+      "Omega_by_lag": [
+        "0",
+        "0"
+      ],
+      "weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "unequal_lag_scalar_counterexample",
+      "raw_arrays": 32768,
+      "empirical": "1/32",
+      "population": "1/64",
+      "interaction": "1/64",
+      "T_by_lag": [
+        "1/2",
+        "-1/2"
+      ],
+      "Omega_by_lag": [
+        "1/2",
+        "-1/2"
+      ],
+      "weights": [
+        2,
+        1
+      ]
+    }
+  ],
+  "raw_temporal_arrays": 183523,
+  "constants": {
+    "binary_half": {
+      "kappa": "3/64",
+      "lambda_": "3/64",
+      "eta": "3/32"
+    },
+    "binary_skew": {
+      "kappa": "819/40000",
+      "lambda_": "819/40000",
+      "eta": "819/20000"
+    },
+    "ternary": {
+      "kappa": "13/243",
+      "lambda_": "14/243",
+      "eta": "1/9"
+    },
+    "gapped_ternary": {
+      "kappa": "13/243",
+      "lambda_": "14/243",
+      "eta": "1/9"
+    },
+    "skew_ternary": {
+      "kappa": "65/1296",
+      "lambda_": "145/2592",
+      "eta": "275/2592"
+    }
+  },
+  "graph": {
+    "binary_half": {
+      "raw_arrays": 64,
+      "covariance": [
+        [
+          "1/16",
+          "-1/32",
+          "-1/16"
+        ],
+        [
+          "-3/64",
+          "15/256",
+          "3/64"
+        ],
+        [
+          "-9/128",
+          "-27/512",
+          "9/128"
+        ]
+      ]
+    },
+    "binary_skew": {
+      "raw_arrays": 64,
+      "covariance": [
+        [
+          "273/10000",
+          "-273/20000",
+          "-273/10000"
+        ],
+        [
+          "-819/40000",
+          "819/32000",
+          "819/40000"
+        ],
+        [
+          "-2457/80000",
+          "-7371/320000",
+          "2457/80000"
+        ]
+      ]
+    },
+    "ternary": {
+      "raw_arrays": 729,
+      "covariance": [
+        [
+          "53/729",
+          "-53/1458",
+          "-53/729"
+        ],
+        [
+          "-13/243",
+          "11/162",
+          "13/243"
+        ],
+        [
+          "-20/243",
+          "-5/81",
+          "20/243"
+        ]
+      ]
+    },
+    "gapped_ternary": {
+      "raw_arrays": 729,
+      "covariance": [
+        [
+          "53/729",
+          "-53/1458",
+          "-53/729"
+        ],
+        [
+          "-13/243",
+          "11/162",
+          "13/243"
+        ],
+        [
+          "-20/243",
+          "-5/81",
+          "20/243"
+        ]
+      ]
+    },
+    "skew_ternary": {
+      "raw_arrays": 729,
+      "covariance": [
+        [
+          "535/7776",
+          "-535/15552",
+          "-535/7776"
+        ],
+        [
+          "-65/1296",
+          "665/10368",
+          "65/1296"
+        ],
+        [
+          "-5/64",
+          "-15/256",
+          "5/64"
+        ]
+      ]
+    }
+  },
+  "validation": {
+    "binary_half": {
+      "raw_arrays": 64,
+      "mean": "3/64",
+      "observed_kernel_min": "0",
+      "observed_kernel_max": "1/4"
+    },
+    "binary_skew": {
+      "raw_arrays": 64,
+      "mean": "819/40000",
+      "observed_kernel_min": "0",
+      "observed_kernel_max": "1/4"
+    },
+    "ternary": {
+      "raw_arrays": 729,
+      "mean": "14/243",
+      "observed_kernel_min": "-1/8",
+      "observed_kernel_max": "1/2"
+    },
+    "gapped_ternary": {
+      "raw_arrays": 729,
+      "mean": "14/243",
+      "observed_kernel_min": "-1/4",
+      "observed_kernel_max": "1/2"
+    },
+    "skew_ternary": {
+      "raw_arrays": 729,
+      "mean": "145/2592",
+      "observed_kernel_min": "-1/4",
+      "observed_kernel_max": "1/2"
+    }
+  },
+  "gaussian": {
+    "kappa": 0.05751336404065397,
+    "lambda_": 0.06748663595934604,
+    "eta": 0.125
+  },
+  "uniform_exact": {
+    "kappa": "7/120",
+    "lambda_": "1/15",
+    "eta": "1/8"
+  },
+  "elapsed_seconds": 0.561,
+  "checker_sha256": "422f9b4d3a28bd7f8de4be5193ceaf9129b10c837ade384dd329ffa1f4278f98"
+}

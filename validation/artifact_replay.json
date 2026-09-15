@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "scope": "Stored aggregate arithmetic and deterministic artifacts; not refitted raw observations",
+  "checks": [
+    {
+      "study": "canonical_baselines",
+      "rows": 13500,
+      "cells": 45
+    },
+    {
+      "study": "rough_control",
+      "rows": 10500,
+      "cells": 35
+    },
+    {
+      "study": "canonical_beta2",
+      "rows": 16200,
+      "cells": 54
+    },
+    {
+      "study": "all_public_audits",
+      "model_method_rows": 123,
+      "full_families": 12,
+      "raw_and_guarded_BY": "PASS"
+    },
+    {
+      "study": "spline_panel_pairing",
+      "datasets": 2700,
+      "cells": 9,
+      "paired_settings": 9900,
+      "all_rates_and_joins": "PASS"
+    },
+    {
+      "study": "public_model_roster",
+      "models": 41,
+      "baseline_copies": 4,
+      "decision_counts": {
+        "retain": 23,
+        "null": 10,
+        "abstain": 8
+      },
+      "mismatches": []
+    },
+    {
+      "study": "public_score_link",
+      "models": 41,
+      "cluster_rows": 12409,
+      "means_and_final_audit_labels": "PASS"
+    },
+    {
+      "study": "restricted_model_aggregates",
+      "variants": 3,
+      "models_per_variant": 30,
+      "full_families": 6,
+      "statistic_p_and_BY": "PASS",
+      "raw_observations_available": false,
+      "private_training_information_vintage_certified": false
+    },
+    {
+      "study": "guarded_forecast_CLI",
+      "models": 41,
+      "full_families": 4,
+      "resolution_and_BY_trace": "PASS",
+      "synthetic_CSV_entrypoint": "PASS",
+      "finite_certificate_issued": false
+    },
+    {
+      "study": "known_covariance_gaussian_reference",
+      "method_rows": 468000,
+      "method_cells": 468,
+      "independent_primitive_draws": 4000,
+      "distinct_evaluated_panels": 12000,
+      "stored_arithmetic": "PASS",
+      "full_primitive_replay_requested": false,
+      "real_panel_finite_certificate": false
+    },
+    {
+      "study": "retrospective_restricted_model_aggregates",
+      "model_rows": 7,
+      "common_observations": 18036,
+      "common_periods": 132,
+      "CSV_JSON_arithmetic": "PASS",
+      "private_source_reproduction": false,
+      "historical_vintages_verified": false
+    },
+    {
+      "study": "peer_sampling",
+      "records": 2700,
+      "cells": 18,
+      "arithmetic": "PASS"
+    },
+    {
+      "study": "equal_entity_directional",
+      "records": 42000,
+      "cells": 84,
+      "arithmetic": "PASS"
+    },
+    {
+      "study": "directional_comparison",
+      "model_configurations": 164,
+      "families": 16,
+      "full_family_BY": "PASS",
+      "matched_support": "PASS"
+    },
+    {
+      "study": "stored_cross_solver_comparison",
+      "quantities": 16,
+      "maximum": 3.1107239006900045e-10,
+      "source_observations_replayed": false
+    },
+    {
+      "study": "estimated_references_and_family_inference",
+      "receipt": "inference_studies/verification.json",
+      "learned_cells": 48,
+      "family_cells": 216,
+      "near_copy_cells": 234,
+      "classical_comparison_cells": 288
+    },
+    {
+      "study": "categorical_validation_and_confirmation",
+      "categorical_rows": 216000,
+      "categorical_cells": 216,
+      "rental_risk_rows": 74,
+      "rental_paired_comparisons": 82,
+      "retail_models": 2,
+      "frozen_rental_predictions_checked": false,
+      "scope": "Recorded arithmetic and specified primitive replays; not general panel calibration"
+    },
+    {
+      "study": "signed_reference_certificate_efficiency",
+      "stored_rows": 500000,
+      "cells": 500,
+      "independently_rebuilt_rows": 4000,
+      "full_primitive_replications": 8,
+      "scope": "Independent all-row arithmetic and selected complete synthetic replays; identical historical and hardened output bytes."
+    },
+    {
+      "study": "fixed_public_archive_certificate",
+      "archive_rows": 70080,
+      "candidate_method_rows": 21,
+      "census_comparison_rows": 21,
+      "scope": "Read-only frozen archive, draws, kernel arithmetic, finite bounds and BY; fixed-archive categorical target, not future forecasting gain."
+    },
+    {
+      "study": "seoul_gate_diagnosis",
+      "csv_tables": 6,
+      "candidate_rows": 16,
+      "weekly_moment_rows": 128,
+      "selector_rows": 6,
+      "posthoc_arithmetic_rows": 112,
+      "frozen_model_replay": false,
+      "scope": "Read-only original decision, all-candidate loss and gate arithmetic; no new gate selection or confirmation."
+    },
+    {
+      "study": "certificate_factorial",
+      "receipt": "certificate_factorial/verification.json",
+      "scope": "Independent recorded arithmetic and specified primitive reconstruction; source retraining is a separate command."
+    },
+    {
+      "study": "joint_bias",
+      "receipt": "joint_bias/verification.json",
+      "scope": "Independent recorded arithmetic and specified primitive reconstruction; source retraining is a separate command."
+    },
+    {
+      "study": "forecast_confirmation",
+      "receipt": "forecast_confirmation/verification.json",
+      "scope": "Independent recorded arithmetic and specified primitive reconstruction; source retraining is a separate command."
+    },
+    {
+      "study": "matched_betting",
+      "receipt": "matched_betting_verification.json",
+      "stored_rows": 48000,
+      "scope": "All-row arithmetic and 512 independent primitive betting reconstructions."
+    },
+    {
+      "study": "aggregate_learning_bias",
+      "receipt": "aggregate_bias/verification.json",
+      "archive_candidates": 32,
+      "archive_method_rows": 128,
+      "simulation_rows": 144000,
+      "simulation_method_summaries": 144,
+      "scope": "Independent known-category-mass bias validation; exposed-archive diagnosis and complete simulation arithmetic, not a new forecast confirmation."
+    },
+    {
+      "study": "pooled_bias",
+      "receipt": "pooled_bias_verification.json",
+      "scope": "Matched retrospective comparator formulas, stored arrays and independent archive arithmetic; no new forecast confirmation."
+    },
+    {
+      "study": "direct_target",
+      "receipt": "direct_target/verification.json",
+      "scope": "Exact small-sample identities and independent four-row block and archive BY replay; no new forecast confirmation."
+    },
+    {
+      "study": "complete_reference_family_cli",
+      "tests": 8,
+      "scope": "Exact numeric ordering, full-U and BY wiring, input contracts and counted costs; input independence is assumed."
+    },
+    {
+      "study": "trajectory_design_and_diagnostics",
+      "exact_checks": 19,
+      "diagnostic_rows": 9600,
+      "diagnostic_cells": 32,
+      "scope": "Fixed-target design identities, all stored corrected trajectory gates, timestamp checks and matched descriptive loss intervals. No new independent confirmation."
+    },
+    {
+      "study": "shared_baseline_ranges",
+      "exact_weak_order_cases": 2197,
+      "candidate_rows": 88,
+      "scope": "Sharp structural support, fixed-draw reconstruction and unchanged model selection. No new independent confirmation."
+    },
+    {
+      "study": "shared_baseline_calibration",
+      "initial_protocol": {
+        "law_budget_cells": 12,
+        "procedure_cells": 72,
+        "independent_replications": 3600,
+        "candidate_method_rule_rows": 86400,
+        "family_rows": 21600
+      },
+      "separate_biased_null_addendum": {
+        "law_budget_cells": 2,
+        "procedure_cells": 12,
+        "independent_replications": 600,
+        "candidate_method_rule_rows": 14400,
+        "family_rows": 3600
+      },
+      "deterministic_replay": "PASS",
+      "independent_recount": "PASS",
+      "scope": "Original six finite IID laws and a separately frozen zero-target, positive-reference-bias addendum. Both protocols and all outcomes retained; no exhaustive null calibration or independent application claim."
+    }
+  ],
+  "public_forecasters": 41,
+  "paper_included": true
+}

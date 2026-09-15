@@ -1,0 +1,161 @@
+{
+  "input_sha256": "cf03fadc6f75aa9dbe13b30b715a43126d4517c43fb01562e8c49895d1c0d0df",
+  "models": 20,
+  "rows": 82,
+  "finite_pairs": 18,
+  "undefined_pairs": 2,
+  "guarded_models": 6,
+  "configurations": [
+    "complementary_middle",
+    "directional_middle"
+  ],
+  "all_support_and_cohort_checks_passed": true,
+  "plotted_values": [
+    {
+      "domain": "retail",
+      "model": "Croston SBA",
+      "complementary": -19.43033509074267,
+      "directional": 6.105269209131915,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Eight week mean",
+      "complementary": 2.059840615819194,
+      "directional": 13.145231904135443,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Exponential smoothing",
+      "complementary": 2.5195460080483865,
+      "directional": 7.83068402421329,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Four week mean",
+      "complementary": 3.8040015264592144,
+      "directional": 10.414657123012528,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Last week",
+      "complementary": 1.2318711203012296,
+      "directional": 1.5120536258683315,
+      "guarded": true
+    },
+    {
+      "domain": "retail",
+      "model": "Past price and calendar",
+      "complementary": 6.413037370453844,
+      "directional": -0.8153258231926045,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Past price calendar and history",
+      "complementary": 2.7988422799077974,
+      "directional": 4.940559138543712,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Ridge with history",
+      "complementary": 2.2036727511768213,
+      "directional": 3.7156373269568133,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Theta",
+      "complementary": 4.108090879791979,
+      "directional": 10.63629637625775,
+      "guarded": false
+    },
+    {
+      "domain": "retail",
+      "model": "Training series mean",
+      "complementary": 1.2874696156255254,
+      "directional": -0.2083711067270268,
+      "guarded": true
+    },
+    {
+      "domain": "ratings",
+      "model": "Alternating least squares",
+      "complementary": 12.731541476581995,
+      "directional": 8.729529852895325,
+      "guarded": false
+    },
+    {
+      "domain": "ratings",
+      "model": "Global mean",
+      "complementary": null,
+      "directional": null,
+      "guarded": true
+    },
+    {
+      "domain": "ratings",
+      "model": "Item mean",
+      "complementary": 1.93697441435816,
+      "directional": 1.9266212208660178,
+      "guarded": true
+    },
+    {
+      "domain": "ratings",
+      "model": "Item nearest neighbours",
+      "complementary": 9.800152709432195,
+      "directional": 6.57388722812703,
+      "guarded": false
+    },
+    {
+      "domain": "ratings",
+      "model": "SVD (32 factors)",
+      "complementary": 7.515116130953974,
+      "directional": 5.786307518138655,
+      "guarded": false
+    },
+    {
+      "domain": "ratings",
+      "model": "SVD (40 factors)",
+      "complementary": 8.108096149794601,
+      "directional": 6.090281339828053,
+      "guarded": false
+    },
+    {
+      "domain": "ratings",
+      "model": "SVD interaction",
+      "complementary": 10.14423799157616,
+      "directional": 6.669644583907059,
+      "guarded": false
+    },
+    {
+      "domain": "ratings",
+      "model": "Slope One",
+      "complementary": 5.69175948916863,
+      "directional": 4.728223891636755,
+      "guarded": false
+    },
+    {
+      "domain": "ratings",
+      "model": "User and item bias",
+      "complementary": 1.93697441435816,
+      "directional": 1.9266212208660178,
+      "guarded": true
+    },
+    {
+      "domain": "ratings",
+      "model": "User mean",
+      "complementary": null,
+      "directional": null,
+      "guarded": true
+    }
+  ],
+  "files": {
+    "public_directional_models.csv": "b4ab0049f62faf89a2ca730261e21008ece9911cfb3cb1df53bd4aa90642d774",
+    "fig_public_directional_focus.png": "d602559bc5cdb667f382c52cee711ea3a230d77882d15e1ee80a43c908cca91f",
+    "fig_public_directional_focus.svg": "9126e86aa4482f90b7a4a8db49f86516c73e39c50339a0f8e4586bdf627fe2f4",
+    "fig_public_directional_focus.pdf": "a790b88fe3a8cc1412bec4c28ea67287f6c7d71482a1fa2dcc4265a8d464d97d"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "checks": [
+    "mixed-sign global null retained",
+    "nonbinding missing-mass null returns one",
+    "single-stratum closed-form mixture and conservative p rounding",
+    "40 profiles bracket independent 80-digit constrained minima",
+    "valid tangent lower evidence with deliberately truncated optimizer",
+    "147 enumerated heterogeneous-null count states obey e-value and p-value guarantees"
+  ],
+  "maximum_independent_profile_gap": 2.2209054826408355e-06,
+  "null_enumeration": [
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "shifted_means": [
+        "3/5",
+        "2/5"
+      ],
+      "pairs_per_stratum": 6,
+      "exact_count_states": 49,
+      "evidence_expectation": 0.8706636047671665,
+      "null_rejection_probabilities": {
+        "0.01": 0.000191102976,
+        "0.05": 0.002675441664,
+        "0.1": 0.002675441664,
+        "0.2": 0.01727889408,
+        "0.5": 0.06857588736
+      }
+    },
+    {
+      "weights": [
+        "1/4",
+        "3/4"
+      ],
+      "shifted_means": [
+        "7/10",
+        "13/30"
+      ],
+      "pairs_per_stratum": 6,
+      "exact_count_states": 49,
+      "evidence_expectation": 0.9174770964027112,
+      "null_rejection_probabilities": {
+        "0.01": 0.0007789701674087791,
+        "0.05": 0.0027820363121742113,
+        "0.1": 0.00889395608722771,
+        "0.2": 0.011040098385190673,
+        "0.5": 0.04796410673612483
+      }
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "shifted_means": [
+        "1/4",
+        "1/2"
+      ],
+      "pairs_per_stratum": 6,
+      "exact_count_states": 49,
+      "evidence_expectation": 0.2530133468517402,
+      "null_rejection_probabilities": {
+        "0.01": 3.814697265625e-06,
+        "0.05": 9.5367431640625e-05,
+        "0.1": 9.5367431640625e-05,
+        "0.2": 0.001079559326171875,
+        "0.5": 0.007335662841796875
+      }
+    }
+  ],
+  "source_sha256": "f6a63eda5451594f38a1cb69fbfc66cafde017020887938d71902e7b2075729b",
+  "scope": "Numerical and finite-law checks only; no untouched empirical task or universal power claim."
+}

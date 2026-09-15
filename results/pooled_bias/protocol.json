@@ -1,0 +1,18 @@
+{
+  "scope": "Retrospective matched comparator development on all previously used 72 settings; not unseen-task confirmation or end-to-end power",
+  "seed": 1309202601,
+  "repetitions": 2000,
+  "categories": [2,8,32,128],
+  "validation_pairs": [512,2048,8192],
+  "mass_laws": ["balanced","one_heavy"],
+  "fit_errors": ["exact","same_direction","opposite_direction"],
+  "deltas": [0.05,0.0002299605781865966],
+  "methods": ["rectangle","split_original","split_balanced","pooled_fixed","pooled_grid","pooled_mixture"],
+  "information": "Every method sees exact category probabilities and identical independent focal/reference pairs with both channels and fixed nuisance fits",
+  "cost": "2*m raw observations for m paired comparisons; within-category reshuffling and full averaging buy no new labels, computational time separate",
+  "split_balanced": "Uniform random half-subset within each focal category, seed component991, used only as allocation comparator",
+  "pooled_grid": "17 fixed exponents -8 through8; log(3*17/delta) linear penalty; no selecting an unpenalized grid point",
+  "pooled_mixture": "Gaussian integration of both-sign Jensen MGFs; rho=D/(2*log(3/delta)) fixed using counts and masses",
+  "decisions": "Each method evaluated separately at its full stated delta; no post hoc minimum across methods is a valid claimed certificate",
+  "outcomes": "All settings and adverse outcomes retained; original delta=.05 rectangle/split outputs must replay within1e-12"
+}

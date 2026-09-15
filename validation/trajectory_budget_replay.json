@@ -1,0 +1,52 @@
+{
+  "command": [
+    "python",
+    "results/trajectory_budget/reproduce.py",
+    "--output",
+    "/tmp/trajectory-budget-replay"
+  ],
+  "cwd": "<repository-root>",
+  "started_utc": "2026-09-14T20:05:11.303911+00:00",
+  "finished_utc": "2026-09-14T20:05:17.684885+00:00",
+  "elapsed_seconds": 6.381002981215715,
+  "returncode": 0,
+  "transcript": "trajectory_budget_replay.txt",
+  "transcript_sha256": "2d35a2713516bdae223efffedb3a59b3f29adac919440bca1434cf0d613d6c88",
+  "scope": "Separate public-root same-budget replay from bundled predictions and draw positions; no model retraining or new data. Unit suite independently checks formulas.",
+  "source_sha256": "4c9ea8f9e963873198eb48dc390979d19db27e360c07cb972ded969582f5c18f",
+  "new_environment_created": false,
+  "same_host_installed_environment": true,
+  "csv_byte_comparisons": {
+    "gate_decisions.csv": true,
+    "all_eight_future_losses.csv": true,
+    "declared_width_budget_curve.csv": true,
+    "certificate_all_eight.csv": true,
+    "figure_boosting_certificate_coordinates.csv": true,
+    "future_weekly_mean_losses.csv": true,
+    "future_rule_comparisons.csv": true,
+    "cost_accounting.csv": true
+  },
+  "status": "PASS",
+  "json_exact_value_comparisons": {
+    "ALLOCATION_RULE.json": true,
+    "BOOTSTRAP_PROTOCOL.json": true,
+    "RULE_CHOICES_BEFORE_REPLAYING_FUTURE.json": true
+  },
+  "npz_array_comparisons": {
+    "active_allocation_indices.npz": {
+      "keys_equal": true,
+      "arrays_equal": {
+        "evaluation": true,
+        "validation": true
+      }
+    },
+    "bootstrap_indices.npz": {
+      "keys_equal": true,
+      "arrays_equal": {
+        "indices": true,
+        "week_sizes": true
+      }
+    }
+  },
+  "transcript_display": "Machine-specific working directory and interpreter prefixes are replaced with the displayed repository-root and environment placeholders."
+}

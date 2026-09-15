@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "scope": "Public integration of the original finite-law calibration and separately frozen biased-null addendum; both protocols and all original numeric results retained. No independent application claim.",
+  "frozen_studies": [
+    {
+      "study": "results/shared_baseline_calibration",
+      "protocol_sha256": "f2415d41fe46d72dcdf1ddd0b8d1f5ea64a743aa4be289396b353d87cb37a727",
+      "all_frozen_inputs_match": true,
+      "nested_result_manifest_sha256": "1d6b49d9880bc5b9918c1dd4c334b0af5ee7dce35154d20ef0a9d8cee2a1cddc",
+      "all_recorded_numeric_files_match": true,
+      "result_files": {
+        "summary.csv": "08154722a283ba90881524c781b19979656e7d9ee62b458babb1d6e44a87c8bd",
+        "family_replications.csv": "b7a12a9cc241fb85f5c7965d7e9da31200d41ffae6f1941f590f8cffeda95301",
+        "replications.csv": "588d889539381bf9590cb8fc9afdd69bcaf7d3981adb7e1fc6f616b7b257cdd1"
+      }
+    },
+    {
+      "study": "results/shared_baseline_calibration/biased_null",
+      "protocol_sha256": "1c3c13a0b36f424684b9effa6147db9a327ec2d27af52076b2f9c3aea4ecd75a",
+      "all_frozen_inputs_match": true,
+      "nested_result_manifest_sha256": "e95113a12ef1ad96c688fe3a115af465ab24fed72a0dd20e18eedd24e42e9c3f",
+      "all_recorded_numeric_files_match": true,
+      "result_files": {
+        "summary.csv": "e027c015d1d26589c3ca55e09e21cc5b7c8b7c8c7f43badf710f4c016a18f507",
+        "family_replications.csv": "f30746824e3863432217ad5b0aaf85422d5a2cfe58454ae371e7e16a81ec87c2",
+        "replications.csv": "12494cbd190ecff1c03f36c4ff54c3fd3ea66dd7a7d6bd41ad80931e9ae909c2"
+      }
+    }
+  ],
+  "driver_group": {
+    "status": "PASS",
+    "aggregate_driver_sha256": "5148f7d48497e613bb6f128b640c0539b09ef0578f317024ff1e80ed9ac343ce",
+    "executed_scope": "The added calibration group extracted directly from the aggregate driver; unrelated study groups are excluded.",
+    "checks": [
+      {
+        "study": "shared_baseline_calibration",
+        "initial_protocol": {
+          "law_budget_cells": 12,
+          "procedure_cells": 72,
+          "independent_replications": 3600,
+          "candidate_method_rule_rows": 86400,
+          "family_rows": 21600
+        },
+        "separate_biased_null_addendum": {
+          "law_budget_cells": 2,
+          "procedure_cells": 12,
+          "independent_replications": 600,
+          "candidate_method_rule_rows": 14400,
+          "family_rows": 3600
+        },
+        "deterministic_replay": "PASS",
+        "independent_recount": "PASS",
+        "scope": "Original six finite IID laws and a separately frozen zero-target, positive-reference-bias addendum. Both protocols and all outcomes retained; no exhaustive null calibration or independent application claim."
+      }
+    ],
+    "driver_group_source_nodes": 13
+  },
+  "unit_tests": {
+    "passed": 8,
+    "suite": "results/shared_baseline_calibration/test_study.py",
+    "biased_null_uses_separate_independent_verifier": true
+  },
+  "companion_table_recount": {
+    "status": "PASS",
+    "frozen_protocol_and_sources_identical": true,
+    "nested_manifest_verified": true,
+    "numeric_result_files_preserved": 3,
+    "companion_table_rows_reconstructed": 12,
+    "aggregate_driver_syntax_valid": true,
+    "source_overrides_match_changed_driver_and_added_sources": true,
+    "source_sha256": "caffdbc63e2b03c864836808049aa75c855916c49363bc996d3457e54c7a7b8c"
+  },
+  "all_source_override_current_hashes_match": true
+}

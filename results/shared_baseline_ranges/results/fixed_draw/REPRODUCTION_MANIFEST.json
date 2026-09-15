@@ -1,0 +1,60 @@
+{
+  "analysis_status": "Post-exposure fixed-draw diagnostic; no independent confirmation.",
+  "input_sha256": {
+    "inputs/selection_forecasts.npz": "59aa49c48825514cec8a8d36c77bae8ef2771699c3af160eacc7b24038bd6816",
+    "inputs/selection_indices.npz": "637a99a08beefdc324c9de0e62cb0082d3ae1f038eecf9e4f01a746a62c67a34",
+    "results/active_allocation_indices.npz": "505fafa3a9bcae9a4792a188e190d7ca3dd2bd2d55e15b08531e12f3d1a1ea35",
+    "results/certificate_all_eight.csv": "108831ca9327ba0aa9029024772dc29d779e6a72b4e0b14a57a82608035e5355"
+  },
+  "code_sha256": {
+    "reproduce.py": "d12b0b7d3ce46d4befa3bbd91b5f4e8cb19bb655f9b457ec937381f3d715a459",
+    "exact_checks.py": "0d49bd1b6d7782166c95167dd52ccd270453f9fa3e23d6047e99322a04254875",
+    "test_study.py": "06e02faab1d20f9699c0d03c0677d11956331598062e07f95497a2e63d394d73",
+    "MAP_CONTRACT.json": "da7051a5233483175641ad694d1fcad8c5e34795445f6082e5d7a23c617e610b"
+  },
+  "map_identity_source": {
+    "path": "results/trajectory_forecast/prepare.py",
+    "sha256": "76a97b5a52d14dcafe96581edf92eabdc0f1fab3a05563226c47ee4812ea474b",
+    "definition": "NAMES[0]='persistence'; baseline=raw[k][:,0]; prediction column 0 and baseline are the same map by construction."
+  },
+  "numpy_version": "1.26.4",
+  "map_contract": {
+    "maps_left": [
+      "candidate_forecast",
+      "persistence_baseline"
+    ],
+    "maps_right": [
+      "observed_outcome",
+      "persistence_baseline"
+    ],
+    "C": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "D": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "common_baseline_is_same_map": true,
+    "forecast_equals_baseline": [
+      "persistence"
+    ],
+    "identity_basis": "The released trajectory_forecast/prepare.py saves baseline=raw[k][:,0] and names prediction column 0 persistence. These are the same map by construction, including the common nonnegative clipping operation.",
+    "scope": "Structural identities from the released map definitions; no identity is inferred from equal fitted values or from an observed range. The zero-width rule applies only to an explicitly declared identical map."
+  },
+  "input_source": "Existing public results/trajectory_budget; input files are read only.",
+  "complete_center_algorithm": "Finite-archive multiplicity identity, independently reimplemented; no rank-sweep runtime claim.",
+  "future_data": "No confirmation forecasts, future losses, or future bootstrap indices are read."
+}

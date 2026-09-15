@@ -1,0 +1,35 @@
+{
+  "forecast_class": "equal_two_source_sum",
+  "population_coefficient": "0",
+  "overlap_coefficient": "1/2",
+  "coefficient_l1_forecast": "2",
+  "coefficient_l1_outcome": "2",
+  "preserves_population_reference_expectation_for_every_common_law": false,
+  "population_reference_centered_for_every_common_law": true,
+  "matches": [
+    {
+      "forecast_sources": [
+        "1",
+        "0"
+      ],
+      "outcome_source": "0",
+      "population_coefficient": "-1/2",
+      "peer_products": {},
+      "overlap_coefficient": "0"
+    },
+    {
+      "forecast_sources": [
+        "4",
+        "3"
+      ],
+      "outcome_source": "4",
+      "population_coefficient": "1/2",
+      "peer_products": {
+        "1": "1/2"
+      },
+      "overlap_coefficient": "1/2"
+    }
+  ],
+  "meaning": "E[AB] = kappa_F T + lambda_F Omega",
+  "scope": "Independent common-law raw sources; fixed normalized fitting and reference weights; centered, unstandardized midranks. This output is not a panel p-value or a claim of predictive improvement."
+}

@@ -1,0 +1,54 @@
+{
+  "source_sha256": "40cdd29c24918e855133dce280ff59779bb0b5852898e05bafcf422a4cc0a175",
+  "csv_member": "PRSA_data_2010.1.1-2014.12.31.csv",
+  "raw_rows": 43824,
+  "eligible_training_rows": 23006,
+  "selection_trajectories": 339,
+  "confirmation_trajectories": 349,
+  "excluded_hours_missing_target_or_pm_lag": 4071,
+  "features": [
+    "pm_lag_1",
+    "pm_lag_2",
+    "pm_lag_3",
+    "pm_lag_6",
+    "pm_lag_12",
+    "pm_lag_24",
+    "TEMP_lag_1",
+    "PRES_lag_1",
+    "DEWP_lag_1",
+    "Iws_lag_1",
+    "Is_lag_1",
+    "Ir_lag_1",
+    "wind_lag_1",
+    "hour",
+    "weekday",
+    "month"
+  ],
+  "forecast_origin": "hour preceding target; daily target14:00 for later windows",
+  "training_end": "2012-12-31 23:00:00",
+  "selection_start": "2013-01-01 14:00:00",
+  "selection_end": "2013-12-31 14:00:00",
+  "confirmation_start": "2014-01-01 14:00:00",
+  "candidate_order": [
+    "persistence",
+    "ridge_1",
+    "ridge_100",
+    "boosting_7",
+    "boosting_31",
+    "blend_ridge_1",
+    "blend_boosting_7",
+    "blend_boosting_31"
+  ],
+  "training_seconds": {
+    "ridge_1": 0.002989351749420166,
+    "ridge_100": 0.0024603642523288727,
+    "boosting_7": 0.18848617747426033,
+    "boosting_31": 0.36774035170674324
+  },
+  "stage_files": {
+    "selection_forecasts.npz": "2e63a2d7032687885658401dc256179a69911f86f923dadb3fa16ffe9332f0ea",
+    "confirmation_forecasts.npz": "d52bbcacf53f5818a645655f79fe022d62854d8f5e3373e607a11b560b7fa017"
+  },
+  "target_scope": "Raw PM2.5; no upper clipping. Forecast maps fixed before archive draws.",
+  "source_attribution": "Chen, S. (2015). Beijing PM2.5. UCI Machine Learning Repository. DOI:10.24432/C5JS49. CC BY 4.0."
+}

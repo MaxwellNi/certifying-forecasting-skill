@@ -1,0 +1,8 @@
+{
+  "bound_cases": 96,
+  "max_bound_error": 1.3877787807814457e-17,
+  "BY_literal_families": 3,
+  "scope": "Independent formula implementation agreement, not scientific performance evidence",
+  "script_sha256": "a19f1c36ccf0d5898e4d05abdbf1288cedf0c4e6c2ab2b55b248510c57b1b090",
+  "gate_sha256": "ea8d3ce2a7e5ded1a93233be041a30b16af19e2636e896024f1db79f0c2bb394"
+}

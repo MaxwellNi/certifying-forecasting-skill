@@ -1,0 +1,506 @@
+[
+  {
+    "categories": 2,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1796119636642288e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1449174941446927e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.0581813203458523e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1275702593849246e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1449174941446927e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1037178115902435e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0495077029659683e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.0928757898653885e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0408340855860843e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.0928757898653885e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1015494072452725e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0289078616887437e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.0755285551056204e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1796119636642288e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0321604682062002e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.0668549377257364e-16
+  },
+  {
+    "categories": 2,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.0755285551056204e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.249000902703301e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1796119636642288e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1796119636642288e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.249000902703301e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0408340855860843e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.0755285551056204e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0928757898653885e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.0828469197698976e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0278236595162582e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.0408340855860843e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.0408340855860843e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0278236595162582e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.0755285551056204e-16
+  },
+  {
+    "categories": 8,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.3877787807814457e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.6653345369377348e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.3877787807814457e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.3877787807814457e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.249000902703301e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.249000902703301e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.249000902703301e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0408340855860843e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.0335157209218071e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.0408340855860843e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.0755285551056204e-16
+  },
+  {
+    "categories": 32,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.0842021724855044e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 512,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.3877787807814457e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 512,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.6653345369377348e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.6653345369377348e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 2048,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.6653345369377348e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.249000902703301e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 2048,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 8192,
+    "mass": "balanced",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.249000902703301e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "exact",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "same_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  },
+  {
+    "categories": 128,
+    "validation_pairs": 8192,
+    "mass": "one_heavy",
+    "fit_error": "opposite_direction",
+    "max_original_replay_difference": 1.1102230246251565e-16
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "copies": [
+    {
+      "copy": "inputs/selection_forecasts.npz",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_forecast/data/corrected/selection_forecasts.npz",
+      "sha256": "59aa49c48825514cec8a8d36c77bae8ef2771699c3af160eacc7b24038bd6816",
+      "byte_identical": true
+    },
+    {
+      "copy": "inputs/confirmation_forecasts.npz",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_forecast/data/corrected/confirmation_forecasts.npz",
+      "sha256": "82b520b96f0d7162b9c94b13c7988cc34e019102a0b07e4c8959fcb9b9104a1e",
+      "byte_identical": true
+    },
+    {
+      "copy": "inputs/selection_indices.npz",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_forecast/recorded/corrected/selection_indices.npz",
+      "sha256": "637a99a08beefdc324c9de0e62cb0082d3ae1f038eecf9e4f01a746a62c67a34",
+      "byte_identical": true
+    },
+    {
+      "copy": "inputs/original_selection_gates.csv",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_forecast/recorded/corrected/selection_gates.csv",
+      "sha256": "6908d6900eaa18d1a0531a8c1561b096f0764043ef8a9d3ce73d6d1614563e77",
+      "byte_identical": true
+    },
+    {
+      "copy": "inputs/original_strong_gates.csv",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_forecast/recorded/strong/strong_gates.csv",
+      "sha256": "afb187e9f1f60475a1ab976d186f3ff40bbc95b7ada85c22774f456d43de02e6",
+      "byte_identical": true
+    },
+    {
+      "copy": "inputs/original_utility_diagnostic.json",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_forecast/diagnostics/utility_weighted_and_equal_week.json",
+      "sha256": "f8e3c5d97c4d08d95c8e70274fd494aa19ade942ec9a1f1c953789970f92f1e3",
+      "byte_identical": true
+    },
+    {
+      "copy": "reference_kernels/trajectory_kernel.py",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_design/trajectory_kernel.py",
+      "sha256": "cff86767bb6d0787522ba67b371963784aa9d9fc7be3fcf3448aee9896e48a1f",
+      "byte_identical": true
+    },
+    {
+      "copy": "reference_kernels/pooled_trajectory_kernel.py",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_design/pooled_trajectory_kernel.py",
+      "sha256": "b9a97d6ae67b30a0ebe0e80a4f1536affbb5ca36069ac09aaade91d8b77f4fb0",
+      "byte_identical": true
+    },
+    {
+      "copy": "DATA_LICENSE.md",
+      "original": "docs/ICDM_26/release/certifying_forecasting_skill/results/trajectory_forecast/DATA_LICENSE.md",
+      "sha256": "0467dac722d0726300b2641baa0aabb707a0e516d71e25e1eaf75450c91148b1",
+      "byte_identical": true
+    }
+  ],
+  "source_preservation": "Only this cost_study directory is written; all copied baseline files remain unchanged.",
+  "analysis_status": "Post-exposure diagnostic on corrected already-viewed cohorts."
+}

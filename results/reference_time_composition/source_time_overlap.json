@@ -1,0 +1,74 @@
+{
+  "scope": "Exact fixed-design coefficient illustration, not a real-panel calibration result",
+  "designs": [
+    {
+      "design": "Positive overlap",
+      "A": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      "B": [
+        "0",
+        "-1/2",
+        "1",
+        "0",
+        "-1/2",
+        "0"
+      ],
+      "overlap": "1/2",
+      "noise_variance": "5/54",
+      "population_reference_mean": "0",
+      "additional_mean": "5/108"
+    },
+    {
+      "design": "Negative overlap",
+      "A": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      "B": [
+        "-1/2",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      "overlap": "-1/2",
+      "noise_variance": "5/54",
+      "population_reference_mean": "0",
+      "additional_mean": "-5/108"
+    },
+    {
+      "design": "Zero overlap",
+      "A": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      "B": [
+        "-1/2",
+        "0",
+        "1",
+        "0",
+        "-1/2",
+        "0"
+      ],
+      "overlap": "0",
+      "noise_variance": "5/54",
+      "population_reference_mean": "0",
+      "additional_mean": "0"
+    }
+  ]
+}

@@ -1,0 +1,1538 @@
+{
+  "scope": "Deterministic algebra and exact finite-state checks; no empirical generalization claim",
+  "partition_identity_n": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_partition_absolute_error": 2.7755575615628914e-17,
+  "max_variance_absolute_error": 5.898059818321144e-17,
+  "max_checked_linear_mgf": 0.9998234395641697,
+  "max_checked_square_mgf_over_bound": 0.9221944030257706,
+  "square_mgf_alphas": [
+    0.25,
+    0.5,
+    0.9,
+    0.99
+  ],
+  "exact_state_results": [
+    {
+      "case": 0,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 0,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 1,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 2,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.0
+    },
+    {
+      "case": 3,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 3.8337599924474723e-19,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 3,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 3.8337599924474723e-19,
+      "sufficient_states": 1771,
+      "truth": -0.074
+    },
+    {
+      "case": 4,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 4,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 1771,
+      "truth": 0.022000000000000026
+    },
+    {
+      "case": 5,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 9.094947017729282e-13,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 2.0482821128098294e-07,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 9.085377678275108e-05,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 9.732502803672105e-09,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 2.4901955839595757e-06,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.00028243085034773685,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 3.8289726944640274e-10,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 1.854550646385178e-08,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 1.5207651813398115e-06,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 2.8203430701978505e-09,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 1.2105283531127498e-07,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 4.7463245209655724e-06,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 3.728928277269006e-11,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 2.234719431726262e-08,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 2.1138511328899764e-05,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 1.4379111235029993e-09,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 4.092898961971514e-07,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 2.5249777536373585e-05,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 3.8289726944640274e-10,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 9.285122359870002e-08,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 2.2660223294224124e-05,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 9.732502803672105e-09,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 7.618100426043384e-07,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 5,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 3.851158544421196e-05,
+      "sufficient_states": 1771,
+      "truth": 0.25
+    },
+    {
+      "case": 6,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "fixed",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "fixed",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "grid",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "grid",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "mixture",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "mixture",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "square_mgf",
+      "product_mode": "subgamma",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.05,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.2,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    },
+    {
+      "case": 6,
+      "mode": "square_mgf",
+      "product_mode": "exact_mgf",
+      "delta": 0.8,
+      "exact_noncoverage": 0.0,
+      "sufficient_states": 700,
+      "truth": -0.07400000000000001
+    }
+  ],
+  "all_checks_pass": true
+}

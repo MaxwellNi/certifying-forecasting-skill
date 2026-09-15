@@ -1,0 +1,37 @@
+law,design,method,repetitions,positives,rate,pointwise_95_lower,pointwise_95_upper,population_target,empirical_mean,total_observations
+Bernoulli(0.1),positive overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,0.011250000000000001,79872
+Bernoulli(0.1),positive overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.011250000000000001,79872
+Bernoulli(0.1),positive overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.011250000000000001,79872
+Bernoulli(0.1),negative overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,-0.011250000000000001,79872
+Bernoulli(0.1),negative overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,-0.011250000000000001,79872
+Bernoulli(0.1),negative overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,-0.011250000000000001,79872
+Bernoulli(0.1),zero overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+Bernoulli(0.1),zero overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+Bernoulli(0.1),zero overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+Bernoulli(0.5),positive overlap,naive,400,388,0.97,0.9481827845694164,0.9844044470001057,0.0,0.03125,79872
+Bernoulli(0.5),positive overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.03125,79872
+Bernoulli(0.5),positive overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.03125,79872
+Bernoulli(0.5),negative overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,-0.03125,79872
+Bernoulli(0.5),negative overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,-0.03125,79872
+Bernoulli(0.5),negative overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,-0.03125,79872
+Bernoulli(0.5),zero overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+Bernoulli(0.5),zero overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+Bernoulli(0.5),zero overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+uniform ternary,positive overlap,naive,400,400,1.0,0.9908201954163347,1.0,0.0,0.046296296296296294,79872
+uniform ternary,positive overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.046296296296296294,79872
+uniform ternary,positive overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.046296296296296294,79872
+uniform ternary,negative overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,-0.046296296296296294,79872
+uniform ternary,negative overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,-0.046296296296296294,79872
+uniform ternary,negative overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,-0.046296296296296294,79872
+uniform ternary,zero overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+uniform ternary,zero overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+uniform ternary,zero overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+continuous uniform,positive overlap,naive,400,400,1.0,0.9908201954163347,1.0,0.0,0.08333333333333333,79872
+continuous uniform,positive overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.08333333333333333,79872
+continuous uniform,positive overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.08333333333333333,79872
+continuous uniform,negative overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,-0.08333333333333333,79872
+continuous uniform,negative overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,-0.08333333333333333,79872
+continuous uniform,negative overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,-0.08333333333333333,79872
+continuous uniform,zero overlap,naive,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+continuous uniform,zero overlap,oracle,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872
+continuous uniform,zero overlap,validated,400,0,0.0,0.0,0.00917980458366526,0.0,0.0,79872

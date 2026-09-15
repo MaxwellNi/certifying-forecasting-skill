@@ -1,0 +1,292 @@
+{
+  "status": "ALL_ASSERTIONS_PASSED",
+  "temporal_cases": [
+    {
+      "name": "binary_original",
+      "raw_arrays": 512,
+      "empirical": "-3/32",
+      "induced_population": "-1/16",
+      "interaction": "-1/32",
+      "Lambda": [
+        "-1/4",
+        "-1/4"
+      ],
+      "omega": [
+        "1/16",
+        "1/16"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "ternary_original",
+      "raw_arrays": 19683,
+      "empirical": "-13/108",
+      "induced_population": "-2/27",
+      "interaction": "-5/108",
+      "Lambda": [
+        "-1/4",
+        "-1/4"
+      ],
+      "omega": [
+        "5/54",
+        "5/54"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "skewed_ternary_original",
+      "raw_arrays": 19683,
+      "empirical": "-1/9",
+      "induced_population": "-5/72",
+      "interaction": "-1/24",
+      "Lambda": [
+        "-1/4",
+        "-1/4"
+      ],
+      "omega": [
+        "1/12",
+        "1/12"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "positive_ternary",
+      "raw_arrays": 19683,
+      "empirical": "5/108",
+      "induced_population": "0",
+      "interaction": "5/108",
+      "Lambda": [
+        "1/2",
+        "0"
+      ],
+      "omega": [
+        "5/54",
+        "5/54"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "negative_ternary",
+      "raw_arrays": 19683,
+      "empirical": "-5/108",
+      "induced_population": "0",
+      "interaction": "-5/108",
+      "Lambda": [
+        "-1/2",
+        "0"
+      ],
+      "omega": [
+        "5/54",
+        "5/54"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "cancelled_ternary",
+      "raw_arrays": 19683,
+      "empirical": "0",
+      "induced_population": "0",
+      "interaction": "0",
+      "Lambda": [
+        "0",
+        "0"
+      ],
+      "omega": [
+        "5/54",
+        "5/54"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "directional_ternary",
+      "raw_arrays": 19683,
+      "empirical": "0",
+      "induced_population": "0",
+      "interaction": "0",
+      "Lambda": [
+        "0",
+        "0"
+      ],
+      "omega": [
+        "5/54",
+        "5/54"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "heterogeneous_nonbinary_weighted",
+      "raw_arrays": 13824,
+      "empirical": "-31/3456",
+      "induced_population": "-125/13824",
+      "interaction": "1/13824",
+      "Lambda": [
+        "1/16",
+        "-1/16",
+        "0"
+      ],
+      "omega": [
+        "3/32",
+        "5/54",
+        "5/48"
+      ],
+      "mean_product": "-25/3456"
+    },
+    {
+      "name": "heterogeneous_scalar_cancellation_fails",
+      "raw_arrays": 8,
+      "empirical": "-1/8",
+      "induced_population": "0",
+      "interaction": "-1/8",
+      "Lambda": [
+        "-1/2",
+        "1/2"
+      ],
+      "omega": [
+        "1/4",
+        "0"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "disjoint_peer_references",
+      "raw_arrays": 19683,
+      "empirical": "-2/27",
+      "induced_population": "-2/27",
+      "interaction": "0",
+      "Lambda": [
+        "0",
+        "0"
+      ],
+      "omega": [
+        "5/54",
+        "5/54"
+      ],
+      "mean_product": "0"
+    },
+    {
+      "name": "repeated_source_different_peer_weights",
+      "raw_arrays": 19683,
+      "empirical": "53/1728",
+      "induced_population": "1/36",
+      "interaction": "5/1728",
+      "Lambda": [
+        "0",
+        "1/32"
+      ],
+      "omega": [
+        "5/54",
+        "5/54"
+      ],
+      "mean_product": "0"
+    }
+  ],
+  "raw_temporal_arrays": 171808,
+  "graph_cases": {
+    "binary": {
+      "raw_arrays": 16,
+      "v": "1/16",
+      "tau": "0",
+      "omega": "1/16",
+      "cross_covariance": [
+        [
+          "7/96",
+          "-5/48",
+          "-1/60",
+          "1/36"
+        ],
+        [
+          "1/128",
+          "5/64",
+          "-1/40",
+          "-1/24"
+        ],
+        [
+          "-1/32",
+          "-1/16",
+          "7/80",
+          "-1/48"
+        ],
+        [
+          "-3/64",
+          "1/32",
+          "-1/20",
+          "1/12"
+        ]
+      ]
+    },
+    "ternary": {
+      "raw_arrays": 81,
+      "v": "2/27",
+      "tau": "1/54",
+      "omega": "5/54",
+      "cross_covariance": [
+        [
+          "29/324",
+          "-11/81",
+          "-17/810",
+          "8/243"
+        ],
+        [
+          "1/108",
+          "7/72",
+          "-17/540",
+          "-17/324"
+        ],
+        [
+          "-1/27",
+          "-2/27",
+          "1/9",
+          "-2/81"
+        ],
+        [
+          "-13/216",
+          "1/27",
+          "-17/270",
+          "17/162"
+        ]
+      ]
+    },
+    "skewed_ternary": {
+      "raw_arrays": 81,
+      "v": "5/72",
+      "tau": "1/72",
+      "omega": "1/12",
+      "cross_covariance": [
+        [
+          "1/12",
+          "-1/8",
+          "-7/360",
+          "5/162"
+        ],
+        [
+          "5/576",
+          "13/144",
+          "-7/240",
+          "-7/144"
+        ],
+        [
+          "-5/144",
+          "-5/72",
+          "37/360",
+          "-5/216"
+        ],
+        [
+          "-1/18",
+          "5/144",
+          "-7/120",
+          "7/72"
+        ]
+      ]
+    }
+  },
+  "continuous": {
+    "orderings": 6,
+    "v": "1/12",
+    "omega": "1/6",
+    "tau": "1/12",
+    "positive_case": "1/12"
+  },
+  "runtime_seconds": 3.3658814430236816,
+  "source_sha256": "e3d12b4fd678e427602c46de36a4651bd017139640884f4f539dd7f4ffaeab34",
+  "scope": "Exact expectation and covariance checks; no calibration or empirical superiority claim"
+}

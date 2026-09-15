@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scope": "Reader-facing docstring/path cleanup after aggregate pass; executable AST unchanged, exact checks rerun and result bytes unchanged. This separate helper is not an aggregate-run dependency.",
+  "previous_source_sha256": "d8bcbe24d51569799a2be15c0015e6a76e1285e840a9a68c6f8068d79213d51e",
+  "current_source_sha256": "da843b5be69e36e088bb50e1c5342e76b64ff2af98c6e7397abff4f65c60a711",
+  "executable_ast_unchanged": true,
+  "results_unchanged": true,
+  "output": {
+    "sequential_counterexample": {
+      "number_of_equiprobable_binary_configurations": 64,
+      "R_value_counts": {
+        "-1/4": 6,
+        "-1/8": 8,
+        "0": 36,
+        "1/8": 8,
+        "1/4": 6
+      },
+      "E_R": "0",
+      "E_R_squared": "1/64",
+      "E_of_claimed_eprocess_at_t2": "65/64",
+      "eventual_rejection_probability": "7/32",
+      "nominal_alpha_example": "1/20"
+    },
+    "separate_stream_sequential_counterexample": {
+      "number_of_equiprobable_binary_configurations": 1024,
+      "independent_evaluation_pair_and_validation_triple_within_round": true,
+      "R_value_counts": {
+        "-3/8": 16,
+        "-1/4": 96,
+        "-1/8": 112,
+        "0": 576,
+        "1/8": 112,
+        "1/4": 96,
+        "3/8": 16
+      },
+      "E_R": "0",
+      "E_R_squared": "5/256",
+      "E_of_claimed_eprocess_at_t2": "261/256",
+      "eventual_rejection_probability": "7/32"
+    },
+    "zero_column_pruning": {
+      "exact_coefficient_cases": 6561,
+      "row_sums_omega_norms_and_sample_scores_preserved": true
+    }
+  }
+}

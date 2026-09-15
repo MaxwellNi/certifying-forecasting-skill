@@ -1,0 +1,57 @@
+axis,series,candidate,y,unscaled_value,plotted_x_times_1000
+interaction,Raw shared score,persistence,0,0.0,0.0
+interaction,Raw shared score,ridge_1,1,0.014434814453125,14.434814453125
+interaction,Raw shared score,ridge_100,2,0.014495849609375,14.495849609375
+interaction,Raw shared score,boosting_7,3,0.006439208984375,6.439208984375
+interaction,Raw shared score,boosting_31,4,0.0085296630859375,8.5296630859375
+interaction,Raw shared score,blend_ridge_1,5,0.008026123046875,8.026123046875
+interaction,Raw shared score,blend_boosting_7,6,0.002593994140625,2.593994140625
+interaction,Raw shared score,blend_boosting_31,7,0.0036468505859375,3.6468505859375
+interaction,Corrected center,persistence,0,0.0,0.0
+interaction,Corrected center,ridge_1,1,0.0020904541015625,2.0904541015625
+interaction,Corrected center,ridge_100,2,0.0024566650390625,2.4566650390625
+interaction,Corrected center,boosting_7,3,-0.00030517578125,-0.30517578125
+interaction,Corrected center,boosting_31,4,0.0003814697265625,0.3814697265625
+interaction,Corrected center,blend_ridge_1,5,0.0020294189453125,2.0294189453125
+interaction,Corrected center,blend_boosting_7,6,-0.000457763671875,-0.457763671875
+interaction,Corrected center,blend_boosting_31,7,7.62939453125e-05,0.0762939453125
+interaction,Exact census target,persistence,0,0.0,0.0
+interaction,Exact census target,ridge_1,1,0.0009481287389672,0.9481287389672001
+interaction,Exact census target,ridge_100,2,0.0008873063056739,0.8873063056739
+interaction,Exact census target,boosting_7,3,0.0005717383726406,0.5717383726406
+interaction,Exact census target,boosting_31,4,0.0008521327899962,0.8521327899962
+interaction,Exact census target,blend_ridge_1,5,0.0004555620252825,0.4555620252825
+interaction,Exact census target,blend_boosting_7,6,0.0002814381233111,0.2814381233111
+interaction,Exact census target,blend_boosting_31,7,0.0003740029670747,0.3740029670747
+lower_full,Shared hybrid lower,persistence,0,0.0,0.0
+lower_full,Shared hybrid lower,ridge_1,1,-0.0112268930820758,-11.226893082075799
+lower_full,Shared hybrid lower,ridge_100,2,-0.0108381541946361,-10.8381541946361
+lower_full,Shared hybrid lower,boosting_7,3,-0.0115673100426594,-11.567310042659399
+lower_full,Shared hybrid lower,boosting_31,4,-0.0115451549581119,-11.545154958111901
+lower_full,Shared hybrid lower,blend_ridge_1,5,-0.0094363533447708,-9.4363533447708
+lower_full,Shared hybrid lower,blend_boosting_7,6,-0.0101051467388782,-10.1051467388782
+lower_full,Shared hybrid lower,blend_boosting_31,7,-0.0100001733955978,-10.0001733955978
+lower_full,Reallocated hybrid lower,persistence,0,0.0,0.0
+lower_full,Reallocated hybrid lower,ridge_1,1,-0.0090071701625558,-9.0071701625558
+lower_full,Reallocated hybrid lower,ridge_100,2,-0.0087168873638881,-8.7168873638881
+lower_full,Reallocated hybrid lower,boosting_7,3,-0.0076183759887739,-7.6183759887738995
+lower_full,Reallocated hybrid lower,boosting_31,4,-0.0077117460077857,-7.7117460077857
+lower_full,Reallocated hybrid lower,blend_ridge_1,5,-0.0076010724270575,-7.6010724270575
+lower_full,Reallocated hybrid lower,blend_boosting_7,6,-0.0065188179650987,-6.5188179650987
+lower_full,Reallocated hybrid lower,blend_boosting_31,7,-0.0066125322387727,-6.6125322387727
+lower_zoom,Pooled variance lower,persistence,0,0.0,0.0
+lower_zoom,Pooled variance lower,ridge_1,1,0.000237170973076,0.237170973076
+lower_zoom,Pooled variance lower,ridge_100,2,0.0001959021643365,0.19590216433649998
+lower_zoom,Pooled variance lower,boosting_7,3,1.1284776059103123e-05,0.011284776059103123
+lower_zoom,Pooled variance lower,boosting_31,4,0.0002462195656425,0.2462195656425
+lower_zoom,Pooled variance lower,blend_ridge_1,5,-0.0001158285188082,-0.1158285188082
+lower_zoom,Pooled variance lower,blend_boosting_7,6,-0.0001708436538423,-0.1708436538423
+lower_zoom,Pooled variance lower,blend_boosting_31,7,-0.0001107663238439,-0.11076632384389999
+lower_zoom,Exact census target,persistence,0,0.0,0.0
+lower_zoom,Exact census target,ridge_1,1,0.0009481287389672,0.9481287389672001
+lower_zoom,Exact census target,ridge_100,2,0.0008873063056739,0.8873063056739
+lower_zoom,Exact census target,boosting_7,3,0.0005717383726406,0.5717383726406
+lower_zoom,Exact census target,boosting_31,4,0.0008521327899962,0.8521327899962
+lower_zoom,Exact census target,blend_ridge_1,5,0.0004555620252825,0.4555620252825
+lower_zoom,Exact census target,blend_boosting_7,6,0.0002814381233111,0.2814381233111
+lower_zoom,Exact census target,blend_boosting_31,7,0.0003740029670747,0.3740029670747

@@ -1,0 +1,46 @@
+{
+  "focal": "0",
+  "evaluation": "2",
+  "forecast_fit": {
+    "1": "1"
+  },
+  "outcome_fit": {
+    "1": "1"
+  },
+  "forecast_rows": {
+    "1": {
+      "sources": [
+        0
+      ],
+      "peers": {
+        "1": "1"
+      }
+    },
+    "2": {
+      "sources": [
+        1
+      ],
+      "peers": {
+        "1": "1"
+      }
+    }
+  },
+  "outcome_rows": {
+    "1": {
+      "sources": [
+        1
+      ],
+      "peers": {
+        "2": "1"
+      }
+    },
+    "2": {
+      "sources": [
+        2
+      ],
+      "peers": {
+        "2": "1"
+      }
+    }
+  }
+}

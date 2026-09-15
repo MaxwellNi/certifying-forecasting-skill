@@ -1,0 +1,364 @@
+{"status": "COMPLETED_DIAGNOSTIC_SCREEN", "models": 6, "counts": {"ABSTAIN": 4, "RETAIN": 1, "NOT_RETAINED": 1}, "finite_certificate_issued": false}
+{
+  "learned_references": {
+    "status": "PASS",
+    "replication_records": 48000,
+    "summary_cells": 48,
+    "error_bound_scope": "Diagnostics under the known synthetic law; not confidence bounds under an unknown law."
+  },
+  "family": {
+    "status": "PASS",
+    "family_summary_cells": 216,
+    "independent_statsmodels_BY_comparisons": 864,
+    "brute_force_calibration_tail_cells": 7920,
+    "maximum_analytic_mean_MC_z": 0.5451341080803425,
+    "interval_scope": "Evaluation Monte Carlo intervals condition on the one independent calibration bank; bank uncertainty is additional."
+  },
+  "historical": {
+    "status": "PASS",
+    "short_cluster_cells": 8,
+    "near_copy_note": "93/100 is bins32; spline is 11/100, two-way spline8/100; extrapolation is 0/100 with shifted negative statistics, not proof of calibration. These are fixed restricted-pattern noise redraws, not fully regenerated rank-null panels.",
+    "raw_directional_old_null_range": [
+      0.054,
+      0.088
+    ],
+    "source_hashes": {
+      "results/current_core_sensitivity/draws.csv": "6bb9f9c4a586f4760f28de2273fe83641a80e25574bb3eff8f6ffa1b95f08342",
+      "results/spline_panel/panel_spline_draws.csv": "d6e4a2299508901cf44705bd3300f3fa12fb124492f0b29f96034310d6e80827",
+      "results/design_validation/near_copy/summary.csv": "72f0640542e63d3635ebab305e8b26b5a4159daf90eda4f2e635f60fcde4e0e9",
+      "results/equal_entity_directional/summary.csv": "095f9e1e0142b65b18e75283c0ce149d4916a24f050109ec586639339ace0ae2"
+    }
+  },
+  "near_copy": {
+    "runs": [
+      {
+        "run": "near_copy_weak_study",
+        "status": "PASS",
+        "summary_cells": 234,
+        "brute_force_pvalue_checks": 234000,
+        "all_exact_copy_attempts_abstain": true
+      }
+    ],
+    "final_generator_seed_replays": 4,
+    "scope": "The weak grid adds exploratory alternatives on original primitive seeds; repeated null cells are not independent new confirmation."
+  }
+}
+{
+  "status": "verified",
+  "family_cells_recomputed": 288,
+  "direct_tail_ranks_verified": true,
+  "independent_BY_step_up_verified": true,
+  "Hoeffding_bounds_verified": true,
+  "null_statistic_max_absolute_difference": 0.0,
+  "mean_max_absolute_difference": 0.0,
+  "standard_error_max_absolute_difference": 0.0,
+  "statistic_max_absolute_difference": 0.0,
+  "pvalue_max_absolute_difference": 1.1102230246251565e-16,
+  "guard_arrays_identical": true,
+  "all_original_BY_decisions_identical": true
+}
+Rebuilt training/validation replications 100 elapsed 11.9
+Rebuilt training/validation replications 200 elapsed 23.0
+Rebuilt training/validation replications 300 elapsed 33.9
+Rebuilt training/validation replications 400 elapsed 44.9
+Rebuilt training/validation replications 500 elapsed 55.9
+Rebuilt training/validation replications 600 elapsed 66.8
+Rebuilt training/validation replications 700 elapsed 77.8
+Rebuilt training/validation replications 800 elapsed 88.9
+Rebuilt training/validation replications 900 elapsed 100.1
+Rebuilt training/validation replications 1000 elapsed 111.3
+AUDIT PASS 113.8 seconds
+{"passed": true, "chronology": ["2026-09-12T12:01:09.575202+00:00", "2026-09-12T12:01:12.722263+00:00", "2026-09-12T12:01:14.005919+00:00", "2026-09-12T12:01:56.976392+00:00", "2026-09-12T12:01:57.799319+00:00", "2026-09-12T12:01:58.178275+00:00"], "checks": {"public_receipt_hash_links": true, "sidecar_hash_files": 2, "source_model_and_result_files_preserved": 7, "full_family_BY": 16, "copy_guard_family_members": 5, "fixed_selection_choices": 6, "literal_gain_identities": 16, "risk_metric_rows": 74, "weekly_trace_rows": 888, "paired_gain_and_HAC_rows": 82}, "scope": "Public receipt-link and aggregate arithmetic verification. Timestamps refer to the recorded original run; public packaging edits are identified in ORIGINAL_RUN_HASHES.json. No new outcome selection, population nuisance oracle, temporal independence or external preregistration is established."}
+{"passed": true, "source_data_accessed": false, "current_public_receipt_links_verified": true, "original_result_files_preserved": 6, "checks": [{"model": "Past price and calendar", "five_resolution_identities": true, "original_weights_replay": true, "seventeen_week_identities": true, "all25_combined_HAC_covariances": true, "variance_of_sum_includes_cross_terms": true, "all225_resolution_covariances_mapped_to_combined_terms": true}, {"model": "Croston SBA", "five_resolution_identities": true, "original_weights_replay": true, "seventeen_week_identities": true, "all25_combined_HAC_covariances": true, "variance_of_sum_includes_cross_terms": true, "all225_resolution_covariances_mapped_to_combined_terms": true}], "scope": "Independent aggregate arithmetic only; no causal, population or calibration conclusion."}
+Independent full replication passed: 0
+Independent full replication passed: 1
+Independent full replication passed: 17
+Independent full replication passed: 123
+Independent full replication passed: 317
+Independent full replication passed: 503
+Independent full replication passed: 777
+Independent full replication passed: 999
+{
+  "status": "PASS",
+  "stored_rows": 500000,
+  "cells": 500,
+  "replications_per_cell": 1000,
+  "all_row_arithmetic_max_errors": {
+    "independent_bernstein": {
+      "radius": 2.1163626406917047e-16,
+      "p": 3.3595348725157237e-13,
+      "lower_bound": 3.677613769070831e-16,
+      "reject": 0
+    },
+    "range": {
+      "radius": 9.974659986866641e-17,
+      "p": 2.3425705819590803e-14,
+      "lower_bound": 2.42861286636753e-16,
+      "reject": 0
+    },
+    "variance": {
+      "radius": 2.185751579730777e-16,
+      "p": 3.909095269705176e-13,
+      "lower_bound": 3.920475055707584e-16,
+      "reject": 0
+    }
+  },
+  "summary_max_errors": {
+    "replications": 0.0,
+    "rejections": 0.0,
+    "power": 0.0,
+    "target": 0.0,
+    "mean": 5.204170427930421e-17,
+    "bias": 3.122502256758253e-17,
+    "bias_allowance": 4.96564594998361e-17,
+    "absolute_allowance": 4.96564594998361e-17,
+    "signed_allowance": 4.85722573273506e-17,
+    "bias_width": 5.551115123125783e-17,
+    "radius": 5.0306980803327406e-17,
+    "lower": 6.797947621484113e-17,
+    "coverage_failures": 0.0,
+    "allowance_failures": 0.0
+  },
+  "full_rebuilt_replications": [
+    0,
+    1,
+    17,
+    123,
+    317,
+    503,
+    777,
+    999
+  ],
+  "full_rebuilt_rows": 4000,
+  "full_rebuild_max_errors": {
+    "0": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 1.0061396160665481e-16,
+      "mean": 1.0755285551056204e-16,
+      "bias_upper": 2.886579864025407e-15,
+      "kernel_lower": 1.6653345369377348e-16,
+      "kernel_upper": 1.6653345369377348e-16,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.963817965141786e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 2.886579864025407e-15,
+      "absolute_allowance": 2.7478019859472624e-15,
+      "bias_interval_width": 4.385380947269368e-15,
+      "radius": 9.952975943416931e-17,
+      "p": 1.27675647831893e-14,
+      "lower_bound": 2.942091015256665e-15,
+      "reject": 0
+    },
+    "1": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 5.551115123125783e-17,
+      "mean": 1.0408340855860843e-16,
+      "bias_upper": 3.0253577421035516e-15,
+      "kernel_lower": 1.6653345369377348e-16,
+      "kernel_upper": 1.6653345369377348e-16,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.952975943416931e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 3.0253577421035516e-15,
+      "absolute_allowance": 2.6645352591003757e-15,
+      "bias_interval_width": 4.3021142204224816e-15,
+      "radius": 9.974659986866641e-17,
+      "p": 1.6209256159527285e-14,
+      "lower_bound": 3.1086244689504383e-15,
+      "reject": 0
+    },
+    "17": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 6.245004513516506e-17,
+      "mean": 1.1449174941446927e-16,
+      "bias_upper": 2.942091015256665e-15,
+      "kernel_lower": 1.1102230246251565e-16,
+      "kernel_upper": 3.885780586188048e-16,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.963817965141786e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 2.831068712794149e-15,
+      "absolute_allowance": 2.942091015256665e-15,
+      "bias_interval_width": 4.385380947269368e-15,
+      "radius": 1.0408340855860843e-16,
+      "p": 1.3711254354120683e-14,
+      "lower_bound": 2.942091015256665e-15,
+      "reject": 0
+    },
+    "123": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 7.632783294297951e-17,
+      "mean": 1.1102230246251565e-16,
+      "bias_upper": 3.58046925441613e-15,
+      "kernel_lower": 1.1102230246251565e-16,
+      "kernel_upper": 1.6653345369377348e-16,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.93129189996722e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 3.58046925441613e-15,
+      "absolute_allowance": 3.164135620181696e-15,
+      "bias_interval_width": 4.9960036108132044e-15,
+      "radius": 1.1102230246251565e-16,
+      "p": 2.0761170560490427e-14,
+      "lower_bound": 3.635980405647388e-15,
+      "reject": 0
+    },
+    "317": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 1.1796119636642288e-16,
+      "mean": 9.8879238130678e-17,
+      "bias_upper": 2.8033131371785203e-15,
+      "kernel_lower": 2.220446049250313e-16,
+      "kernel_upper": 1.1102230246251565e-16,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.898765834792655e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 2.8033131371785203e-15,
+      "absolute_allowance": 2.7200464103316335e-15,
+      "bias_interval_width": 3.885780586188048e-15,
+      "radius": 9.90960785651751e-17,
+      "p": 2.4202861936828413e-14,
+      "lower_bound": 2.8033131371785203e-15,
+      "reject": 0
+    },
+    "503": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 9.020562075079397e-17,
+      "mean": 1.0148132334464322e-16,
+      "bias_upper": 2.3869795029440866e-15,
+      "kernel_lower": 8.326672684688674e-17,
+      "kernel_upper": 5.551115123125783e-17,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.8879238130678e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 2.3869795029440866e-15,
+      "absolute_allowance": 2.3592239273284576e-15,
+      "bias_interval_width": 3.83026943495679e-15,
+      "radius": 9.8879238130678e-17,
+      "p": 2.7755575615628914e-14,
+      "lower_bound": 2.4702462297909733e-15,
+      "reject": 0
+    },
+    "777": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 8.673617379884035e-17,
+      "mean": 1.205632815803881e-16,
+      "bias_upper": 3.469446951953614e-15,
+      "kernel_lower": 2.220446049250313e-16,
+      "kernel_upper": 1.1102230246251565e-16,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.80118763926896e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 3.1363800445660672e-15,
+      "absolute_allowance": 3.469446951953614e-15,
+      "bias_interval_width": 5.384581669432009e-15,
+      "radius": 9.996344030316351e-17,
+      "p": 1.9539925233402755e-14,
+      "lower_bound": 3.469446951953614e-15,
+      "reject": 0
+    },
+    "999": {
+      "target": 7.28583859910259e-17,
+      "exact_bias": 1.0408340855860843e-16,
+      "mean": 1.0755285551056204e-16,
+      "bias_upper": 2.609024107869118e-15,
+      "kernel_lower": 1.6653345369377348e-16,
+      "kernel_upper": 5.551115123125783e-17,
+      "effective_triples": 0.0,
+      "kernel_sample_variance": 9.974659986866641e-17,
+      "lower_covers": 0,
+      "allowance_covers": 0,
+      "signed_allowance": 2.609024107869118e-15,
+      "absolute_allowance": 2.609024107869118e-15,
+      "bias_interval_width": 4.496403249731884e-15,
+      "radius": 9.985502008591496e-17,
+      "p": 2.5979218776228663e-14,
+      "lower_bound": 2.6645352591003757e-15,
+      "reject": 0
+    }
+  },
+  "coverage_failures": 0,
+  "allowance_failures": 0,
+  "null_rows": 200000,
+  "null_rejections": 0,
+  "absolute_two_sided_bias_failures": 0,
+  "signed_lower_bias_failures": 0,
+  "max_cell_coverage_failures": 0,
+  "paired_comparisons": {
+    "absolute_range": {
+      "signed_variance_only_rejections": 11565,
+      "comparator_only_rejections": 0,
+      "signed_variance_higher_lower": 100000,
+      "comparator_higher_lower": 0,
+      "median_radius_ratio": 0.22321641454114832
+    },
+    "signed_range": {
+      "signed_variance_only_rejections": 10217,
+      "comparator_only_rejections": 0,
+      "signed_variance_higher_lower": 100000,
+      "comparator_higher_lower": 0,
+      "median_radius_ratio": 0.22321641454114832
+    },
+    "independent_triples": {
+      "signed_variance_only_rejections": 176,
+      "comparator_only_rejections": 138,
+      "signed_variance_higher_lower": 50213,
+      "comparator_higher_lower": 49787,
+      "median_radius_ratio": 0.9999128514587047
+    },
+    "pooled_variance": {
+      "signed_variance_only_rejections": 11,
+      "comparator_only_rejections": 62,
+      "signed_variance_higher_lower": 27958,
+      "comparator_higher_lower": 72042,
+      "median_radius_ratio": 1.011137890897179
+    }
+  },
+  "family_floor": {
+    "K": 100,
+    "q": 0.05,
+    "rho": 0.1,
+    "harmonic": 5.187377517639621,
+    "first_threshold": 9.638781798698003e-05,
+    "second_threshold": 0.00019277563597396006,
+    "study_delta": 0.0001,
+    "proposed_delta": 9.638781798698003e-06,
+    "rank_one_blocked": true,
+    "rank_two_floor_blocked": false
+  },
+  "hashes": {
+    "replications.csv.gz": "c3a30da84752fd0fd4fab9a62f8bab707a342e9f42943a5aa75f85f4155b6af3",
+    "summary.csv": "38ec66f213ec36b2ad4cd6830500c2b8576ceb902af18cdc3643d8c845439a02",
+    "protocol_original.json": "c4dc38f3a5b57c4ea00e3205e616f538c59b849c1401fe5a7fae8260575293f3",
+    "protocol_hardened_replay.json": "958794920271fe45ca99d3be3a8ae4c191c3c64661258ce71fecb77b1e323507",
+    "provenance.json": "f23054b2ec9bf14e6a927413c59f3e951760e993736c950a418bd30e9658b62d"
+  },
+  "original_helper_sha256": "3379b15abaef4cbb3529a5b0b14958d1bfd45b7c993e1547139c2f5a0ba48ced",
+  "elapsed_seconds": 19.42201042175293,
+  "independence": "No producer or producer-helper imports. Generic comparisons; rankdata training; linprog validation LPs; enumerated population law."
+}
+Traceback (most recent call last):
+  File "<repository-root>/results/public_archive_certificate/verify.py", line 377, in <module>
+    main()
+  File "<repository-root>/results/public_archive_certificate/verify.py", line 195, in main
+    source_root, source_replacements, replacement_digest = runtime_source_overrides()
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repository-root>/results/public_archive_certificate/verify.py", line 53, in runtime_source_overrides
+    assert len(entry['historical_sha256']) == len(entry['current_sha256']) == 64
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "<repository-root>/reproduce_artifacts.py", line 379, in <module>
+    main()
+  File "<repository-root>/reproduce_artifacts.py", line 294, in main
+    subprocess.run([sys.executable,str(ROOT/'results/public_archive_certificate/verify.py')],check=True)
+  File "<python-library>/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['<aggregate-python-environment>/bin/python', '<repository-root>/results/public_archive_certificate/verify.py']' returned non-zero exit status 1.

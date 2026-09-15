@@ -1,0 +1,13 @@
+primary,comparator,mean_gain_available_articles,mean_gain_all_eligible_articles,mean_gain_fixed_publication_hours,formal_primary_contrast
+stratified_hybrid,baseline,3.1859102874273086e-05,3.1859102874273086e-05,-1.4058609999323443e-05,False
+stratified_hybrid,ungated,0.0,0.0,0.0,True
+stratified_hybrid,calibration_only,0.00045287730765433644,0.00045287730765433644,2.2675389796803724e-05,False
+stratified_hybrid,persistence,0.015599014754519306,0.015599014754519306,0.004120584117985507,False
+stratified_hybrid,full_u_joint,3.1859102874273086e-05,3.1859102874273086e-05,-1.4058609999323443e-05,False
+stratified_hybrid,stratified_hoeffding,3.1859102874273086e-05,3.1859102874273086e-05,-1.4058609999323443e-05,False
+stratified_hybrid,stratified_profiled_betting,0.0,0.0,0.0,True
+stratified_hybrid,aggregate_reference_u,3.1859102874273086e-05,3.1859102874273086e-05,-1.4058609999323443e-05,False
+stratified_hybrid,aggregate_reference_betting,0.0,0.0,0.0,False
+stratified_hybrid,pooled_reference_u,3.1859102874273086e-05,3.1859102874273086e-05,-1.4058609999323443e-05,False
+stratified_hybrid,pooled_reference_betting,0.0,0.0,0.0,True
+stratified_hybrid,direct_loss,0.0,0.0,0.0,False

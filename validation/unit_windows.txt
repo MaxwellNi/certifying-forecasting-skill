@@ -1,0 +1,19 @@
+test_calendar_rows_do_not_establish_source_separation (test_source_design.SourceDesignChecks.test_calendar_rows_do_not_establish_source_separation) ... ok
+test_fixed_weight_and_focal_validation (test_source_design.SourceDesignChecks.test_fixed_weight_and_focal_validation) ... ok
+test_identical_rows_cancel_before_range_calculation (test_source_design.SourceDesignChecks.test_identical_rows_cancel_before_range_calculation) ... ok
+test_reject_unsupported_transforms (test_source_design.SourceDesignChecks.test_reject_unsupported_transforms) ... ok
+test_source_container_and_duplicates (test_source_design.SourceDesignChecks.test_source_container_and_duplicates) ... ok
+test_invalid_inputs (test_two_lag_bound.BoundTests.test_invalid_inputs) ... ok
+test_large_integer_order (test_two_lag_bound.BoundTests.test_large_integer_order) ... ok
+test_numpy_int64_sum_does_not_overflow (test_two_lag_bound.BoundTests.test_numpy_int64_sum_does_not_overflow) ... ok
+test_range_and_bound_overflow_are_rejected (test_two_lag_bound.BoundTests.test_range_and_bound_overflow_are_rejected) ... ok
+test_raw_enumeration_validation_mean (test_two_lag_bound.BoundTests.test_raw_enumeration_validation_mean) ... ok
+test_signed_extremes (test_two_lag_bound.BoundTests.test_signed_extremes) ... ok
+test_small_error_budgets_and_large_mean_are_finite (test_two_lag_bound.BoundTests.test_small_error_budgets_and_large_mean_are_finite) ... ok
+test_validation_free_correction_direction (test_two_lag_bound.BoundTests.test_validation_free_correction_direction) ... ok
+test_validation_sign_and_budget (test_two_lag_bound.BoundTests.test_validation_sign_and_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.234s
+
+OK

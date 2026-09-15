@@ -1,0 +1,53 @@
+{
+  "source_rows": {
+    "news": 93239,
+    "social": 29928
+  },
+  "duplicates": {
+    "news": {
+      "input_rows_after_nonnull_id": 93239,
+      "identical_duplicates_removed": 4,
+      "conflicting_ids": 0,
+      "conflicting_rows_excluded": 0
+    },
+    "social": {
+      "input_rows_after_nonnull_id": 29928,
+      "identical_duplicates_removed": 0,
+      "conflicting_ids": 0,
+      "conflicting_rows_excluded": 0,
+      "target_conflicting_ids_retained_eligible_if_TS3_available": 0,
+      "conflict_basis": "IDLink and normalized TS1/TS2/TS3 only; TS144 conflicts make label unavailable"
+    }
+  },
+  "invalid_publication_dates": 0,
+  "ineligible_missing_TS3": 23743,
+  "stages": {
+    "training": {
+      "eligible": 2706,
+      "available_labels": 2706,
+      "missing_TS1": 2008,
+      "missing_TS2": 930
+    },
+    "calibration": {
+      "eligible": 931,
+      "available_labels": 931,
+      "missing_TS1": 672,
+      "missing_TS2": 287
+    },
+    "selection": {
+      "eligible": 1324,
+      "available_labels": 1324,
+      "missing_TS1": 380,
+      "missing_TS2": 139
+    },
+    "confirmation": {
+      "eligible": 1110,
+      "available_labels": 1110,
+      "missing_TS1": 125,
+      "missing_TS2": 53
+    }
+  },
+  "label_availability_census_reads": 29928,
+  "full_source_label_ingestion": true,
+  "scope": "eligibility and availability, no numerical outcome summaries"
+}

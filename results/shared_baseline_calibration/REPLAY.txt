@@ -1,0 +1,12 @@
+completed tied_null, budget 3072, 300 repetitions
+completed tied_null, budget 12288, 300 repetitions
+completed tied_weak, budget 3072, 300 repetitions
+completed tied_weak, budget 12288, 300 repetitions
+completed tied_positive, budget 3072, 300 repetitions
+completed tied_positive, budget 12288, 300 repetitions
+completed near_degenerate_null, budget 3072, 300 repetitions
+completed near_degenerate_null, budget 12288, 300 repetitions
+completed near_degenerate_positive, budget 3072, 300 repetitions
+completed near_degenerate_positive, budget 12288, 300 repetitions
+completed informative_nonlinear_baseline, budget 3072, 300 repetitions
+completed informative_nonlinear_baseline, budget 12288, 300 repetitions

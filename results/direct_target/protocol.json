@@ -1,0 +1,40 @@
+{
+  "status": "Portable reproduction of a fixed retrospective comparison on all previously viewed forecast candidates; no new confirmation",
+  "tasks": [
+    "appliances",
+    "metro"
+  ],
+  "baselines": [
+    "ridge",
+    "seasonal_day"
+  ],
+  "candidates": [
+    "persistence",
+    "seasonal_day",
+    "seasonal_week",
+    "ridge_full",
+    "hist_gradient_boosting",
+    "extra_trees",
+    "category_copy",
+    "independent_noise"
+  ],
+  "methods": [
+    "direct_full_u_hoeffding",
+    "direct_block_empirical_bernstein"
+  ],
+  "raw_draw_calls_per_candidate": 32768,
+  "pool_order": "Saved 4,096 training draws, 8,192 validation pairs flattened row-major, 12,288 evaluation draws; must equal saved all_rows and regenerated SeedSequence.spawn(3) streams",
+  "validity": "Condition on the complete fixed finite selection archive, with separately fixed predictions and categories. Three independent IID uniform replacement streams can be pooled. Do not condition on the nuisance fits computed from those draws; this comparator does not use them. Repeated archive IDs remain separate draws.",
+  "metadata": "Exact positive category probabilities from the same finite selection archive; 32 declared categories with exactly zero probability are removed from mathematical support only. No full forecast rank metadata are used by the two sampling estimators.",
+  "target": "Finite-category residual population midrank covariance, identical to the raw candidate rank target in the original selection certificates",
+  "complete_u": "Exact O(n^2+C) collision-correct U3 minus U4; symmetrized four-row kernel range width 1/6+1/(4p_min), or 1/6 for one positive category. Complete-U permutation-Hoeffding bound, q=floor(n/4).",
+  "block_rule": "First 32,768 saved positions grouped in consecutive blocks of four without sorting or examining values. Symmetrize all 24 position permutations within each block. Separate block mean and sample variance, Maurer and Pontil (2009) empirical Bernstein bound.",
+  "family_control": "Each task/baseline/method has a separate complete BY family of eight at q=0.05. No selecting a best method without adjustment and no global multiple-method FDR claim.",
+  "outputs": "All 64 candidate/method rows, lower bounds at alpha=0.05 and at first BY threshold, valid p-values and BY adjustments, exact target as diagnostic only, raw call and distinct ID counts, complete per-case times and memory, preserved failure output",
+  "cost_scope": "All 32,768 original paid raw draw calls are available to each comparator. Existing full model preparation, archive materialization and metadata costs remain common and are not relabeled as label savings. Runtime is recorded on the same machine without a timing superiority claim.",
+  "confirmation": "No forecast re-selection, no new confirmation evaluation, no changes to original 0/2 primary cross-task confirmation result",
+  "limitations": "These valid bounds are deliberately conservative and are not the strongest complete-U calibration. A failure to retain candidates cannot establish superiority of the paper method. No new real task, unseen-data validation, or novelty priority claim.",
+  "workers": 4,
+  "blas_threads_per_worker": 1,
+  "failure_policy": "Preserve failed output. Do not change samples, categories, methods, confidence levels, or blocking in response to outcomes."
+}

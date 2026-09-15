@@ -1,0 +1,47 @@
+{
+  "analysis_status": "Post-exposure diagnostic on the corrected, previously inspected cohorts; not independent confirmation.",
+  "allocation": {
+    "budget": 73728,
+    "M": 13086,
+    "n": 15852,
+    "evaluation_cost": 2,
+    "draws_used": 73728,
+    "unused_budget": 0,
+    "range_radius": 0.08364628101203186,
+    "alpha": 0.00625,
+    "delta": 0.003125,
+    "score_width": 2.0,
+    "correction_width": 4.0,
+    "continuous_M_over_n": 0.8254818122236567
+  },
+  "criterion": "Minimize W_S sqrt(log(1/(alpha-delta))/(2M)) + W_Q sqrt(log(1/delta)/(2n)) over integers M,n>=1, 2M+3n<=73728.",
+  "inputs_to_allocation": "Budget 73728; declared widths 2 and 4; fixed alpha=.05/8 and delta=.05/16. No score, variance, candidate loss, or evaluation outcome.",
+  "draw_repartition": "Flatten recorded evaluation then validation indices in original row-major order. First 2M positions form pairs, remaining 3n positions form validation triples. No permutation, index-value search, or seed search.",
+  "independence": "Under the original conditional archive iid index experiment, disjoint draw positions remain independent. Repeated archive IDs are allowed. The new diagnostic and old diagnostic are coupled and are not independent studies.",
+  "conditioning": "Same fixed 342-record 2013 archive and same eight models fitted on 2010-2012; no model refit or changed target.",
+  "coefficients_original": [
+    [
+      1,
+      0
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "coefficients_active": [
+    [
+      1
+    ],
+    [
+      -1
+    ]
+  ],
+  "target_preservation": "Both zero second columns are deleted: row sums (1,-1) and Omega=[[1,-1],[-1,1]] stay identical.",
+  "original_allocation_unchanged": {
+    "M": 16384,
+    "n": 8192,
+    "J": 2
+  },
+  "selection_rule": "Smallest 2013 raw MSE among positive candidate lower bounds; persistence fallback. No evaluation endpoint is used for rule selection."
+}
