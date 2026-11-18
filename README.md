@@ -14,6 +14,8 @@ Genuine versus Repackaged Forecasting Skill*, or start with the
 [repository](https://github.com/MaxwellNi/certifying-forecasting-skill)
 also includes [additional results and reproduction details](technical-details.pdf).
 
+**IEEE ICDM 2026 presentation materials** · [Slides (PDF, with technical appendix)](slides.pdf) · [Conference poster (PDF)](poster.pdf)
+
 Start with the [three-value example](examples/reference_rank/README.md) for an exact,
 executable explanation of how reference assignments change a rank score. It also
 shows when baseline subtraction cancels the interaction.

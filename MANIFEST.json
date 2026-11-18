@@ -34,8 +34,8 @@
       "bytes": 1468
     },
     "README.md": {
-      "sha256": "3b883073180f94d0193058d419f94c8f80031246a5a5ce8b1b32e4e677607537",
-      "bytes": 21879
+      "sha256": "4ce05b04f96d09dc608a0679ce015c6a210ae0c6f733635bcc430fb11ab8c347",
+      "bytes": 22018
     },
     "REPRODUCTION_MAP.md": {
       "sha256": "c60c1b15681c03282c413761c41d56bd09031a6cbfcf2c34c03c947b21e55813",
@@ -4820,6 +4820,14 @@
     "results/shared_baseline_calibration/biased_null/results/MANIFEST.json": {
       "sha256": "e95113a12ef1ad96c688fe3a115af465ab24fed72a0dd20e18eedd24e42e9c3f",
       "bytes": 927
+    },
+    "slides.pdf": {
+      "sha256": "c862f2761f74c5945d383fc0be8dc16ee3e9bb1a6ebcae6af0830c7b01f6056f",
+      "bytes": 179628
+    },
+    "poster.pdf": {
+      "sha256": "5da0ccaded0fb542b82f52f0d2b4835b7eba21ea75c79b484f6a0d6b125e800b",
+      "bytes": 73121
     }
   }
 }
