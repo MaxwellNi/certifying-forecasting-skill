@@ -4822,12 +4822,12 @@
       "bytes": 927
     },
     "slides.pdf": {
-      "sha256": "c862f2761f74c5945d383fc0be8dc16ee3e9bb1a6ebcae6af0830c7b01f6056f",
-      "bytes": 179628
+      "sha256": "9d21b6196848ba7a08ce7a8928d753b7ea2b9193729dd3681710603656be3ed9",
+      "bytes": 136543
     },
     "poster.pdf": {
-      "sha256": "5da0ccaded0fb542b82f52f0d2b4835b7eba21ea75c79b484f6a0d6b125e800b",
-      "bytes": 73121
+      "sha256": "fc6745010c54a08ff8bca7cd074991cf9d84b588fa1e25437456ad6c3bd0be83",
+      "bytes": 100630
     }
   }
 }
